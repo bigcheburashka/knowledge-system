@@ -76,19 +76,23 @@ class EvolutionTelegramBot {
           return;
         }
         
+        // Helper to escape markdown characters
+        const escapeMarkdown = (text) => {
+          return String(text)
+            .replace(/[\n\r]/g, ' ')
+            .replace(/([_*[\]()~`>#+\-=|{}.!])/g, '\\$1');
+        };
+        
         let message = '📋 *Pending Proposals*\n\n';
         for (const p of pending.slice(0, 10)) {
           // Safely extract and encode text
-          const id = p.id || 'unknown';
-          const level = p.level || 'N/A';
-          const type = p.type || 'unknown';
+          const id = escapeMarkdown(p.id || 'unknown');
+          const level = escapeMarkdown(p.level || 'N/A');
+          const type = escapeMarkdown(p.type || 'unknown');
           let reason = 'N/A';
           
           if (p.change?.reason) {
-            // Sanitize reason: remove newlines, limit length, ensure UTF-8
-            reason = String(p.change.reason)
-              .replace(/[\n\r]/g, ' ')
-              .substring(0, 50);
+            reason = escapeMarkdown(p.change.reason).substring(0, 50);
           }
           
           message += `*${id}*\n`;
