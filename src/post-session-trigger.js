@@ -299,15 +299,22 @@ class PostSessionLearningTrigger {
    * Notify user about suggested topics
    */
   async notifyUser(analysis) {
-    // This would integrate with Telegram bot
-    console.log('[PostSessionTrigger] Suggested topics:');
-    analysis.suggestedTopics.forEach(t => {
-      console.log(`  - ${t.name} (${t.source}, confidence: ${t.confidence})`);
-    });
-    
-    // TODO: Send Telegram notification
-    // const bot = require('./telegram-bot');
-    // await bot.sendLearningSuggestions(analysis.suggestedTopics);
+    // Send via Telegram Bot
+    try {
+      const { EvolutionTelegramBot } = require('./telegram-bot');
+      const bot = new EvolutionTelegramBot();
+      await bot.init();
+      
+      const result = await bot.sendLearningSuggestions(analysis.suggestedTopics);
+      
+      if (result.sent) {
+        console.log(`[PostSessionTrigger] Telegram notification sent: ${result.count} topics`);
+      } else {
+        console.warn('[PostSessionTrigger] Failed to send Telegram notification:', result.error);
+      }
+    } catch (err) {
+      console.error('[PostSessionTrigger] Telegram notification error:', err.message);
+    }
   }
 
   /**
@@ -318,15 +325,103 @@ class PostSessionLearningTrigger {
     
     console.log(`[PostSessionTrigger] Analyzing sessions from last ${hoursBack} hours`);
     
-    // This would load actual sessions from OpenClaw
-    // For now, placeholder
-    console.log('[PostSessionTrigger] TODO: Integrate with OpenClaw session storage');
+    // Load actual sessions from OpenClaw
+    const { getPathResolver } = require('../path-resolver');
+    const pathResolver = getPathResolver();
+    const sessionsDir = pathResolver.get('external.sessions');
     
-    return {
-      analyzed: 0,
-      suggested: 0,
-      note: 'Integration with OpenClaw sessions needed'
-    };
+    try {
+      const fs = require('fs').promises;
+      const path = require('path');
+      
+      // Get recent session files
+      const files = await fs.readdir(sessionsDir);
+      const jsonlFiles = files.filter(f => f.endsWith('.jsonl'));
+      
+      const cutoff = Date.now() - (hoursBack * 60 * 60 * 1000);
+      const recentFiles = [];
+      
+      for (const file of jsonlFiles) {
+        const stat = await fs.stat(path.join(sessionsDir, file));
+        if (stat.mtimeMs > cutoff) {
+          recentFiles.push({
+            name: file,
+            path: path.join(sessionsDir, file),
+            mtime: stat.mtime
+          });
+        }
+      }
+      
+      // Sort by modification time (newest first)
+      recentFiles.sort((a, b) => b.mtime - a.mtime);
+      
+      console.log(`[PostSessionTrigger] Found ${recentFiles.length} recent sessions`);
+      
+      let totalAnalyzed = 0;
+      let totalSuggestions = 0;
+      
+      // Analyze each session
+      for (const fileInfo of recentFiles.slice(0, 10)) { // Limit to 10 sessions
+        try {
+          const content = await fs.readFile(fileInfo.path, 'utf8');
+          const lines = content.split('\n').filter(l => l.trim());
+          
+          const messages = [];
+          for (const line of lines) {
+            try {
+              const msg = JSON.parse(line);
+              if (msg.type === 'message' && msg.message) {
+                messages.push({
+                  role: msg.message.role,
+                  content: typeof msg.message.content === 'string' 
+                    ? msg.message.content 
+                    : JSON.stringify(msg.message.content),
+                  timestamp: msg.timestamp
+                });
+              }
+            } catch {
+              // Skip malformed lines
+            }
+          }
+          
+          if (messages.length > 0) {
+            const session = {
+              id: fileInfo.name.replace('.jsonl', ''),
+              path: fileInfo.path,
+              messages: messages
+            };
+            
+            const analysis = await this.analyzeSession(session);
+            
+            if (analysis.suggestedTopics && analysis.suggestedTopics.length > 0) {
+              totalAnalyzed++;
+              totalSuggestions += analysis.suggestedTopics.length;
+              
+              // Notify user
+              await this.notifyUser(analysis);
+            }
+          }
+        } catch (err) {
+          console.error(`[PostSessionTrigger] Error analyzing ${fileInfo.name}:`, err.message);
+        }
+      }
+      
+      console.log(`[PostSessionTrigger] Analysis complete: ${totalAnalyzed} sessions, ${totalSuggestions} suggestions`);
+      
+      return {
+        analyzed: totalAnalyzed,
+        suggested: totalSuggestions,
+        filesProcessed: recentFiles.length
+      };
+      
+    } catch (err) {
+      console.error('[PostSessionTrigger] Failed to load sessions:', err.message);
+      return {
+        analyzed: 0,
+        suggested: 0,
+        error: err.message
+      };
+    }
   }
 }
 

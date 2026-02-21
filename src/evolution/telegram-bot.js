@@ -439,6 +439,55 @@ class EvolutionTelegramBot {
       `*Reason:*\n${proposal.change?.reason || 'No reason provided'}`
     );
   }
+
+  /**
+   * Send learning suggestions to user
+   * Used by PostSessionTrigger and other learning components
+   */
+  async sendLearningSuggestions(topics) {
+    if (!this.bot) {
+      console.error('[EvolutionBot] Cannot send: Bot not initialized');
+      return { sent: false, error: 'Bot not initialized' };
+    }
+    
+    if (!topics || topics.length === 0) {
+      return { sent: false, reason: 'No topics to suggest' };
+    }
+    
+    try {
+      let message = '📚 *New Learning Topics Discovered*\n\n';
+      message += 'Based on recent activity, I suggest learning:\n\n';
+      
+      for (let i = 0; i < Math.min(topics.length, 10); i++) {
+        const topic = topics[i];
+        const emoji = topic.priority === 'high' ? '🔴' : topic.priority === 'medium' ? '🟡' : '🟢';
+        message += `${emoji} *${topic.name}*\n`;
+        if (topic.reason) {
+          message += `   ${topic.reason.substring(0, 80)}...\n`;
+        }
+        message += '\n';
+      }
+      
+      if (topics.length > 10) {
+        message += `_... and ${topics.length - 10} more topics_\n\n`;
+      }
+      
+      message += 'These topics have been added to the learning queue.';
+      
+      const result = await this.bot.telegram.sendMessage(
+        this.authorizedUserId,
+        message,
+        { parse_mode: 'Markdown' }
+      );
+      
+      console.log(`[EvolutionBot] Sent ${topics.length} learning suggestions`);
+      return { sent: true, messageId: result.message_id, count: topics.length };
+      
+    } catch (err) {
+      console.error('[EvolutionBot] Failed to send learning suggestions:', err.message);
+      return { sent: false, error: err.message };
+    }
+  }
 }
 
 // CLI usage
