@@ -72,44 +72,89 @@ class EvolutionTelegramBot {
         const pending = await this.evolution.pending.list({ status: 'pending' });
         
         if (pending.length === 0) {
-          await ctx.reply('✅ No pending proposals');
+          await ctx.reply('✅ Нет ожидающих proposals');
           return;
         }
         
-        // Helper to escape markdown characters
-        const escapeMarkdown = (text) => {
-          return String(text)
-            .replace(/[\n\r]/g, ' ')
-            .replace(/([_*[\]()~`>#+\-=|{}.!])/g, '\\$1');
-        };
+        // Send summary first
+        const l2Count = pending.filter(p => p.level === 'L2').length;
+        const l3Count = pending.filter(p => p.level === 'L3').length;
+        const l4Count = pending.filter(p => p.level === 'L4').length;
         
-        let message = '📋 *Pending Proposals*\n\n';
-        for (const p of pending.slice(0, 10)) {
-          // Safely extract and encode text
-          const id = escapeMarkdown(p.id || 'unknown');
-          const level = escapeMarkdown(p.level || 'N/A');
-          const type = escapeMarkdown(p.type || 'unknown');
-          let reason = 'N/A';
+        let summary = `📋 *Pending Proposals*\n\n`;
+        summary += `Всего: ${pending.length}\n`;
+        summary += `• L2 (new skills): ${l2Count}\n`;
+        summary += `• L3 (updates): ${l3Count}\n`;
+        summary += `• L4 (system changes): ${l4Count}\n\n`;
+        summary += `Используйте:\n`;
+        summary += `/details <id> — подробности\n`;
+        summary += `/approve <id> — одобрить\n`;
+        summary += `/reject <id> — отклонить\n\n`;
+        summary += `_Показаны первые 5 из ${pending.length}_`;
+        
+        await ctx.reply(summary, { parse_mode: 'Markdown' });
+        
+        // Show first 5 individually for clarity
+        for (const p of pending.slice(0, 5)) {
+          const skillName = p.change?.skill?.name || p.change?.target || 'Unknown';
+          const cleanSkill = skillName.replace(/[*_\[\]()~`>#+=|{}.!]/g, '').substring(0, 30);
           
-          if (p.change?.reason) {
-            reason = escapeMarkdown(p.change.reason).substring(0, 50);
-          }
+          let msg = `*${p.level}* | \`${p.id}\`\n`;
+          msg += `📁 ${cleanSkill}\n`;
+          msg += `/details ${p.id}`;
           
-          message += `*${id}*\n`;
-          message += `Level: ${level} | Type: ${type}\n`;
-          message += `Reason: ${reason}...\n\n`;
+          await ctx.reply(msg, { parse_mode: 'Markdown' });
         }
         
-        if (pending.length > 10) {
-          message += `... and ${pending.length - 10} more`;
-        }
-        
-        // Ensure message is valid UTF-8
-        message = Buffer.from(message).toString('utf8');
-        
-        await ctx.reply(message, { parse_mode: 'Markdown' });
       } catch (err) {
         console.error('[EvolutionBot] /pending error:', err);
+        await ctx.reply(`❌ Error: ${err.message}`);
+      }
+    });
+    
+    // Show proposal details
+    this.bot.command('details', async (ctx) => {
+      const proposalId = ctx.message.text.split(' ')[1];
+      
+      if (!proposalId) {
+        await ctx.reply('❌ Usage: /details <proposal_id>');
+        return;
+      }
+      
+      try {
+        const pending = await this.evolution.pending.list({ status: 'pending' });
+        const proposal = pending.find(p => p.id === proposalId);
+        
+        if (!proposal) {
+          await ctx.reply(`❌ Proposal не найден: ${proposalId}`);
+          return;
+        }
+        
+        let msg = `📋 *Proposal Details*\n\n`;
+        msg += `ID: \`${proposal.id}\`\n`;
+        msg += `Level: ${proposal.level}\n`;
+        msg += `Type: ${proposal.type}\n`;
+        msg += `Created: ${new Date(proposal.proposedAt).toLocaleString('ru-RU')}\n\n`;
+        
+        if (proposal.change?.skill?.name) {
+          const cleanName = proposal.change.skill.name.replace(/[*_\[\]()~`>#+=|{}.!]/g, '');
+          msg += `📁 Skill: ${cleanName}\n`;
+        }
+        
+        if (proposal.change?.reason) {
+          const cleanReason = proposal.change.reason
+            .replace(/[*_\[\]()~`>#+=|{}.!]/g, '')
+            .substring(0, 200);
+          msg += `📝 Reason: ${cleanReason}...\n`;
+        }
+        
+        msg += `\n✅ Approve: /approve ${proposal.id}\n`;
+        msg += `❌ Reject: /reject ${proposal.id} [причина]`;
+        
+        await ctx.reply(msg, { parse_mode: 'Markdown' });
+        
+      } catch (err) {
+        console.error('[EvolutionBot] /details error:', err);
         await ctx.reply(`❌ Error: ${err.message}`);
       }
     });
