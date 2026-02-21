@@ -87,45 +87,80 @@ class StalenessChecker {
   }
 
   /**
-   * Check Qdrant vectors for staleness
+   * Check Qdrant vectors for staleness (with pagination)
    */
   async checkQdrantStaleness() {
     const results = { checked: 0, warning: [], critical: [] };
     
     try {
-      // Get all vectors with their updatedAt
-      const response = await axios.post(
-        `${process.env.QDRANT_URL || 'http://localhost:6333'}/collections/knowledge/points/scroll`,
-        { limit: 1000, with_payload: true }
-      );
-      
-      const points = response.data.result.points || [];
+      const batchSize = 1000;
+      let offset = 0;
+      let hasMore = true;
       const now = Date.now();
       
-      for (const point of points) {
-        results.checked++;
+      console.log(`[StalenessChecker] Checking Qdrant vectors (paginated)...`);
+      
+      while (hasMore) {
+        // Get batch of vectors with their updatedAt
+        const response = await axios.post(
+          `${process.env.QDRANT_URL || 'http://localhost:6333'}/collections/knowledge/points/scroll`,
+          { 
+            limit: batchSize, 
+            offset: offset,
+            with_payload: true 
+          }
+        );
         
-        const updatedAt = point.payload?.updatedAt || point.payload?.createdAt;
-        if (!updatedAt) continue;
+        const points = response.data.result.points || [];
         
-        const age = (now - new Date(updatedAt).getTime()) / (1000 * 60 * 60 * 24); // days
+        if (points.length === 0) {
+          hasMore = false;
+          break;
+        }
         
-        if (age > this.criticalThreshold) {
-          results.critical.push({
-            id: point.id,
-            name: point.payload?.name,
-            age: Math.round(age),
-            source: 'qdrant'
-          });
-        } else if (age > this.warningThreshold) {
-          results.warning.push({
-            id: point.id,
-            name: point.payload?.name,
-            age: Math.round(age),
-            source: 'qdrant'
-          });
+        for (const point of points) {
+          results.checked++;
+          
+          const updatedAt = point.payload?.updatedAt || point.payload?.createdAt;
+          if (!updatedAt) continue;
+          
+          const age = (now - new Date(updatedAt).getTime()) / (1000 * 60 * 60 * 24); // days
+          
+          if (age > this.criticalThreshold) {
+            results.critical.push({
+              id: point.id,
+              name: point.payload?.name,
+              age: Math.round(age),
+              source: 'qdrant'
+            });
+          } else if (age > this.warningThreshold) {
+            results.warning.push({
+              id: point.id,
+              name: point.payload?.name,
+              age: Math.round(age),
+              source: 'qdrant'
+            });
+          }
+        }
+        
+        console.log(`[StalenessChecker] Processed batch: ${points.length} points (total: ${results.checked})`);
+        
+        // Check if we've reached the end
+        if (points.length < batchSize) {
+          hasMore = false;
+        } else {
+          offset += batchSize;
+        }
+        
+        // Safety limit - don't process more than 100k points at once
+        if (offset > 100000) {
+          console.warn('[StalenessChecker] Reached safety limit (100k points), stopping');
+          hasMore = false;
         }
       }
+      
+      console.log(`[StalenessChecker] Qdrant check complete: ${results.checked} total points`);
+      
     } catch (err) {
       console.error('[StalenessChecker] Qdrant check failed:', err.message);
     }
