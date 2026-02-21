@@ -27,6 +27,13 @@ class ApprovalManager {
   }
 
   async proposeChange(change) {
+    // Validate the change before creating proposal
+    const validation = this.validateChange(change);
+    if (!validation.valid) {
+      console.log(`[ApprovalManager] Invalid proposal rejected: ${validation.reason}`);
+      throw new Error(`Invalid proposal: ${validation.reason}`);
+    }
+    
     const level = this.determineLevel(change);
     
     const proposal = {
@@ -60,6 +67,51 @@ class ApprovalManager {
     if (level === 'L4') {
       return this.handleL4(proposal);
     }
+  }
+  
+  /**
+   * Validate change before creating proposal
+   */
+  validateChange(change) {
+    // Check for new_skill type
+    if (change.type === 'new_skill' && change.skill) {
+      const skillName = change.skill.name || '';
+      const skillDesc = change.skill.description || '';
+      const reason = change.reason || '';
+      
+      // 1. Check for empty or minimal names
+      if (!skillName || skillName.length < 5) {
+        return { valid: false, reason: 'skill_name_too_short' };
+      }
+      
+      // 2. Check for markdown in name or description
+      if (skillName.includes('**') || skillName.includes('##') || skillName.includes('`')) {
+        return { valid: false, reason: 'skill_name_contains_markdown' };
+      }
+      
+      // 3. Check if it's a garbage pattern (starts with prevent- and has no substance)
+      if (skillName.match(/^prevent-?$/)) {
+        return { valid: false, reason: 'invalid_skill_name_pattern' };
+      }
+      
+      // 4. Check if description is just a message fragment
+      if (skillDesc.match(/^[✅📊📝🔍🎯❌⚠️🎉🚀📈📉]/)) {
+        return { valid: false, reason: 'description_starts_with_emoji' };
+      }
+      
+      // 5. Check if reason contains too much markdown
+      const markdownCount = (reason.match(/[\*#`]/g) || []).length;
+      if (markdownCount > 5) {
+        return { valid: false, reason: 'reason_contains_excessive_markdown' };
+      }
+      
+      // 6. Check minimum reason length
+      if (reason.length < 20) {
+        return { valid: false, reason: 'reason_too_short' };
+      }
+    }
+    
+    return { valid: true };
   }
 
   async handleL1(proposal) {

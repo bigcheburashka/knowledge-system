@@ -160,6 +160,13 @@ class SessionMonitor {
         if (errorPattern.count >= this.patternThreshold) {
           console.log(`[SessionMonitor] Recurring error: ${errorPattern.error} (${errorPattern.count}x)`);
           
+          // Validate the error pattern before creating proposal
+          const validation = this.isValidErrorPattern(errorPattern);
+          if (!validation.valid) {
+            console.log(`[SessionMonitor] Skipping invalid pattern: ${validation.reason}`);
+            continue;
+          }
+          
           // Check if already proposed
           const existing = await this.evolution.pending.list({ status: 'pending' });
           const alreadyProposed = existing.some(p => 
@@ -198,6 +205,71 @@ class SessionMonitor {
       .substring(0, 30)
       .replace(/-+/g, '-')
       .replace(/^-|-$/g, '');
+  }
+  
+  /**
+   * Validate if error pattern is suitable for skill creation
+   */
+  isValidErrorPattern(errorPattern) {
+    const error = errorPattern.error;
+    
+    // 1. Check minimum length
+    if (error.length < 20) {
+      return { valid: false, reason: 'too_short' };
+    }
+    
+    // 2. Check for markdown formatting
+    if (error.includes('**') || error.includes('##') || error.includes('`')) {
+      return { valid: false, reason: 'contains_markdown' };
+    }
+    
+    // 3. Check for emoji at start (likely a formatted message, not an error)
+    if (error.match(/^[✅📊📝🔍🎯❌⚠️🎉🚀📈📉]/)) {
+      return { valid: false, reason: 'starts_with_emoji' };
+    }
+    
+    // 4. Check for common response patterns (not actual errors)
+    const responsePatterns = [
+      /^готово/i,
+      /^статус/i,
+      /^анализ/i,
+      /^результат/i,
+      /^✅/,
+      /^📊/,
+      /^##\s/,
+      /^\*\*/,
+      /^ответ/i,
+      /^честный ответ/i
+    ];
+    
+    for (const pattern of responsePatterns) {
+      if (pattern.test(error)) {
+        return { valid: false, reason: 'response_not_error' };
+      }
+    }
+    
+    // 5. Check if it looks like an actual error
+    const errorIndicators = [
+      /error/i,
+      /fail/i,
+      /cannot/i,
+      /unable/i,
+      /exception/i,
+      /timeout/i,
+      /refused/i,
+      /denied/i,
+      /not found/i,
+      / ENOENT /,
+      / EACCES /,
+      / ECONN /
+    ];
+    
+    const hasErrorIndicator = errorIndicators.some(p => p.test(error));
+    if (!hasErrorIndicator) {
+      return { valid: false, reason: 'not_an_error' };
+    }
+    
+    return { valid: true };
   }
 
   async indexMessage(message, sessionId) {
