@@ -1,0 +1,19 @@
+[Unit]
+Description=Self-Evolution Telegram Bot
+After=network.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/.openclaw/workspace/knowledge-system
+EnvironmentFile=/etc/systemd/system/evolution-bot.env
+ExecStart=/usr/bin/node /root/.openclaw/workspace/knowledge-system/src/evolution/telegram-bot.js
+Restart=always
+RestartSec=10
+StandardOutput=append:/var/log/knowledge/telegram-bot.log
+StandardError=append:/var/log/knowledge/telegram-bot.log
+
+[Install]
+WantedBy=multi-user.target

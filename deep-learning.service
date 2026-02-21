@@ -1,0 +1,28 @@
+[Unit]
+Description=Deep Learning Book Processing Service
+After=network.target qdrant.service memgraph.service
+Wants=qdrant.service memgraph.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/.openclaw/workspace/knowledge-system
+ExecStart=/usr/bin/node /root/.openclaw/workspace/knowledge-system/self-healing-service.js
+Restart=always
+RestartSec=60
+
+# Resource limits
+MemoryLimit=3G
+CPUQuota=80%
+
+# Environment
+Environment="NODE_ENV=production"
+Environment="QDRANT_URL=http://localhost:6333"
+Environment="MEMGRAPH_URL=bolt://localhost:7687"
+
+# Logging
+StandardOutput=append:/var/log/knowledge/self-healing.log
+StandardError=append:/var/log/knowledge/self-healing.log
+
+[Install]
+WantedBy=multi-user.target

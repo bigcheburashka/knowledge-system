@@ -1,0 +1,21 @@
+[Unit]
+Description=Self-Evolution Daily Analysis
+After=network.target qdrant.service memgraph.service
+Wants=qdrant.service memgraph.service
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/.openclaw/workspace/knowledge-system
+ExecStart=/usr/bin/node /root/.openclaw/workspace/knowledge-system/scripts/evolution-daily.js
+StandardOutput=append:/var/log/knowledge/evolution.log
+StandardError=append:/var/log/knowledge/evolution.log
+
+# Oneshot services don't restart, but we want to track failures
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target

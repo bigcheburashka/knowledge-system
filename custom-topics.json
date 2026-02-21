@@ -1,0 +1,396 @@
+{
+  "topics": [
+    {
+      "name": "Microservices Architecture",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-18T22:45:00Z",
+      "description": "Service decomposition patterns and inter-service communication"
+    },
+    {
+      "name": "Event-Driven Architecture",
+      "type": "pattern",
+      "priority": "medium",
+      "addedAt": "2026-02-18T22:45:00Z",
+      "description": "Async messaging, event sourcing, CQRS patterns"
+    },
+    {
+      "name": "Memory Leaks in Node.js",
+      "type": "problem",
+      "priority": "high",
+      "addedAt": "2026-02-18T22:45:00Z",
+      "description": "Common causes and debugging techniques"
+    },
+    {
+      "name": "GraphQL vs REST",
+      "type": "solution",
+      "priority": "medium",
+      "addedAt": "2026-02-18T22:45:00Z",
+      "description": "When to use which API style"
+    },
+    {
+      "name": "Kubernetes Best Practices",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-18T22:45:00Z",
+      "description": "Container orchestration patterns and pitfalls"
+    },
+    {
+      "name": "Rust Ownership Model",
+      "type": "technology",
+      "priority": "high",
+      "description": "Memory safety without garbage collector",
+      "addedAt": "2026-02-18T22:47:22.306Z"
+    },
+    {
+      "name": "PostgreSQL Replication",
+      "type": "technology",
+      "priority": "high",
+      "description": "User requested: глубоко погрузиться",
+      "addedAt": "2026-02-18T22:51:30.636Z"
+    },
+    {
+      "name": "Maestro Android UI Testing",
+      "type": "technology",
+      "priority": "high",
+      "description": "Cross-platform UI testing framework, Android automation",
+      "addedAt": "2026-02-18T22:56:15.031Z"
+    },
+    {
+      "name": "Ultron Android UI Testing",
+      "type": "technology",
+      "priority": "high",
+      "description": "Android UI testing framework with Kotlin DSL",
+      "addedAt": "2026-02-18T22:56:15.074Z"
+    },
+    {
+      "name": "Espresso Android Testing",
+      "type": "technology",
+      "priority": "high",
+      "description": "Google's Android UI testing framework",
+      "addedAt": "2026-02-18T22:56:15.110Z"
+    },
+    {
+      "name": "Android Development",
+      "type": "technology",
+      "priority": "high",
+      "description": "Mobile app development for Android platform",
+      "addedAt": "2026-02-18T22:56:15.148Z"
+    },
+    {
+      "name": "UI Test Generation",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Automated generation of UI tests from code or recordings",
+      "addedAt": "2026-02-18T22:56:15.186Z"
+    },
+    {
+      "name": "LLM-Powered Test Generation",
+      "type": "solution",
+      "priority": "high",
+      "description": "Using AI/LLM to generate and maintain test suites",
+      "addedAt": "2026-02-18T22:56:15.222Z"
+    },
+    {
+      "name": "CI/CD Pipeline Acceleration",
+      "type": "solution",
+      "priority": "high",
+      "description": "Speeding up test execution in CI/CD with parallelization, caching",
+      "addedAt": "2026-02-18T22:56:15.261Z"
+    },
+    {
+      "name": "GraphRAG",
+      "type": "technology",
+      "priority": "high",
+      "description": "Graph Retrieval-Augmented Generation for knowledge systems",
+      "addedAt": "2026-02-18T23:08:26.617Z"
+    },
+    {
+      "name": "Knowledge Graph Construction",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Building semantic graphs from unstructured data",
+      "addedAt": "2026-02-18T23:08:26.661Z"
+    },
+    {
+      "name": "Context Awareness Systems",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Maintaining and utilizing conversation context",
+      "addedAt": "2026-02-18T23:08:26.704Z"
+    },
+    {
+      "name": "Proactive Help Systems",
+      "type": "solution",
+      "priority": "high",
+      "description": "AI systems that anticipate user needs",
+      "addedAt": "2026-02-18T23:08:26.748Z"
+    },
+    {
+      "name": "Explainable AI",
+      "type": "technology",
+      "priority": "high",
+      "description": "Systems that explain their reasoning and decisions",
+      "addedAt": "2026-02-18T23:08:26.790Z"
+    },
+    {
+      "name": "Long-term Learning Systems",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Systems that accumulate knowledge over time",
+      "addedAt": "2026-02-18T23:08:26.833Z"
+    },
+    {
+      "name": "Hybrid Search Reranking",
+      "type": "solution",
+      "priority": "high",
+      "description": "Combining vector, BM25, and graph search with cross-encoders",
+      "addedAt": "2026-02-18T23:08:26.879Z"
+    },
+    {
+      "name": "UI Lifecycle Management",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Managing UI state and component lifecycle",
+      "addedAt": "2026-02-18T23:08:26.922Z"
+    },
+    {
+      "name": "Telegraf Bot Framework",
+      "type": "technology",
+      "priority": "high",
+      "description": "Node.js framework for Telegram bots",
+      "addedAt": "2026-02-18T23:08:26.962Z"
+    },
+    {
+      "name": "Stoicism in AI Ethics",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Decision-making principles for autonomous agents",
+      "addedAt": "2026-02-18T23:12:13.600Z"
+    },
+    {
+      "name": "TinyML Local Inference",
+      "type": "technology",
+      "priority": "high",
+      "description": "On-device ML with Ollama/llama.cpp",
+      "addedAt": "2026-02-18T23:12:13.656Z"
+    },
+    {
+      "name": "EU AI Act Compliance",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Regulatory requirements for AI systems",
+      "addedAt": "2026-02-18T23:12:13.696Z"
+    },
+    {
+      "name": "Web Performance Optimization",
+      "type": "technology",
+      "priority": "high",
+      "description": "INP, LCP, CLS optimization strategies",
+      "addedAt": "2026-02-18T23:12:13.734Z"
+    },
+    {
+      "name": "Agentic Workflows 2.0",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Self-planning and self-reflection patterns",
+      "addedAt": "2026-02-18T23:12:13.771Z"
+    },
+    {
+      "name": "Temporal Knowledge Decay",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Forgetting algorithms for outdated knowledge",
+      "addedAt": "2026-02-18T23:12:13.812Z"
+    },
+    {
+      "name": "Audio-First Content",
+      "type": "technology",
+      "priority": "high",
+      "description": "Voice interfaces and intonation markup",
+      "addedAt": "2026-02-18T23:12:13.853Z"
+    },
+    {
+      "name": "Distributed Knowledge Consensus",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Synchronizing knowledge bases across nodes",
+      "addedAt": "2026-02-18T23:12:13.901Z"
+    },
+    {
+      "name": "Knowledge Synthesis",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Creating articles from facts automatically",
+      "addedAt": "2026-02-18T23:14:43.963Z"
+    },
+    {
+      "name": "Code AST Parsing",
+      "type": "technology",
+      "priority": "high",
+      "description": "Parsing source code for indexing",
+      "addedAt": "2026-02-18T23:14:44.014Z"
+    },
+    {
+      "name": "Visual Knowledge Graph",
+      "type": "technology",
+      "priority": "high",
+      "description": "Visualizing entity relationships",
+      "addedAt": "2026-02-18T23:14:44.067Z"
+    },
+    {
+      "name": "Expert Profiles",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Expertise tracking and personalization",
+      "addedAt": "2026-02-18T23:14:44.120Z"
+    },
+    {
+      "name": "Proactive Alerts System",
+      "type": "solution",
+      "priority": "high",
+      "description": "Middleware for contextual notifications",
+      "addedAt": "2026-02-18T23:14:44.168Z"
+    },
+    {
+      "name": "Emotional Intelligence in AI Communication",
+      "type": "concept",
+      "priority": "high",
+      "description": "Self-improvement: understanding and adapting to user emotions",
+      "addedAt": "2026-02-19T18:39:27.534Z"
+    },
+    {
+      "name": "Advanced Prompt Engineering",
+      "type": "technology",
+      "priority": "high",
+      "description": "Self-improvement: optimize prompts for better responses",
+      "addedAt": "2026-02-19T18:39:35.066Z"
+    },
+    {
+      "name": "Latency Optimization Techniques",
+      "type": "technology",
+      "priority": "high",
+      "description": "Self-improvement: faster response times and efficiency",
+      "addedAt": "2026-02-19T18:39:41.350Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration",
+      "type": "technology",
+      "priority": "high",
+      "description": "Self-improvement: coordinator patterns for complex tasks",
+      "addedAt": "2026-02-19T18:39:48.125Z"
+    },
+    {
+      "name": "RAG Optimization",
+      "type": "technology",
+      "priority": "high",
+      "description": "Self-improvement: improve knowledge retrieval quality",
+      "addedAt": "2026-02-19T18:39:57.628Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer",
+      "type": "concept",
+      "priority": "high",
+      "description": "Self-improvement: learn faster across domains",
+      "addedAt": "2026-02-19T18:39:57.692Z"
+    },
+    {
+      "name": "Release It! - Production-Ready Software",
+      "type": "book",
+      "priority": "high",
+      "description": "Michael Nygard book on stability patterns for production systems",
+      "addedAt": "2026-02-19T21:32:52.624Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google",
+      "type": "book",
+      "priority": "high",
+      "description": "Google SRE book on SLI/SLO, monitoring, and reliability practices",
+      "addedAt": "2026-02-19T21:32:58.903Z"
+    },
+    {
+      "name": "Code Complete - Software Construction",
+      "type": "book",
+      "priority": "high",
+      "description": "Steve McConnell comprehensive guide to writing maintainable code",
+      "addedAt": "2026-02-19T21:32:58.947Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code",
+      "type": "book",
+      "priority": "high",
+      "description": "Michael Feathers strategies for refactoring and testing legacy code",
+      "addedAt": "2026-02-19T21:32:58.989Z"
+    },
+    {
+      "name": "The DevOps Handbook",
+      "type": "book",
+      "priority": "medium",
+      "description": "Gene Kim guide to DevOps practices and CI/CD automation",
+      "addedAt": "2026-02-19T21:33:22.677Z"
+    },
+    {
+      "name": "Kubernetes Up and Running",
+      "type": "book",
+      "priority": "medium",
+      "description": "Brendan Burns practical Kubernetes guide",
+      "addedAt": "2026-02-19T21:33:22.714Z"
+    },
+    {
+      "name": "Programming TypeScript",
+      "type": "book",
+      "priority": "medium",
+      "description": "Boris Cherny comprehensive TypeScript guide",
+      "addedAt": "2026-02-19T21:33:22.756Z"
+    },
+    {
+      "name": "Effective TypeScript",
+      "type": "book",
+      "priority": "medium",
+      "description": "Dan Vanderkam 62 ways to improve TypeScript",
+      "addedAt": "2026-02-19T21:33:22.849Z"
+    },
+    {
+      "name": "Database System Concepts",
+      "type": "book",
+      "priority": "medium",
+      "description": "Abraham Silberschatz fundamental database theory",
+      "addedAt": "2026-02-19T21:35:15.413Z"
+    },
+    {
+      "name": "Computer Networks - Tanenbaum",
+      "type": "book",
+      "priority": "low",
+      "description": "Andrew Tanenbaum fundamental networking concepts",
+      "addedAt": "2026-02-19T21:35:15.459Z"
+    },
+    {
+      "name": "Advanced Unix Programming",
+      "type": "book",
+      "priority": "low",
+      "description": "Marc Rochkind Unix system programming",
+      "addedAt": "2026-02-19T21:35:15.504Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications",
+      "type": "book",
+      "priority": "high",
+      "description": "Martin Kleppmann - Reliable scalable maintainable systems",
+      "addedAt": "2026-02-19T21:35:51.059Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin",
+      "type": "book",
+      "priority": "high",
+      "description": "Agile software craftsmanship principles",
+      "addedAt": "2026-02-19T21:35:51.114Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman",
+      "type": "book",
+      "priority": "high",
+      "description": "Designing fine-grained systems",
+      "addedAt": "2026-02-19T21:35:51.159Z"
+    }
+  ]
+}

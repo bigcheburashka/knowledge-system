@@ -1,0 +1,15 @@
+{
+  "name": "test-approved-skill",
+  "version": "1.0.0",
+  "description": "Test skill for approval flow testing",
+  "main": "scripts/test-approved-skill.js",
+  "scripts": {
+    "test": "node scripts/test-approved-skill.test.js"
+  },
+  "keywords": [
+    "self-evolution",
+    "skill"
+  ],
+  "author": "Self-Evolution System",
+  "license": "MIT"
+}

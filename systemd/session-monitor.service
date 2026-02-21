@@ -1,0 +1,21 @@
+[Unit]
+Description=Session Monitor for Self-Evolution
+After=network.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/.openclaw/workspace/knowledge-system
+ExecStart=/usr/bin/node /root/.openclaw/workspace/knowledge-system/src/session-monitor.js
+Restart=always
+RestartSec=10
+StandardOutput=append:/var/log/knowledge/session-monitor.log
+StandardError=append:/var/log/knowledge/session-monitor.log
+
+# Health check
+ExecStartPost=/bin/sh -c 'echo "session-monitor started at $(date -Iseconds)" >> /var/log/knowledge/service-status.log'
+
+[Install]
+WantedBy=multi-user.target

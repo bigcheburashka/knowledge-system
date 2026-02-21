@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "description": "Feature flags for Expert Knowledge System - allows enabling/disabling components without restart",
+  "flags": {
+    "DEEP_LEARNING": {
+      "enabled": true,
+      "description": "Enable Deep Learning with LLM topic expansion"
+    },
+    "LLM_API": {
+      "enabled": true,
+      "description": "Enable LLM API calls (Anthropic-messages format)"
+    },
+    "MEMGRAPH_SAVE": {
+      "enabled": true,
+      "description": "Save entities and relationships to Memgraph"
+    },
+    "QDRANT_SAVE": {
+      "enabled": true,
+      "description": "Save vectors to Qdrant"
+    },
+    "COMMON_MISTAKES": {
+      "enabled": true,
+      "description": "Generate Common Mistakes field via LLM"
+    },
+    "BEST_PRACTICES": {
+      "enabled": true,
+      "description": "Generate Best Practices field via LLM"
+    },
+    "RELATED_TOPICS": {
+      "enabled": true,
+      "description": "Generate Related Topics via LLM"
+    },
+    "AUTO_EXTRACT": {
+      "enabled": true,
+      "description": "Auto-extract topics from sessions"
+    },
+    "EPISODIC_MEMORY": {
+      "enabled": true,
+      "description": "Record problem-solving traces"
+    },
+    "MEGA_AGENT": {
+      "enabled": true,
+      "description": "Use Mega-Agent architecture for topic expansion (with retry and circuit breaker protection)"
+    },
+    "METRICS_COLLECTION": {
+      "enabled": false,
+      "description": "Collect detailed metrics during learning"
+    },
+    "SIMULATION_MODE": {
+      "enabled": false,
+      "description": "Run in simulation mode (no actual saves)"
+    }
+  },
+  "thresholds": {
+    "MIN_RECALL_AT_5": 60,
+    "MAX_RESPONSE_TIME_MS": 2000,
+    "MIN_PRECISION": 40
+  }
+}

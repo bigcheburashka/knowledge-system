@@ -1,0 +1,31 @@
+# Expert Knowledge System - Updated Cron Jobs
+# Install: crontab knowledge-system-cron.txt
+
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+KNOWLEDGE_DIR=/root/.openclaw/workspace/knowledge-system
+LOG_DIR=/var/log/knowledge
+
+# Every hour: Light learning from sessions
+0 * * * * cd $KNOWLEDGE_DIR/scripts && node auto-extract-from-sessions.js >> $LOG_DIR/extraction.log 2>&1
+
+# Every 6 hours: Health check with alerts
+0 */6 * * * $KNOWLEDGE_DIR/scripts/health-check.sh --alert >> $LOG_DIR/health.log 2>&1
+
+# Daily 2 AM: Deep learning (NEW - with LLM)
+0 2 * * * cd $KNOWLEDGE_DIR && node scripts/deep-learning.js >> $LOG_DIR/deep-learning.log 2>&1
+
+# Daily 6 AM: Self-validation of deferred reviews
+0 6 * * * cd $KNOWLEDGE_DIR && node src/self-validation.js all >> $LOG_DIR/self-validation.log 2>&1
+
+# Daily 8 AM: Progress report (NEW - JS version)
+0 8 * * * cd $KNOWLEDGE_DIR && node scripts/progress-report.js >> $LOG_DIR/reports.log 2>&1
+
+# Daily 9 AM: Communication self-analysis
+0 9 * * * cd /root/.openclaw/workspace && node src/post-session-analysis.js >> $LOG_DIR/self-analysis.log 2>&1
+
+# Weekly on Sunday 3 AM: Full backup
+0 3 * * 0 $KNOWLEDGE_DIR/scripts/backup.sh full >> $LOG_DIR/backup.log 2>&1
+
+# Auto-start session monitor on boot (optional)
+# @reboot cd $KNOWLEDGE_DIR && nohup node src/session-monitor.js >> $LOG_DIR/monitor.log 2>&1 &
