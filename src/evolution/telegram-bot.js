@@ -3,7 +3,7 @@
  * Responds only to authorized user (ID: 908231)
  */
 
-const { SelfEvolution } = require('./src/evolution');
+const { SelfEvolution } = require('./index');
 
 class EvolutionTelegramBot {
   constructor(options = {}) {
@@ -78,17 +78,34 @@ class EvolutionTelegramBot {
         
         let message = '📋 *Pending Proposals*\n\n';
         for (const p of pending.slice(0, 10)) {
-          message += `*${p.id}*\n`;
-          message += `Level: ${p.level} | Type: ${p.type}\n`;
-          message += `Reason: ${p.change?.reason?.substring(0, 50) || 'N/A'}...\n\n`;
+          // Safely extract and encode text
+          const id = p.id || 'unknown';
+          const level = p.level || 'N/A';
+          const type = p.type || 'unknown';
+          let reason = 'N/A';
+          
+          if (p.change?.reason) {
+            // Sanitize reason: remove newlines, limit length, ensure UTF-8
+            reason = String(p.change.reason)
+              .replace(/[\n\r]/g, ' ')
+              .substring(0, 50);
+          }
+          
+          message += `*${id}*\n`;
+          message += `Level: ${level} | Type: ${type}\n`;
+          message += `Reason: ${reason}...\n\n`;
         }
         
         if (pending.length > 10) {
           message += `... and ${pending.length - 10} more`;
         }
         
+        // Ensure message is valid UTF-8
+        message = Buffer.from(message).toString('utf8');
+        
         await ctx.reply(message, { parse_mode: 'Markdown' });
       } catch (err) {
+        console.error('[EvolutionBot] /pending error:', err);
         await ctx.reply(`❌ Error: ${err.message}`);
       }
     });
