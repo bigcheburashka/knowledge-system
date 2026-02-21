@@ -21,11 +21,18 @@ class MemgraphSyncWorker {
     this.isRunning = false;
     this.maxRetries = 3;
     this.retryDelay = 5000; // 5 seconds
+    
+    // Dead letter queue for failed tasks
+    this.dlq = new FileMessageQueue({
+      basePath: `${this.basePath}/queue`,
+      name: 'memgraph-sync-dlq'
+    });
   }
 
   async init() {
     await this.queue.init();
     await this.log.init();
+    await this.dlq.init();
     console.log('[MemgraphSync] Worker initialized');
   }
 
@@ -83,23 +90,46 @@ class MemgraphSyncWorker {
         if (attempt < this.maxRetries) {
           await this.sleep(this.retryDelay * attempt);
         } else {
-          // Max retries reached, log failure
-          await this.audit('SYNC_FAILED', {
+          // Max retries reached, move to dead letter queue
+          await this.moveToDLQ(task, err.message);
+          
+          await this.audit('SYNC_FAILED_DLQ', {
             entity: entity.name,
             operation,
             error: err.message,
             timestamp: new Date().toISOString()
           });
           
-          await this.log.record({
-            type: 'memgraph_sync_failed',
-            entity: entity.name,
-            error: err.message,
-            retries: this.maxRetries
-          });
+          console.error(`[MemgraphSync] Moved to DLQ: ${entity.name}`);
         }
       }
     }
+  }
+
+  /**
+   * Move failed task to dead letter queue
+   */
+  async moveToDLQ(task, errorMessage) {
+    const dlqEntry = {
+      ...task,
+      _dlq: {
+        movedAt: new Date().toISOString(),
+        error: errorMessage,
+        retryCount: this.maxRetries
+      }
+    };
+    
+    await this.dlq.push(dlqEntry);
+    
+    // Log for admin notification
+    await this.log.record({
+      type: 'memgraph_sync_dlq',
+      entity: task.entity?.name,
+      error: errorMessage,
+      timestamp: new Date().toISOString()
+    });
+    
+    console.error(`[MemgraphSync] Task moved to DLQ: ${task.entity?.name}`);
   }
 
   /**
