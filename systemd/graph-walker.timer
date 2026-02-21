@@ -1,0 +1,9 @@
+[Unit]
+Description=Knowledge Graph Walker daily at 4:00 AM MSK (01:00 UTC)
+
+[Timer]
+OnCalendar=*-*-* 01:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

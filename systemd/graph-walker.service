@@ -1,0 +1,14 @@
+[Unit]
+Description=Knowledge Graph Walker - Daily graph exploration
+After=network.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/.openclaw/workspace/knowledge-system
+ExecStart=/root/.openclaw/workspace/knowledge-system/scripts/graph-walker.sh
+StandardOutput=append:/var/log/knowledge/graph-walker.log
+StandardError=append:/var/log/knowledge/graph-walker.log
+
+[Install]
+WantedBy=multi-user.target

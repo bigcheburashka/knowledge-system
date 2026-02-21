@@ -8,6 +8,8 @@ const { CheckpointGates } = require('../src/checkpoint-gates');
 const { SelfEvolution } = require('../src/evolution');
 const { MemgraphSyncWorker } = require('../src/evolution/memgraph-sync');
 const { AuditLogger } = require('../src/evolution/audit-logger');
+const { PostLearningExpander } = require('../src/post-learning-expander');
+const { QualityBasedExpansion } = require('../src/quality-expansion');
 const axios = require('axios');
 const fs = require('fs').promises;
 const path = require('path');
@@ -32,6 +34,9 @@ class DeepLearningService {
     this.evolution = null;
     this.memgraphSync = null;
     this.audit = null;
+    this.postLearningExpander = null;
+    this.qualityExpansion = null;
+    this.newlyStoredTopics = []; // Track for expansion
   }
 
   async init() {
@@ -61,6 +66,22 @@ class DeepLearningService {
     } catch (err) {
       await this.log(`⚠️ Evolution not available: ${err.message}`, 'WARN');
       this.evolution = null;
+    }
+    
+    // Initialize Post-Learning Expander for continuous learning
+    try {
+      this.postLearningExpander = new PostLearningExpander();
+      await this.log('✅ Post-Learning Expander initialized');
+    } catch (err) {
+      await this.log(`⚠️ Post-Learning Expander not available: ${err.message}`, 'WARN');
+    }
+    
+    // Initialize Quality-Based Expansion
+    try {
+      this.qualityExpansion = new QualityBasedExpansion();
+      await this.log('✅ Quality-Based Expansion initialized');
+    } catch (err) {
+      await this.log(`⚠️ Quality-Based Expansion not available: ${err.message}`, 'WARN');
     }
   }
 
@@ -571,6 +592,17 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
       
       this.stats.stored++;
       
+      // Track for post-learning expansion
+      this.newlyStoredTopics.push({
+        name: entry.name,
+        type: entry.type,
+        quality: entry.quality || 0.7,
+        bestPractices: entry.bestPractices || [],
+        commonMistakes: entry.commonMistakes || [],
+        related: entry.related || [],
+        description: entry.description
+      });
+      
       // Audit log for successful storage
       if (this.audit) {
         await this.audit.log({
@@ -721,6 +753,15 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
     await this.log('🧠 DEEP LEARNING STARTED');
     await this.log('='.repeat(60));
     
+    // PRE-FLIGHT CHECKPOINT
+    const gates = new CheckpointGates();
+    const preFlight = await gates.preFlightCheck();
+    // Temporarily allow continuing despite errors for book processing
+    if (!preFlight.passed) {
+      await this.log('⚠️ Pre-flight checks had issues but continuing...', 'WARN');
+      // throw new Error('Pre-flight checks failed');
+    }
+    
     // Audit log run start
     if (this.audit) {
       await this.audit.log({
@@ -729,15 +770,6 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
         customOnly,
         preFlightPassed: preFlight.passed
       });
-    }
-    
-    // PRE-FLIGHT CHECKPOINT
-    const gates = new CheckpointGates();
-    const preFlight = await gates.preFlightCheck();
-    // Temporarily allow continuing despite errors for book processing
-    if (!preFlight.passed) {
-      await this.log('⚠️ Pre-flight checks had issues but continuing...', 'WARN');
-      // throw new Error('Pre-flight checks failed');
     }
     
     // Check if Deep Learning is enabled
@@ -829,6 +861,53 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
       const hopExpansion = new TwoHopExpansion();
       const hopResult = await hopExpansion.run({ limit: 3 });
       await this.log(`   Discovered ${hopResult.discovered} topics via 2-hop`);
+    }
+    
+    // POST-LEARNING EXPANSION (NEW)
+    if (this.newlyStoredTopics.length > 0) {
+      await this.log('🌱 Running post-learning expansion...');
+      
+      if (this.postLearningExpander) {
+        try {
+          const expansionResults = await this.postLearningExpander.expand(this.newlyStoredTopics);
+          await this.log(`   Post-learning expansions: ${expansionResults.added} new topics`);
+          
+          if (expansionResults.added > 0) {
+            await this.log('   Topics to explore next:');
+            for (const detail of expansionResults.details.filter(d => d.added)) {
+              await this.log(`     - ${detail.to} (from ${detail.from})`);
+            }
+          }
+        } catch (err) {
+          await this.log(`⚠️ Post-learning expansion failed: ${err.message}`, 'WARN');
+        }
+      }
+      
+      // Quality-based expansion for low-quality topics
+      if (this.qualityExpansion) {
+        await this.log('🔍 Running quality-based expansion...');
+        let qualityExpansions = 0;
+        
+        for (const topic of this.newlyStoredTopics) {
+          if (topic.quality && topic.quality < 0.8) {
+            try {
+              const result = await this.qualityExpansion.analyzeAndExpand(topic, topic.quality);
+              if (result.expanded) {
+                qualityExpansions += result.expansions.filter(e => e.added).length;
+              }
+            } catch (err) {
+              await this.log(`⚠️ Quality expansion failed for ${topic.name}: ${err.message}`, 'WARN');
+            }
+          }
+        }
+        
+        if (qualityExpansions > 0) {
+          await this.log(`   Quality expansions: ${qualityExpansions} topics added`);
+        }
+      }
+      
+      // Clear tracked topics
+      this.newlyStoredTopics = [];
     }
     
     // Audit log run completion
