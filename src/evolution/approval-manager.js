@@ -86,13 +86,18 @@ class ApprovalManager {
   async handleL2(proposal) {
     await this.queue.push(proposal);
     
+    // Send Telegram notification with detailed context
+    const telegramResult = await this.sendTelegramWithFallback(proposal);
+    
     await this.log.record({
       type: 'l2_queued',
       proposal: proposal.id,
-      skill: proposal.change.skill?.name
+      skill: proposal.change.skill?.name,
+      notified: telegramResult.sent,
+      channel: telegramResult.channel
     });
     
-    return { approved: false, level: 'L2', status: 'queued', proposal };
+    return { approved: false, level: 'L2', status: 'queued', proposal, notified: telegramResult.sent };
   }
 
   async handleL3(proposal) {
@@ -196,26 +201,131 @@ class ApprovalManager {
   }
 
   formatApprovalRequest(proposal) {
+    const level = proposal.level;
+    const change = proposal.change;
+    
+    // L2: New Skill - detailed format
+    if (level === 'L2' && change.type === 'new_skill') {
+      return this.formatL2NewSkillRequest(proposal);
+    }
+    
+    // L3: Update - standard format
+    if (level === 'L3') {
+      return this.formatL3UpdateRequest(proposal);
+    }
+    
+    // Default format for other types
     return `
-📝 **Approval Request (L${proposal.level})**
+📝 **Approval Request (L${level})**
 
-Type: ${proposal.change.type}
-${proposal.change.skill ? `Skill: ${proposal.change.skill.name}` : ''}
-Reason: ${proposal.change.reason}
+Type: ${change.type}
+${change.skill ? `Skill: ${change.skill.name}` : ''}
+Reason: ${change.reason || 'No reason provided'}
 
-[Approve] [Reject] [Modify]
+✅ Approve: /approve ${proposal.id}
+❌ Reject: /reject ${proposal.id} [reason]
     `.trim();
+  }
+  
+  formatL2NewSkillRequest(proposal) {
+    const change = proposal.change;
+    const skill = change.skill || {};
+    const patterns = change.patterns || [];
+    
+    let message = `📝 **Новый Skill требует approval (L2)**\n\n`;
+    
+    // What is being proposed
+    message += `📋 **Что предлагается:**\n`;
+    message += `Создать skill "${skill.name || 'Unknown'}"\n\n`;
+    
+    // Reason with context
+    message += `🎯 **Причина:**\n`;
+    if (change.reason) {
+      message += `${change.reason}\n`;
+    }
+    if (patterns.length > 0) {
+      message += `\nОбнаруженные паттерны:\n`;
+      patterns.slice(0, 3).forEach(p => {
+        message += `• ${p.description || p}\n`;
+      });
+      if (patterns.length > 3) {
+        message += `• ... и ещё ${patterns.length - 3}\n`;
+      }
+    }
+    message += `\n`;
+    
+    // Impact
+    message += `📊 **Impact:**\n`;
+    message += `• Предотвратит повторяющиеся ошибки\n`;
+    message += `• Автоматическая помощь в сессиях\n`;
+    message += `• Улучшение качества кода\n\n`;
+    
+    // What will be created
+    const skillName = skill.name || 'unknown-skill';
+    const skillSlug = skillName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    message += `📁 **Что будет создано:**\n`;
+    message += `• lib/${skillSlug}/SKILL.md\n`;
+    message += `• lib/${skillSlug}/scripts/${skillSlug}.js\n`;
+    message += `• lib/${skillSlug}/scripts/${skillSlug}.test.js\n`;
+    message += `• lib/${skillSlug}/package.json\n\n`;
+    
+    // Actions
+    message += `✅ **Approve:** /approve ${proposal.id}\n`;
+    message += `❌ **Reject:** /reject ${proposal.id} [причина]\n`;
+    message += `📋 **Список всех:** /pending\n\n`;
+    
+    message += `_Proposal ID: \`${proposal.id}\`_`;
+    
+    return message;
+  }
+  
+  formatL3UpdateRequest(proposal) {
+    const change = proposal.change;
+    
+    let message = `📝 **Обновление требует approval (L3)**\n\n`;
+    
+    message += `📋 **Что обновляется:**\n`;
+    message += `${change.skill?.name || 'Unknown skill'}\n\n`;
+    
+    message += `🎯 **Причина обновления:**\n`;
+    message += `${change.reason || 'No reason provided'}\n\n`;
+    
+    if (change.updates) {
+      message += `📊 **Изменения:**\n`;
+      Object.entries(change.updates).forEach(([key, value]) => {
+        message += `• ${key}: ${value}\n`;
+      });
+      message += `\n`;
+    }
+    
+    message += `✅ **Approve:** /approve ${proposal.id}\n`;
+    message += `❌ **Reject:** /reject ${proposal.id} [причина]\n\n`;
+    message += `_Proposal ID: \`${proposal.id}\`_`;
+    
+    return message;
   }
 
   formatUrgentRequest(proposal) {
-    return `
-🚨 **URGENT Approval Required (L4)**
-
-Type: ${proposal.change.type}
-This is a self-modification that requires immediate approval.
-
-[Approve Required] [Reject]
-    `.trim();
+    const change = proposal.change;
+    
+    let message = `🚨 **СРОЧНО: Требуется approval (L4)**\n\n`;
+    
+    message += `⚠️ **Тип изменения:**\n`;
+    message += `${change.type}\n\n`;
+    
+    message += `🎯 **Причина:**\n`;
+    message += `${change.reason || 'No reason provided'}\n\n`;
+    
+    message += `⚡ **Важность:**\n`;
+    message += `Это изменение самой системы (self-modification).\n`;
+    message += `Без approval система будет заблокирована.\n\n`;
+    
+    message += `✅ **Approve:** /approve ${proposal.id}\n`;
+    message += `❌ **Reject:** /reject ${proposal.id} [причина]\n\n`;
+    
+    message += `_Proposal ID: \`${proposal.id}\`_`;
+    
+    return message;
   }
 
   async fallbackToFile(proposal, text) {
