@@ -1,8 +1,8 @@
 [Unit]
-Description=Run Evolution daily at 2 AM
+Description=Run Evolution daily at 2:00 AM MSK (23:00 UTC prev day)
 
 [Timer]
-OnCalendar=*-*-* 02:00:00
+OnCalendar=*-*-* 23:00:00
 Persistent=true
 
 [Install]

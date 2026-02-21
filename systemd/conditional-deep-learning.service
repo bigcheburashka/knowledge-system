@@ -1,0 +1,14 @@
+[Unit]
+Description=Conditional Deep Learning (runs if queue > 10 topics)
+After=network.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/.openclaw/workspace/knowledge-system
+ExecStart=/root/.openclaw/workspace/knowledge-system/scripts/conditional-deep-learning.sh
+StandardOutput=append:/var/log/knowledge/conditional-dl.log
+StandardError=append:/var/log/knowledge/conditional-dl.log
+
+[Install]
+WantedBy=multi-user.target

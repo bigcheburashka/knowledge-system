@@ -1,0 +1,15 @@
+[Unit]
+Description=System Monitor with Auto-Alerts for Knowledge System
+After=network.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/.openclaw/workspace/knowledge-system
+EnvironmentFile=/etc/systemd/system/evolution-bot.env
+ExecStart=/root/.openclaw/workspace/knowledge-system/scripts/system-monitor.sh
+StandardOutput=append:/var/log/knowledge/system-monitor.log
+StandardError=append:/var/log/knowledge/system-monitor.log
+
+[Install]
+WantedBy=multi-user.target
