@@ -14,7 +14,48 @@ class AuditLogger {
   }
 
   async init() {
-    await fs.mkdir(path.dirname(this.auditLogPath), { recursive: true });
+    const dir = path.dirname(this.auditLogPath);
+    
+    // Create directory if needed
+    await fs.mkdir(dir, { recursive: true });
+    
+    // Check write permissions
+    const testFile = path.join(dir, '.write-test');
+    try {
+      await fs.writeFile(testFile, 'test');
+      await fs.unlink(testFile);
+      console.log('[AuditLogger] Write permissions OK');
+    } catch (err) {
+      console.error('[AuditLogger] CRITICAL: No write permissions to', dir);
+      console.error('[AuditLogger] Error:', err.message);
+      throw new Error(`Audit log directory not writable: ${dir}`);
+    }
+    
+    // Check disk space
+    const spaceCheck = await this.checkDiskSpace(dir);
+    if (!spaceCheck.ok) {
+      console.warn(`[AuditLogger] WARNING: Low disk space: ${spaceCheck.availableMB}MB available`);
+    }
+  }
+  
+  /**
+   * Check available disk space
+   */
+  async checkDiskSpace(dir) {
+    try {
+      const { execSync } = require('child_process');
+      const output = execSync(`df -BM "${dir}" | tail -1`, { encoding: 'utf8' });
+      const parts = output.trim().split(/\s+/);
+      const availableMB = parseInt(parts[3].replace('M', ''));
+      
+      return {
+        ok: availableMB > 100, // At least 100MB
+        availableMB,
+        threshold: 100
+      };
+    } catch {
+      return { ok: true, availableMB: 'unknown' }; // Assume OK if check fails
+    }
   }
 
   /**

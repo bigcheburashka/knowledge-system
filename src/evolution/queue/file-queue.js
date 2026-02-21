@@ -21,6 +21,13 @@ class FileMessageQueue {
   async init() {
     await fs.mkdir(this.basePath, { recursive: true });
     
+    // Check disk space
+    const spaceCheck = await this.checkDiskSpace();
+    if (!spaceCheck.ok) {
+      console.warn(`[FileQueue] WARNING: Low disk space: ${spaceCheck.availableMB}MB available`);
+      console.warn(`[FileQueue] Queue may fail when disk is full`);
+    }
+    
     // Ensure files exist
     for (const filePath of [this.queuePath, this.walPath]) {
       try {
@@ -40,6 +47,27 @@ class FileMessageQueue {
     
     // Cleanup stale lock files (older than 1 hour)
     await this.cleanupStaleLocks();
+  }
+  
+  /**
+   * Check available disk space
+   */
+  async checkDiskSpace() {
+    try {
+      const { execSync } = require('child_process');
+      const output = execSync(`df -BM "${this.basePath}" | tail -1`, { encoding: 'utf8' });
+      const parts = output.trim().split(/\s+/);
+      const availableMB = parseInt(parts[3].replace('M', ''));
+      
+      return {
+        ok: availableMB > 500, // At least 500MB
+        availableMB,
+        threshold: 500
+      };
+    } catch (err) {
+      console.error('[FileQueue] Failed to check disk space:', err.message);
+      return { ok: true, availableMB: 'unknown' }; // Assume OK if check fails
+    }
   }
   
   /**

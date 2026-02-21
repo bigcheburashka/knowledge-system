@@ -12,6 +12,67 @@ class EvolutionTelegramBot {
     this.basePath = options.basePath || '/var/lib/knowledge';
     this.evolution = null;
     this.bot = null;
+    
+    // Retry configuration
+    this.maxRetries = 3;
+    this.retryDelay = 1000; // 1 second initial delay
+  }
+
+  /**
+   * Send message with retry logic
+   */
+  async sendWithRetry(sendFn, context = 'telegram_send') {
+    let lastError;
+    
+    for (let attempt = 1; attempt <= this.maxRetries; attempt++) {
+      try {
+        return await sendFn();
+      } catch (err) {
+        lastError = err;
+        
+        // Check if error is retryable
+        const isRetryable = this.isRetryableError(err);
+        
+        if (!isRetryable || attempt === this.maxRetries) {
+          console.error(`[EvolutionBot] ${context} failed after ${attempt} attempts:`, err.message);
+          throw err;
+        }
+        
+        // Exponential backoff
+        const delay = this.retryDelay * Math.pow(2, attempt - 1);
+        console.log(`[EvolutionBot] ${context} attempt ${attempt} failed, retrying in ${delay}ms...`);
+        await this.sleep(delay);
+      }
+    }
+    
+    throw lastError;
+  }
+  
+  /**
+   * Check if error is retryable
+   */
+  isRetryableError(err) {
+    // Retry on network errors, rate limits, timeouts
+    const retryableCodes = [
+      'ECONNRESET', 'ETIMEDOUT', 'ECONNREFUSED',
+      'ENOTFOUND', 'EAI_AGAIN'
+    ];
+    
+    if (err.code && retryableCodes.includes(err.code)) {
+      return true;
+    }
+    
+    // Retry on Telegram API errors
+    if (err.response?.error_code) {
+      const retryableTelegramCodes = [429, 500, 502, 503, 504];
+      return retryableTelegramCodes.includes(err.response.error_code);
+    }
+    
+    return false;
+  }
+  
+  sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 
   async init() {
