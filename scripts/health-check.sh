@@ -132,8 +132,8 @@ fi
 
 PENDING_FILE="/var/lib/knowledge/logs/pending-proposals.json"
 if [ -f "$PENDING_FILE" ]; then
-  PENDING_COUNT=$(grep -c '"status":"pending"' "$PENDING_FILE" 2>/dev/null || echo 0)
-  if [ "$PENDING_COUNT" -gt 10 ]; then
+  PENDING_COUNT=$(grep -c '"status":"pending"' "$PENDING_FILE" 2>/dev/null | head -1 || echo 0)
+  if [ "$PENDING_COUNT" -gt 10 ] 2>/dev/null; then
     ALERTS+=("📋 Pending proposals: ${PENDING_COUNT}")
     log "INFO: High pending proposals: ${PENDING_COUNT}"
   fi

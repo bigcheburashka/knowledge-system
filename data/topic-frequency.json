@@ -1,0 +1,583 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-02-21T22:00:50.049Z",
+  "topics": {
+    "docker": {
+      "mentions": [
+        "2026-02-21T16:00:34.062Z",
+        "2026-02-21T16:00:34.066Z",
+        "2026-02-21T17:00:29.957Z",
+        "2026-02-21T17:00:29.961Z",
+        "2026-02-21T18:00:30.893Z",
+        "2026-02-21T18:00:30.897Z",
+        "2026-02-21T19:00:29.686Z",
+        "2026-02-21T19:00:29.691Z",
+        "2026-02-21T20:00:35.716Z",
+        "2026-02-21T20:00:35.722Z",
+        "2026-02-21T21:00:30.055Z",
+        "2026-02-21T21:00:30.060Z",
+        "2026-02-21T22:00:50.031Z",
+        "2026-02-21T22:00:50.046Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.062Z",
+      "lastMention": "2026-02-21T22:00:50.046Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T20:00:35.722Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-21T21:00:30.055Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.060Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-21T22:00:50.031Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.046Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        }
+      ]
+    },
+    "postgresql": {
+      "mentions": [
+        "2026-02-21T16:00:34.063Z",
+        "2026-02-21T16:00:34.067Z",
+        "2026-02-21T17:00:29.958Z",
+        "2026-02-21T17:00:29.961Z",
+        "2026-02-21T18:00:30.894Z",
+        "2026-02-21T18:00:30.898Z",
+        "2026-02-21T19:00:29.687Z",
+        "2026-02-21T19:00:29.691Z",
+        "2026-02-21T20:00:35.716Z",
+        "2026-02-21T20:00:35.723Z",
+        "2026-02-21T21:00:30.056Z",
+        "2026-02-21T21:00:30.061Z",
+        "2026-02-21T22:00:50.032Z",
+        "2026-02-21T22:00:50.047Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.063Z",
+      "lastMention": "2026-02-21T22:00:50.047Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T20:00:35.723Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-21T21:00:30.056Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.061Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-21T22:00:50.032Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.047Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        }
+      ]
+    },
+    "react": {
+      "mentions": [
+        "2026-02-21T16:00:34.063Z",
+        "2026-02-21T17:00:29.958Z",
+        "2026-02-21T18:00:30.894Z",
+        "2026-02-21T19:00:29.687Z",
+        "2026-02-21T20:00:35.717Z",
+        "2026-02-21T21:00:30.056Z",
+        "2026-02-21T22:00:50.033Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.063Z",
+      "lastMention": "2026-02-21T22:00:50.033Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T18:00:30.894Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T19:00:29.687Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T20:00:35.717Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.056Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.033Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        }
+      ]
+    },
+    "api": {
+      "mentions": [
+        "2026-02-21T16:00:34.063Z",
+        "2026-02-21T16:00:34.067Z",
+        "2026-02-21T17:00:29.958Z",
+        "2026-02-21T17:00:29.962Z",
+        "2026-02-21T18:00:30.895Z",
+        "2026-02-21T18:00:30.898Z",
+        "2026-02-21T19:00:29.688Z",
+        "2026-02-21T19:00:29.692Z",
+        "2026-02-21T20:00:35.717Z",
+        "2026-02-21T20:00:35.723Z",
+        "2026-02-21T21:00:30.057Z",
+        "2026-02-21T21:00:30.061Z",
+        "2026-02-21T22:00:50.033Z",
+        "2026-02-21T22:00:50.048Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.063Z",
+      "lastMention": "2026-02-21T22:00:50.048Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T20:00:35.723Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-21T21:00:30.057Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.061Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-21T22:00:50.033Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.048Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        }
+      ]
+    },
+    "jest": {
+      "mentions": [
+        "2026-02-21T16:00:34.064Z",
+        "2026-02-21T17:00:29.959Z",
+        "2026-02-21T18:00:30.895Z",
+        "2026-02-21T19:00:29.688Z",
+        "2026-02-21T20:00:35.718Z",
+        "2026-02-21T21:00:30.057Z",
+        "2026-02-21T22:00:50.034Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.064Z",
+      "lastMention": "2026-02-21T22:00:50.034Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T18:00:30.895Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T19:00:29.688Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T20:00:35.718Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.057Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.034Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        }
+      ]
+    },
+    "javascript": {
+      "mentions": [
+        "2026-02-21T16:00:34.064Z",
+        "2026-02-21T17:00:29.959Z",
+        "2026-02-21T18:00:30.896Z",
+        "2026-02-21T19:00:29.689Z",
+        "2026-02-21T20:00:35.693Z",
+        "2026-02-21T20:00:35.719Z",
+        "2026-02-21T21:00:30.058Z",
+        "2026-02-21T22:00:50.035Z",
+        "2026-02-21T22:00:50.039Z",
+        "2026-02-21T22:00:50.044Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.064Z",
+      "lastMention": "2026-02-21T22:00:50.044Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T20:00:35.719Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.058Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.035Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.039Z",
+          "snippet": "user: [Sat 2026-02-21 21:50 UTC] DETAILED AUDIT: Analyze unused Knowledge System components  Analyze"
+        },
+        {
+          "date": "2026-02-21T22:00:50.044Z",
+          "snippet": "user: [Sat 2026-02-21 21:16 UTC] CRITIC REVIEW: OpenClaw Skill Format Implementation Plan  Review th"
+        }
+      ]
+    },
+    "openai": {
+      "mentions": [
+        "2026-02-21T16:00:34.064Z",
+        "2026-02-21T17:00:29.959Z",
+        "2026-02-21T18:00:30.896Z",
+        "2026-02-21T19:00:29.689Z",
+        "2026-02-21T20:00:35.721Z",
+        "2026-02-21T21:00:30.058Z",
+        "2026-02-21T22:00:50.035Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.064Z",
+      "lastMention": "2026-02-21T22:00:50.035Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T18:00:30.896Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T19:00:29.689Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T20:00:35.721Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.058Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.035Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        }
+      ]
+    },
+    "anthropic": {
+      "mentions": [
+        "2026-02-21T16:00:34.064Z",
+        "2026-02-21T17:00:29.960Z",
+        "2026-02-21T18:00:30.896Z",
+        "2026-02-21T19:00:29.689Z",
+        "2026-02-21T20:00:35.721Z",
+        "2026-02-21T21:00:30.059Z",
+        "2026-02-21T22:00:50.036Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.064Z",
+      "lastMention": "2026-02-21T22:00:50.036Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T18:00:30.896Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T19:00:29.689Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T20:00:35.721Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.059Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.036Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        }
+      ]
+    },
+    "security": {
+      "mentions": [
+        "2026-02-21T16:00:34.065Z",
+        "2026-02-21T17:00:29.960Z",
+        "2026-02-21T18:00:30.897Z",
+        "2026-02-21T19:00:29.690Z",
+        "2026-02-21T20:00:35.722Z",
+        "2026-02-21T21:00:30.059Z",
+        "2026-02-21T22:00:50.036Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.065Z",
+      "lastMention": "2026-02-21T22:00:50.036Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T18:00:30.897Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T19:00:29.690Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T20:00:35.722Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.059Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.036Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        }
+      ]
+    },
+    "authentication": {
+      "mentions": [
+        "2026-02-21T16:00:34.065Z",
+        "2026-02-21T17:00:29.961Z",
+        "2026-02-21T18:00:30.897Z",
+        "2026-02-21T19:00:29.690Z",
+        "2026-02-21T20:00:35.722Z",
+        "2026-02-21T21:00:30.060Z",
+        "2026-02-21T22:00:50.037Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.065Z",
+      "lastMention": "2026-02-21T22:00:50.037Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T18:00:30.897Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T19:00:29.690Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T20:00:35.722Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T21:00:30.060Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-21T22:00:50.037Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        }
+      ]
+    },
+    "testing": {
+      "mentions": [
+        "2026-02-21T16:00:34.066Z",
+        "2026-02-21T22:00:50.044Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.066Z",
+      "lastMention": "2026-02-21T22:00:50.044Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T16:00:34.066Z",
+          "snippet": "user: [Sat 2026-02-21 15:28 UTC] You are the Critic Agent. Review the Self-Evolution System test res"
+        },
+        {
+          "date": "2026-02-21T22:00:50.044Z",
+          "snippet": "user: [Sat 2026-02-21 21:16 UTC] CRITIC REVIEW: OpenClaw Skill Format Implementation Plan  Review th"
+        }
+      ]
+    },
+    "go": {
+      "mentions": [
+        "2026-02-21T16:00:34.067Z",
+        "2026-02-21T16:00:34.068Z",
+        "2026-02-21T16:00:34.068Z",
+        "2026-02-21T17:00:29.962Z",
+        "2026-02-21T17:00:29.962Z",
+        "2026-02-21T17:00:29.963Z",
+        "2026-02-21T18:00:30.898Z",
+        "2026-02-21T18:00:30.899Z",
+        "2026-02-21T18:00:30.899Z",
+        "2026-02-21T19:00:29.691Z",
+        "2026-02-21T19:00:29.692Z",
+        "2026-02-21T19:00:29.692Z",
+        "2026-02-21T20:00:35.723Z",
+        "2026-02-21T20:00:35.724Z",
+        "2026-02-21T20:00:35.724Z",
+        "2026-02-21T21:00:30.061Z",
+        "2026-02-21T21:00:30.062Z",
+        "2026-02-21T21:00:30.063Z",
+        "2026-02-21T22:00:50.043Z",
+        "2026-02-21T22:00:50.047Z",
+        "2026-02-21T22:00:50.048Z",
+        "2026-02-21T22:00:50.049Z"
+      ],
+      "firstMention": "2026-02-21T16:00:34.067Z",
+      "lastMention": "2026-02-21T22:00:50.049Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T21:00:30.063Z",
+          "snippet": "user: [cron:003eaadb-e905-4171-b14e-569cdd11359d openclaw-releases-daily] Проверь https://github.com"
+        },
+        {
+          "date": "2026-02-21T22:00:50.043Z",
+          "snippet": "user: [Sat 2026-02-21 21:16 UTC] CRITIC REVIEW: OpenClaw Skill Format Implementation Plan  Review th"
+        },
+        {
+          "date": "2026-02-21T22:00:50.047Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-21T22:00:50.048Z",
+          "snippet": "user: [cron:7261cd29-ac10-4988-8ef7-630ad58b4b39 log-analysis] Анализ логов (только при ошибках):  1"
+        },
+        {
+          "date": "2026-02-21T22:00:50.049Z",
+          "snippet": "user: [cron:003eaadb-e905-4171-b14e-569cdd11359d openclaw-releases-daily] Проверь https://github.com"
+        }
+      ]
+    },
+    "code review": {
+      "mentions": [
+        "2026-02-21T20:00:35.693Z"
+      ],
+      "firstMention": "2026-02-21T20:00:35.693Z",
+      "lastMention": "2026-02-21T20:00:35.693Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T20:00:35.693Z",
+          "snippet": "user: [Sat 2026-02-21 19:59 UTC] CRITIC REVIEW: Verify TODO implementations in Knowledge System  Rev"
+        }
+      ]
+    },
+    "memgraph": {
+      "mentions": [
+        "2026-02-21T22:00:50.039Z"
+      ],
+      "firstMention": "2026-02-21T22:00:50.039Z",
+      "lastMention": "2026-02-21T22:00:50.039Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T22:00:50.039Z",
+          "snippet": "user: [Sat 2026-02-21 21:50 UTC] DETAILED AUDIT: Analyze unused Knowledge System components  Analyze"
+        }
+      ]
+    },
+    "qdrant": {
+      "mentions": [
+        "2026-02-21T22:00:50.039Z",
+        "2026-02-21T22:00:50.044Z"
+      ],
+      "firstMention": "2026-02-21T22:00:50.039Z",
+      "lastMention": "2026-02-21T22:00:50.044Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T22:00:50.039Z",
+          "snippet": "user: [Sat 2026-02-21 21:50 UTC] DETAILED AUDIT: Analyze unused Knowledge System components  Analyze"
+        },
+        {
+          "date": "2026-02-21T22:00:50.044Z",
+          "snippet": "user: [Sat 2026-02-21 21:16 UTC] CRITIC REVIEW: OpenClaw Skill Format Implementation Plan  Review th"
+        }
+      ]
+    },
+    "vector db": {
+      "mentions": [
+        "2026-02-21T22:00:50.040Z"
+      ],
+      "firstMention": "2026-02-21T22:00:50.040Z",
+      "lastMention": "2026-02-21T22:00:50.040Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T22:00:50.040Z",
+          "snippet": "user: [Sat 2026-02-21 21:50 UTC] DETAILED AUDIT: Analyze unused Knowledge System components  Analyze"
+        }
+      ]
+    },
+    "vector": {
+      "mentions": [
+        "2026-02-21T22:00:50.040Z"
+      ],
+      "firstMention": "2026-02-21T22:00:50.040Z",
+      "lastMention": "2026-02-21T22:00:50.040Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T22:00:50.040Z",
+          "snippet": "user: [Sat 2026-02-21 21:50 UTC] DETAILED AUDIT: Analyze unused Knowledge System components  Analyze"
+        }
+      ]
+    },
+    "node.js": {
+      "mentions": [
+        "2026-02-21T22:00:50.043Z"
+      ],
+      "firstMention": "2026-02-21T22:00:50.043Z",
+      "lastMention": "2026-02-21T22:00:50.043Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T22:00:50.043Z",
+          "snippet": "user: [Sat 2026-02-21 21:16 UTC] CRITIC REVIEW: OpenClaw Skill Format Implementation Plan  Review th"
+        }
+      ]
+    },
+    "llm": {
+      "mentions": [
+        "2026-02-21T22:00:50.045Z"
+      ],
+      "firstMention": "2026-02-21T22:00:50.045Z",
+      "lastMention": "2026-02-21T22:00:50.045Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T22:00:50.045Z",
+          "snippet": "user: [Sat 2026-02-21 21:16 UTC] CRITIC REVIEW: OpenClaw Skill Format Implementation Plan  Review th"
+        }
+      ]
+    },
+    "embedding": {
+      "mentions": [
+        "2026-02-21T22:00:50.045Z"
+      ],
+      "firstMention": "2026-02-21T22:00:50.045Z",
+      "lastMention": "2026-02-21T22:00:50.045Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T22:00:50.045Z",
+          "snippet": "user: [Sat 2026-02-21 21:16 UTC] CRITIC REVIEW: OpenClaw Skill Format Implementation Plan  Review th"
+        }
+      ]
+    },
+    "architecture": {
+      "mentions": [
+        "2026-02-21T22:00:50.046Z"
+      ],
+      "firstMention": "2026-02-21T22:00:50.046Z",
+      "lastMention": "2026-02-21T22:00:50.046Z",
+      "contexts": [
+        {
+          "date": "2026-02-21T22:00:50.046Z",
+          "snippet": "user: [Sat 2026-02-21 21:16 UTC] CRITIC REVIEW: OpenClaw Skill Format Implementation Plan  Review th"
+        }
+      ]
+    }
+  },
+  "autoAdded": [
+    "go",
+    "docker",
+    "postgresql",
+    "api",
+    "react",
+    "jest",
+    "javascript",
+    "openai",
+    "anthropic",
+    "security",
+    "authentication"
+  ]
+}

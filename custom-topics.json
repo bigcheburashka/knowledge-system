@@ -391,6 +391,164 @@
       "priority": "high",
       "description": "Designing fine-grained systems",
       "addedAt": "2026-02-19T21:35:51.159Z"
+    },
+    {
+      "name": "Go",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T16:00:34.088Z"
+    },
+    {
+      "name": "изучить",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-21T16:55:08.125Z",
+      "addedBy": "intent-detector",
+      "source": "explicit_learning_intent",
+      "confidence": 0.9,
+      "description": "Auto-added from intent: \"Хочу изучить\""
+    },
+    {
+      "name": "разобраться",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-21T16:55:08.127Z",
+      "addedBy": "intent-detector",
+      "source": "explicit_learning_intent",
+      "confidence": 0.9,
+      "description": "Auto-added from intent: \"Нужно разобраться\""
+    },
+    {
+      "name": "graphql",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-21T16:55:08.128Z",
+      "addedBy": "intent-detector",
+      "source": "explicit_learning_intent",
+      "confidence": 0.9,
+      "description": "Auto-added from intent: \"разобраться с GraphQL\""
+    },
+    {
+      "name": "deep dive",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-21T16:55:08.130Z",
+      "addedBy": "intent-detector",
+      "source": "explicit_learning_intent",
+      "confidence": 0.9,
+      "description": "Auto-added from intent: \"сделаем deep dive\""
+    },
+    {
+      "name": "кэширование redis",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-21T16:55:08.131Z",
+      "addedBy": "intent-detector",
+      "source": "explicit_learning_intent",
+      "confidence": 0.9,
+      "description": "Auto-added from intent: \"Прикрутим кэширование Redis\""
+    },
+    {
+      "name": "want to learn",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-21T16:55:08.132Z",
+      "addedBy": "intent-detector",
+      "source": "explicit_learning_intent",
+      "confidence": 0.9,
+      "description": "Auto-added from intent: \"want to learn\""
+    },
+    {
+      "name": "rust programming",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-21T16:55:08.133Z",
+      "addedBy": "intent-detector",
+      "source": "explicit_learning_intent",
+      "confidence": 0.9,
+      "description": "Auto-added from intent: \"learn Rust programming\""
+    },
+    {
+      "name": "Docker",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 4 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T17:00:29.982Z"
+    },
+    {
+      "name": "Postgresql",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 4 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T17:00:29.983Z"
+    },
+    {
+      "name": "Api",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 4 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T17:00:29.984Z"
+    },
+    {
+      "name": "React",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T18:00:30.920Z"
+    },
+    {
+      "name": "Jest",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T18:00:30.921Z"
+    },
+    {
+      "name": "Javascript",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T18:00:30.922Z"
+    },
+    {
+      "name": "Openai",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T18:00:30.923Z"
+    },
+    {
+      "name": "Anthropic",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T18:00:30.923Z"
+    },
+    {
+      "name": "Security",
+      "type": "concept",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T18:00:30.925Z"
+    },
+    {
+      "name": "Authentication",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-21T18:00:30.927Z"
     }
   ]
 }

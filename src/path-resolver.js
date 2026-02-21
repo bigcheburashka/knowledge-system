@@ -71,14 +71,16 @@ class PathResolver {
       'MemgraphSyncWorker': 'src/evolution/memgraph-sync.js',
       'AuditLogger': 'src/evolution/audit-logger.js',
       
-      // New modules
-      'SelfCorrection': 'src/self-correction.js',
+      // Active modules
       'IntentDetector': 'src/intent-detector.js',
-      'PostSessionTrigger': 'src/post-session-trigger.js',
-      'PostLearningExpander': 'src/post-learning-expander.js',
       'KnowledgeGraphWalker': 'src/knowledge-graph-walker.js',
+      'EpisodicMemory': 'src/episodic-memory.js',
+      
+      // Continuous learning
+      'PostLearningExpander': 'src/post-learning-expander.js',
       'QualityBasedExpansion': 'src/quality-expansion.js',
-      'ProactiveLearning': 'src/proactive-learning.js',
+      
+      // Infrastructure
       'CircuitBreaker': 'src/circuit-breaker.js',
       'ConfigValidator': 'src/config-validator.js'
     };

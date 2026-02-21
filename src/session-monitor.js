@@ -8,6 +8,7 @@ const path = require('path');
 const { getEmbedding } = require('./embedding-service');
 const { PatternDetector } = require('../lib/pattern-detector/scripts/detector');
 const { SelfEvolution } = require('./evolution');
+const EpisodicMemory = require('./episodic-memory');
 const axios = require('axios');
 
 const QDRANT_URL = process.env.QDRANT_URL || 'http://localhost:6333';
@@ -20,6 +21,7 @@ class SessionMonitor {
     this.isRunning = false;
     this.patternDetector = new PatternDetector();
     this.evolution = null;
+    this.episodicMemory = null;
     this.sessionErrors = [];
     this.analysisThreshold = parseInt(process.env.ANALYSIS_THRESHOLD) || 3;
     this.patternThreshold = parseInt(process.env.PATTERN_THRESHOLD) || 2;
@@ -34,6 +36,16 @@ class SessionMonitor {
     } catch (err) {
       console.warn('[SessionMonitor] Evolution not available:', err.message);
       this.evolution = null;
+    }
+    
+    // Initialize Episodic Memory
+    try {
+      this.episodicMemory = new EpisodicMemory();
+      await this.episodicMemory.init();
+      console.log('[SessionMonitor] Episodic Memory initialized');
+    } catch (err) {
+      console.warn('[SessionMonitor] Episodic Memory not available:', err.message);
+      this.episodicMemory = null;
     }
   }
 
