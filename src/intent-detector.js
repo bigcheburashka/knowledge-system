@@ -46,14 +46,32 @@ class IntentDetector {
    */
   async analyzeMessage(message, context = {}) {
     const intents = [];
+    const text = typeof message === 'string' ? message : message.content;
     
     // Check for explicit learning intents
     for (const pattern of this.intentPatterns) {
-      const match = message.match(pattern);
+      const match = text.match(pattern);
       if (match) {
-        // Extract topic from capture group or full match
-        const topic = match[1] || match[0];
+        // Extract topic from capture group or infer from context
+        let topic;
+        
+        if (match[1]) {
+          // Pattern has capture group - use it
+          topic = match[1].trim();
+        } else {
+          // No capture group - infer topic from full match and surrounding text
+          topic = this.inferTopicFromMatch(text, match);
+        }
+        
+        if (!topic || topic.length < 2) {
+          continue; // Skip if no valid topic found
+        }
+        
         const cleanTopic = this.cleanTopic(topic);
+        
+        if (!cleanTopic || cleanTopic.length < 2) {
+          continue;
+        }
         
         intents.push({
           type: 'explicit_learning_intent',
@@ -69,7 +87,7 @@ class IntentDetector {
     // Check for implicit learning needs (uncertainty)
     if (context.uncertaintyIndicators) {
       for (const indicator of context.uncertaintyIndicators) {
-        if (this.matchesUncertainty(message, indicator)) {
+        if (this.matchesUncertainty(text, indicator)) {
           intents.push({
             type: 'implicit_learning_need',
             topic: indicator.topic,
@@ -98,6 +116,39 @@ class IntentDetector {
     
     return intents;
   }
+  
+  /**
+   * Infer topic from match when no capture group
+   */
+  inferTopicFromMatch(text, match) {
+    const matchText = match[0];
+    const matchIndex = match.index;
+    
+    // Look for object after the action phrase
+    // E.g., "Хочу изучить Kubernetes" -> extract "Kubernetes"
+    const afterMatch = text.substring(matchIndex + matchText.length).trim();
+    
+    // Take first word or phrase up to punctuation
+    const topicMatch = afterMatch.match(/^([\w\s]+?)(?:\.|,|;|$)/);
+    if (topicMatch) {
+      return topicMatch[1].trim();
+    }
+    
+    // Fallback: look for capitalized words (proper nouns/technologies)
+    const words = afterMatch.split(/\s+/);
+    const techWords = [];
+    for (const word of words.slice(0, 3)) {
+      if (/^[A-Z][a-z]+/.test(word) || /^[a-z]+/.test(word)) {
+        techWords.push(word);
+      }
+    }
+    
+    if (techWords.length > 0) {
+      return techWords.join(' ');
+    }
+    
+    return null;
+  }
 
   /**
    * Clean and normalize topic name
@@ -105,8 +156,14 @@ class IntentDetector {
   cleanTopic(topic) {
     return topic
       .toLowerCase()
-      .replace(/^(?:хочу|нужно|давай|сделай|разберись|изучить|погрузиться|learn|study|understand)\s+/i, '')
-      .replace(/^(?:в|с|о|об|про|для|на)\s+/i, '')
+      // Remove leading action words and phrases
+      .replace(/^(?:хочу|нужно|давай|сделай|разберись|изучить|погрузиться|learn|study|understand|do)\s+/gi, '')
+      .replace(/^(?:в|с|о|об|про|для|на|into|with|about)\s+/gi, '')
+      .replace(/^(?:глубоко|подробно|deep|detailed)\s+/gi, '')
+      .replace(/^(?:сделаем|сделай)\s+/gi, '')
+      .replace(/^(?:разберемся|разобраться)\s+/gi, '')
+      .replace(/^(?:погрузимся|погрузиться)\s+/gi, '')
+      // Remove trailing punctuation
       .replace(/[\.\,\!\?]$/, '')
       .trim()
       .substring(0, 100); // Limit length
