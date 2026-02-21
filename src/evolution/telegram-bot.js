@@ -119,8 +119,7 @@ class EvolutionTelegramBot {
         '🤖 *Self-Evolution System*\n\n' +
         'Available commands:\n' +
         '/pending — List pending proposals\n' +
-        '/details \u003cid\u003e — Show proposal details
-' +
+        '/details \u003cid\u003e — Show proposal details\n' +
         '/approve \u003cid\u003e — Approve a proposal\n' +
         '/reject \u003cid\u003e [reason] — Reject a proposal\n' +
         '/status — System status\n' +
