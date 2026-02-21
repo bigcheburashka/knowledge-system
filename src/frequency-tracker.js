@@ -6,7 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { OpenClawAdapter } = require('../src/openclaw-adapter');
+const OpenClawAdapter = require('../src/openclaw-adapter');
 const { getFeatureFlags } = require('../src/feature-flags');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
