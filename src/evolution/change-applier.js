@@ -7,7 +7,6 @@ const path = require('path');
 const { exec } = require('child_process');
 const { promisify } = require('util');
 const execAsync = promisify(exec);
-const { SelfCorrection } = require('../self-correction');
 
 class ChangeApplier {
   constructor(options = {}) {
@@ -16,22 +15,11 @@ class ChangeApplier {
     // OpenClaw skills path - must match OpenClaw workspace
     this.skillsPath = options.skillsPath || '/root/.openclaw/workspace/skills';
     this.backupPath = options.backupPath || '/var/lib/knowledge/backups';
-    this.selfCorrection = null;
   }
 
   async init() {
     await fs.mkdir(this.backupPath, { recursive: true });
     await fs.mkdir(this.configPath, { recursive: true });
-    
-    // Initialize Self Correction
-    try {
-      this.selfCorrection = new SelfCorrection();
-      await this.selfCorrection.init();
-      console.log('[ChangeApplier] Self Correction initialized');
-    } catch (err) {
-      console.warn('[ChangeApplier] Self Correction not available:', err.message);
-      this.selfCorrection = null;
-    }
   }
 
   /**
@@ -64,32 +52,6 @@ class ChangeApplier {
       // Attempt rollback for L3/L4
       if (proposal.level === 'L3' || proposal.level === 'L4') {
         await this.rollback(proposal);
-      }
-      
-      // Analyze error with Self Correction for potential fixes
-      if (this.selfCorrection) {
-        try {
-          const analysis = await this.selfCorrection.analyzeError(err, {
-            component: 'ChangeApplier',
-            changeType: type,
-            proposalId: proposal.id
-          });
-          
-          if (analysis.action === 'propose_fix' && analysis.autoApply) {
-            console.log(`[ChangeApplier] Auto-applying fix for error: ${analysis.reason}`);
-            await this.selfCorrection.applyFix(analysis.fix);
-            
-            // Retry the operation once after fix
-            console.log('[ChangeApplier] Retrying after auto-fix...');
-            return await this.apply(proposal);
-          } else if (analysis.action === 'propose_fix') {
-            console.log(`[ChangeApplier] Suggested fix: ${analysis.reason}`);
-            // Include fix suggestion in error for upstream handling
-            err.fixSuggestion = analysis;
-          }
-        } catch (correctionErr) {
-          console.error('[ChangeApplier] Self correction failed:', correctionErr.message);
-        }
       }
       
       throw err;
