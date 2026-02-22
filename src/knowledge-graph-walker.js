@@ -90,13 +90,14 @@ class KnowledgeGraphWalker {
       const session = driver.session();
       
       try {
+        // Use template literal for LIMIT to avoid Memgraph parameter issue
         const result = await session.run(`
           MATCH (e:Entity)
           WHERE e.createdAt > datetime() - duration('P7D')
           RETURN e.name as name, e.type as type
           ORDER BY e.createdAt DESC
-          LIMIT $limit
-        `, { limit });
+          LIMIT ${parseInt(limit)}
+        `);
         
         return result.records.map(r => ({
           name: r.get('name'),
