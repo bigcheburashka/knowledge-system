@@ -11,8 +11,13 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Generating morning report"
 
 # Gather stats
 QDRANT_COUNT=$(curl -sf http://localhost:6333/collections/knowledge 2>/dev/null | grep -o '"points_count":[0-9]*' | cut -d: -f2 || echo "N/A")
+QDRANT_COUNT=${QDRANT_COUNT:-"N/A"}
+
 TOPIC_COUNT=$(grep -c '"name"' "${KNOWLEDGE_DIR}/custom-topics.json" 2>/dev/null || echo "0")
+TOPIC_COUNT=${TOPIC_COUNT:-0}
+
 PENDING_COUNT=$(cat "${LOG_DIR}/pending-proposals.json" 2>/dev/null | jq 'length' || echo "0")
+PENDING_COUNT=${PENDING_COUNT:-0}
 
 # Check services
 SESSION_MONITOR_STATUS=$(systemctl is-active session-monitor.service 2>/dev/null || echo "unknown")
@@ -22,12 +27,16 @@ TELEGRAM_BOT_STATUS=$(systemctl is-active telegram-bot.service 2>/dev/null || ec
 LAST_DL=$(tail -100 "${LOG_DIR}/deep-learning.log" 2>/dev/null | grep "DEEP LEARNING STARTED" | tail -1 | awk '{print $1}' | sed 's/\[//;s/\]//' || echo "N/A")
 
 # Check for errors in last 24h
-ERRORS_DL=$(grep -c "Error:" "${LOG_DIR}/deep-learning.log" 2>/dev/null || echo "0")
-ERRORS_EV=$(grep -c "Error:" "${LOG_DIR}/evolution.log" 2>/dev/null || echo "0")
-ERRORS_SM=$(grep -c "Error:" "${LOG_DIR}/session-monitor.log" 2>/dev/null || echo "0")
+ERRORS_DL=$(grep -c "Error:" "${LOG_DIR}/deep-learning.log" 2>/dev/null)
+ERRORS_DL=${ERRORS_DL:-0}
+ERRORS_EV=$(grep -c "Error:" "${LOG_DIR}/evolution.log" 2>/dev/null)
+ERRORS_EV=${ERRORS_EV:-0}
+ERRORS_SM=$(grep -c "Error:" "${LOG_DIR}/session-monitor.log" 2>/dev/null)
+ERRORS_SM=${ERRORS_SM:-0}
 
 # Critical errors (module not found, connection refused, etc)
-CRITICAL_ERRORS=$(grep -E "MODULE_NOT_FOUND|Cannot find module|Connection refused|ECONNREFUSED" "${LOG_DIR}"/*.log 2>/dev/null | wc -l || echo "0")
+CRITICAL_ERRORS=$(grep -E "MODULE_NOT_FOUND|Cannot find module|Connection refused|ECONNREFUSED" "${LOG_DIR}"/*.log 2>/dev/null | wc -l)
+CRITICAL_ERRORS=${CRITICAL_ERRORS:-0}
 
 # Generate report
 REPORT="🌅 *Утренний отчёт Knowledge System*
