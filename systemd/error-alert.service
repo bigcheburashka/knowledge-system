@@ -1,0 +1,14 @@
+[Unit]
+Description=Knowledge System Error Alert
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/root/.openclaw/workspace/knowledge-system/scripts/error-alert.sh
+Environment=TELEGRAM_BOT_TOKEN=8209003847:AAECNJ4Yco9YhVmS0SHtbCh7EfexIXiZF7o
+Environment=TELEGRAM_CHAT_ID=908231
+StandardOutput=append:/var/log/knowledge/error-alert.log
+StandardError=append:/var/log/knowledge/error-alert.log
+
+[Install]
+WantedBy=multi-user.target

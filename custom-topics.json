@@ -549,6 +549,56 @@
       "description": "Auto-added: mentioned 3 times",
       "source": "frequency-tracker",
       "addedAt": "2026-02-21T18:00:30.927Z"
+    },
+    {
+      "name": "OpenClaw",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-22T09:19:01.484Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 1 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: error",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-22T09:19:01.487Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Solution: Fix",
+      "type": "solution",
+      "priority": "medium",
+      "addedAt": "2026-02-22T09:19:01.489Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Prisma",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-22T09:19:01.494Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Node.js",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-22T09:19:01.496Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
     }
   ]
 }

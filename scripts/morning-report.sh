@@ -21,6 +21,14 @@ TELEGRAM_BOT_STATUS=$(systemctl is-active telegram-bot.service 2>/dev/null || ec
 # Last DL run
 LAST_DL=$(tail -100 "${LOG_DIR}/deep-learning.log" 2>/dev/null | grep "DEEP LEARNING STARTED" | tail -1 | awk '{print $1}' | sed 's/\[//;s/\]//' || echo "N/A")
 
+# Check for errors in last 24h
+ERRORS_DL=$(grep -c "Error:" "${LOG_DIR}/deep-learning.log" 2>/dev/null || echo "0")
+ERRORS_EV=$(grep -c "Error:" "${LOG_DIR}/evolution.log" 2>/dev/null || echo "0")
+ERRORS_SM=$(grep -c "Error:" "${LOG_DIR}/session-monitor.log" 2>/dev/null || echo "0")
+
+# Critical errors (module not found, connection refused, etc)
+CRITICAL_ERRORS=$(grep -E "MODULE_NOT_FOUND|Cannot find module|Connection refused|ECONNREFUSED" "${LOG_DIR}"/*.log 2>/dev/null | wc -l || echo "0")
+
 # Generate report
 REPORT="🌅 *Утренний отчёт Knowledge System*
 
@@ -34,9 +42,38 @@ REPORT="🌅 *Утренний отчёт Knowledge System*
 • Telegram Bot: ${TELEGRAM_BOT_STATUS}
 
 🕐 *Последний Deep Learning:*
-• ${LAST_DL}
+• ${LAST_DL}"
 
-📋 *Действия на сегодня:*"
+# Add error alerts if any
+if [ "$CRITICAL_ERRORS" -gt 0 ] || [ "$ERRORS_DL" -gt 0 ] || [ "$ERRORS_EV" -gt 0 ]; then
+  REPORT="${REPORT}
+
+⚠️ *ОШИБКИ ЗА НОЧЬ:*"
+  
+  if [ "$CRITICAL_ERRORS" -gt 0 ]; then
+    REPORT="${REPORT}
+• ❌ ${CRITICAL_ERRORS} критических ошибок (модули/соединения)"
+  fi
+  
+  if [ "$ERRORS_DL" -gt 0 ]; then
+    REPORT="${REPORT}
+• 📚 Deep Learning: ${ERRORS_DL} ошибок"
+  fi
+  
+  if [ "$ERRORS_EV" -gt 0 ]; then
+    REPORT="${REPORT}
+• 🧬 Evolution: ${ERRORS_EV} ошибок"
+  fi
+  
+  if [ "$ERRORS_SM" -gt 0 ]; then
+    REPORT="${REPORT}
+• 👁️ Session Monitor: ${ERRORS_SM} ошибок"
+  fi
+  
+  REPORT="${REPORT}
+
+🔍 *Детали:* /var/log/knowledge/"
+fi
 
 # Add action items
 if [ "$PENDING_COUNT" -gt 0 ]; then
