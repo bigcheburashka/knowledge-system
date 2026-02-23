@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-02-22T09:00:26.227Z",
+  "lastUpdated": "2026-02-22T11:00:23.308Z",
   "topics": {
     "docker": {
       "mentions": [
@@ -39,29 +39,33 @@
         "2026-02-22T08:00:27.881Z",
         "2026-02-22T08:00:27.894Z",
         "2026-02-22T09:00:26.218Z",
-        "2026-02-22T09:00:26.225Z"
+        "2026-02-22T09:00:26.225Z",
+        "2026-02-22T10:00:24.439Z",
+        "2026-02-22T10:00:24.444Z",
+        "2026-02-22T11:00:23.300Z",
+        "2026-02-22T11:00:23.306Z"
       ],
       "firstMention": "2026-02-21T16:00:34.062Z",
-      "lastMention": "2026-02-22T09:00:26.225Z",
+      "lastMention": "2026-02-22T11:00:23.306Z",
       "contexts": [
         {
-          "date": "2026-02-22T07:00:26.087Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-22T08:00:27.881Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T08:00:27.894Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-22T09:00:26.218Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
           "date": "2026-02-22T09:00:26.225Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T10:00:24.439Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.444Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T11:00:23.300Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.306Z",
           "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
         }
       ]
@@ -103,29 +107,33 @@
         "2026-02-22T08:00:27.881Z",
         "2026-02-22T08:00:27.894Z",
         "2026-02-22T09:00:26.219Z",
-        "2026-02-22T09:00:26.226Z"
+        "2026-02-22T09:00:26.226Z",
+        "2026-02-22T10:00:24.439Z",
+        "2026-02-22T10:00:24.445Z",
+        "2026-02-22T11:00:23.301Z",
+        "2026-02-22T11:00:23.306Z"
       ],
       "firstMention": "2026-02-21T16:00:34.063Z",
-      "lastMention": "2026-02-22T09:00:26.226Z",
+      "lastMention": "2026-02-22T11:00:23.306Z",
       "contexts": [
         {
-          "date": "2026-02-22T07:00:26.088Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-22T08:00:27.881Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T08:00:27.894Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-22T09:00:26.219Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
           "date": "2026-02-22T09:00:26.226Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T10:00:24.439Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.445Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T11:00:23.301Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.306Z",
           "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
         }
       ]
@@ -149,19 +157,13 @@
         "2026-02-22T06:00:31.213Z",
         "2026-02-22T07:00:26.082Z",
         "2026-02-22T08:00:27.882Z",
-        "2026-02-22T09:00:26.220Z"
+        "2026-02-22T09:00:26.220Z",
+        "2026-02-22T10:00:24.440Z",
+        "2026-02-22T11:00:23.302Z"
       ],
       "firstMention": "2026-02-21T16:00:34.063Z",
-      "lastMention": "2026-02-22T09:00:26.220Z",
+      "lastMention": "2026-02-22T11:00:23.302Z",
       "contexts": [
-        {
-          "date": "2026-02-22T05:00:31.143Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T06:00:31.213Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
         {
           "date": "2026-02-22T07:00:26.082Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
@@ -172,6 +174,14 @@
         },
         {
           "date": "2026-02-22T09:00:26.220Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.440Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.302Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
         }
       ]
@@ -214,29 +224,33 @@
         "2026-02-22T08:00:27.883Z",
         "2026-02-22T08:00:27.896Z",
         "2026-02-22T09:00:26.220Z",
-        "2026-02-22T09:00:26.227Z"
+        "2026-02-22T09:00:26.227Z",
+        "2026-02-22T10:00:24.441Z",
+        "2026-02-22T10:00:24.446Z",
+        "2026-02-22T11:00:23.302Z",
+        "2026-02-22T11:00:23.307Z"
       ],
       "firstMention": "2026-02-21T16:00:34.063Z",
-      "lastMention": "2026-02-22T09:00:26.227Z",
+      "lastMention": "2026-02-22T11:00:23.307Z",
       "contexts": [
         {
-          "date": "2026-02-22T07:00:26.089Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-22T08:00:27.883Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T08:00:27.896Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-22T09:00:26.220Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
           "date": "2026-02-22T09:00:26.227Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T10:00:24.441Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.446Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T11:00:23.302Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.307Z",
           "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
         }
       ]
@@ -260,19 +274,13 @@
         "2026-02-22T06:00:31.214Z",
         "2026-02-22T07:00:26.083Z",
         "2026-02-22T08:00:27.883Z",
-        "2026-02-22T09:00:26.221Z"
+        "2026-02-22T09:00:26.221Z",
+        "2026-02-22T10:00:24.441Z",
+        "2026-02-22T11:00:23.303Z"
       ],
       "firstMention": "2026-02-21T16:00:34.064Z",
-      "lastMention": "2026-02-22T09:00:26.221Z",
+      "lastMention": "2026-02-22T11:00:23.303Z",
       "contexts": [
-        {
-          "date": "2026-02-22T05:00:31.144Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T06:00:31.214Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
         {
           "date": "2026-02-22T07:00:26.083Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
@@ -283,6 +291,14 @@
         },
         {
           "date": "2026-02-22T09:00:26.221Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.441Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.303Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
         }
       ]
@@ -309,19 +325,13 @@
         "2026-02-22T06:00:31.215Z",
         "2026-02-22T07:00:26.084Z",
         "2026-02-22T08:00:27.885Z",
-        "2026-02-22T09:00:26.221Z"
+        "2026-02-22T09:00:26.221Z",
+        "2026-02-22T10:00:24.442Z",
+        "2026-02-22T11:00:23.303Z"
       ],
       "firstMention": "2026-02-21T16:00:34.064Z",
-      "lastMention": "2026-02-22T09:00:26.221Z",
+      "lastMention": "2026-02-22T11:00:23.303Z",
       "contexts": [
-        {
-          "date": "2026-02-22T05:00:31.145Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T06:00:31.215Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
         {
           "date": "2026-02-22T07:00:26.084Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
@@ -332,6 +342,14 @@
         },
         {
           "date": "2026-02-22T09:00:26.221Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.442Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.303Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
         }
       ]
@@ -355,19 +373,13 @@
         "2026-02-22T06:00:31.215Z",
         "2026-02-22T07:00:26.085Z",
         "2026-02-22T08:00:27.888Z",
-        "2026-02-22T09:00:26.222Z"
+        "2026-02-22T09:00:26.222Z",
+        "2026-02-22T10:00:24.442Z",
+        "2026-02-22T11:00:23.304Z"
       ],
       "firstMention": "2026-02-21T16:00:34.064Z",
-      "lastMention": "2026-02-22T09:00:26.222Z",
+      "lastMention": "2026-02-22T11:00:23.304Z",
       "contexts": [
-        {
-          "date": "2026-02-22T05:00:31.145Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T06:00:31.215Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
         {
           "date": "2026-02-22T07:00:26.085Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
@@ -378,6 +390,14 @@
         },
         {
           "date": "2026-02-22T09:00:26.222Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.442Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.304Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
         }
       ]
@@ -401,19 +421,13 @@
         "2026-02-22T06:00:31.215Z",
         "2026-02-22T07:00:26.085Z",
         "2026-02-22T08:00:27.889Z",
-        "2026-02-22T09:00:26.223Z"
+        "2026-02-22T09:00:26.223Z",
+        "2026-02-22T10:00:24.443Z",
+        "2026-02-22T11:00:23.305Z"
       ],
       "firstMention": "2026-02-21T16:00:34.064Z",
-      "lastMention": "2026-02-22T09:00:26.223Z",
+      "lastMention": "2026-02-22T11:00:23.305Z",
       "contexts": [
-        {
-          "date": "2026-02-22T05:00:31.146Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T06:00:31.215Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
         {
           "date": "2026-02-22T07:00:26.085Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
@@ -424,6 +438,14 @@
         },
         {
           "date": "2026-02-22T09:00:26.223Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.443Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.305Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
         }
       ]
@@ -448,19 +470,13 @@
         "2026-02-22T06:00:31.216Z",
         "2026-02-22T07:00:26.086Z",
         "2026-02-22T08:00:27.889Z",
-        "2026-02-22T09:00:26.223Z"
+        "2026-02-22T09:00:26.223Z",
+        "2026-02-22T10:00:24.443Z",
+        "2026-02-22T11:00:23.305Z"
       ],
       "firstMention": "2026-02-21T16:00:34.065Z",
-      "lastMention": "2026-02-22T09:00:26.223Z",
+      "lastMention": "2026-02-22T11:00:23.305Z",
       "contexts": [
-        {
-          "date": "2026-02-22T05:00:31.147Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T06:00:31.216Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
         {
           "date": "2026-02-22T07:00:26.086Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
@@ -471,6 +487,14 @@
         },
         {
           "date": "2026-02-22T09:00:26.223Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.443Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.305Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
         }
       ]
@@ -494,19 +518,13 @@
         "2026-02-22T06:00:31.216Z",
         "2026-02-22T07:00:26.086Z",
         "2026-02-22T08:00:27.890Z",
-        "2026-02-22T09:00:26.224Z"
+        "2026-02-22T09:00:26.224Z",
+        "2026-02-22T10:00:24.444Z",
+        "2026-02-22T11:00:23.306Z"
       ],
       "firstMention": "2026-02-21T16:00:34.065Z",
-      "lastMention": "2026-02-22T09:00:26.224Z",
+      "lastMention": "2026-02-22T11:00:23.306Z",
       "contexts": [
-        {
-          "date": "2026-02-22T05:00:31.147Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
-        {
-          "date": "2026-02-22T06:00:31.216Z",
-          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
-        },
         {
           "date": "2026-02-22T07:00:26.086Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
@@ -517,6 +535,14 @@
         },
         {
           "date": "2026-02-22T09:00:26.224Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T10:00:24.444Z",
+          "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
+        },
+        {
+          "date": "2026-02-22T11:00:23.306Z",
           "snippet": "user: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat"
         }
       ]
@@ -591,30 +617,34 @@
         "2026-02-22T08:00:27.893Z",
         "2026-02-22T08:00:27.895Z",
         "2026-02-22T09:00:26.225Z",
-        "2026-02-22T09:00:26.226Z"
+        "2026-02-22T09:00:26.226Z",
+        "2026-02-22T10:00:24.445Z",
+        "2026-02-22T10:00:24.446Z",
+        "2026-02-22T11:00:23.307Z",
+        "2026-02-22T11:00:23.308Z"
       ],
       "firstMention": "2026-02-21T16:00:34.067Z",
-      "lastMention": "2026-02-22T09:00:26.226Z",
+      "lastMention": "2026-02-22T11:00:23.308Z",
       "contexts": [
-        {
-          "date": "2026-02-22T07:00:26.088Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-22T08:00:27.893Z",
-          "snippet": "user: [cron:003eaadb-e905-4171-b14e-569cdd11359d openclaw-releases-daily] Проверь https://github.com"
-        },
-        {
-          "date": "2026-02-22T08:00:27.895Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-22T09:00:26.225Z",
-          "snippet": "user: [cron:003eaadb-e905-4171-b14e-569cdd11359d openclaw-releases-daily] Проверь https://github.com"
-        },
         {
           "date": "2026-02-22T09:00:26.226Z",
           "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T10:00:24.445Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T10:00:24.446Z",
+          "snippet": "user: [cron:003eaadb-e905-4171-b14e-569cdd11359d openclaw-releases-daily] Проверь https://github.com"
+        },
+        {
+          "date": "2026-02-22T11:00:23.307Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-22T11:00:23.308Z",
+          "snippet": "user: [cron:003eaadb-e905-4171-b14e-569cdd11359d openclaw-releases-daily] Проверь https://github.com"
         }
       ]
     },

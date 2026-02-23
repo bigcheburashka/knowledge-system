@@ -599,6 +599,256 @@
       "source": "from_graph",
       "parentTopic": "Solution: Update",
       "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Kubernetes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.579Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Redis",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.582Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: timeout",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.584Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: Race condition",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.585Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: crash",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.588Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: Memory leak",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.595Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: deadlock",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.598Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: infinite loop",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.600Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: FAIL",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.608Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "Problem: BUG",
+      "type": "problem",
+      "priority": "medium",
+      "addedAt": "2026-02-23T01:00:00.610Z",
+      "addedBy": "graph-walker",
+      "source": "from_graph",
+      "parentTopic": "Solution: Update",
+      "reason": "Found 2 hop(s) away from Solution: Update via MENTIONED_WITH"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.760Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "WebAssembly System Interface (WASI)",
+      "reason": "Expansion: best-practices for WebAssembly System Interface (WASI)"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.762Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "WebAssembly System Interface (WASI)",
+      "reason": "Expansion: common-mistakes for WebAssembly System Interface (WASI)"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.763Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "WebAssembly System Interface (WASI)",
+      "reason": "Expansion: tools for WebAssembly System Interface (WASI)"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.764Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "WebAssembly System Interface (WASI)",
+      "reason": "Expansion: deployment for WebAssembly System Interface (WASI)"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-23T09:08:48.765Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "WebAssembly System Interface (WASI)",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "eBPF Kernel Programming - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.768Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "eBPF Kernel Programming",
+      "reason": "Expansion: best-practices for eBPF Kernel Programming"
+    },
+    {
+      "name": "eBPF Kernel Programming - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.769Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "eBPF Kernel Programming",
+      "reason": "Expansion: common-mistakes for eBPF Kernel Programming"
+    },
+    {
+      "name": "eBPF Kernel Programming - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.770Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "eBPF Kernel Programming",
+      "reason": "Expansion: tools for eBPF Kernel Programming"
+    },
+    {
+      "name": "eBPF Kernel Programming - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.771Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "eBPF Kernel Programming",
+      "reason": "Expansion: deployment for eBPF Kernel Programming"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-23T09:08:48.772Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "eBPF Kernel Programming",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "CRDT Data Structures - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.775Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "CRDT Data Structures",
+      "reason": "Expansion: best-practices for CRDT Data Structures"
+    },
+    {
+      "name": "CRDT Data Structures - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.775Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "CRDT Data Structures",
+      "reason": "Expansion: common-mistakes for CRDT Data Structures"
+    },
+    {
+      "name": "CRDT Data Structures - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.776Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "CRDT Data Structures",
+      "reason": "Expansion: tools for CRDT Data Structures"
+    },
+    {
+      "name": "CRDT Data Structures - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-23T09:08:48.777Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "CRDT Data Structures",
+      "reason": "Expansion: deployment for CRDT Data Structures"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-23T09:08:48.778Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "CRDT Data Structures",
+      "reason": "Quality 70%: need more best practices"
     }
   ]
 }
