@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-02-24T20:47:35.686Z",
+  "lastUpdated": "2026-02-24T21:47:48.704Z",
   "topics": {
     "docker": {
       "mentions": [
@@ -79,29 +79,34 @@
         "2026-02-24T20:47:35.672Z",
         "2026-02-24T20:47:35.677Z",
         "2026-02-24T20:47:35.682Z",
-        "2026-02-24T20:47:35.685Z"
+        "2026-02-24T20:47:35.685Z",
+        "2026-02-24T21:47:48.679Z",
+        "2026-02-24T21:47:48.690Z",
+        "2026-02-24T21:47:48.696Z",
+        "2026-02-24T21:47:48.700Z",
+        "2026-02-24T21:47:48.703Z"
       ],
       "firstMention": "2026-02-21T16:00:34.062Z",
-      "lastMention": "2026-02-24T20:47:35.685Z",
+      "lastMention": "2026-02-24T21:47:48.703Z",
       "contexts": [
         {
-          "date": "2026-02-24T20:47:35.659Z",
+          "date": "2026-02-24T21:47:48.679Z",
           "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
         },
         {
-          "date": "2026-02-24T20:47:35.672Z",
+          "date": "2026-02-24T21:47:48.690Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
         },
         {
-          "date": "2026-02-24T20:47:35.677Z",
+          "date": "2026-02-24T21:47:48.696Z",
           "snippet": "user: [cron:868a2d86-0198-45a5-afbc-182588fdf50a knowledge-sync-topics] cd /root/.openclaw/workspace"
         },
         {
-          "date": "2026-02-24T20:47:35.682Z",
+          "date": "2026-02-24T21:47:48.700Z",
           "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
         },
         {
-          "date": "2026-02-24T20:47:35.685Z",
+          "date": "2026-02-24T21:47:48.703Z",
           "snippet": "user: [cron:003eaadb-e905-4171-b14e-569cdd11359d openclaw-releases-daily] Проверь https://github.com"
         }
       ]
@@ -173,29 +178,32 @@
         "2026-02-24T19:47:19.390Z",
         "2026-02-24T20:47:35.660Z",
         "2026-02-24T20:47:35.672Z",
-        "2026-02-24T20:47:35.683Z"
+        "2026-02-24T20:47:35.683Z",
+        "2026-02-24T21:47:48.680Z",
+        "2026-02-24T21:47:48.691Z",
+        "2026-02-24T21:47:48.701Z"
       ],
       "firstMention": "2026-02-21T16:00:34.063Z",
-      "lastMention": "2026-02-24T20:47:35.683Z",
+      "lastMention": "2026-02-24T21:47:48.701Z",
       "contexts": [
-        {
-          "date": "2026-02-24T19:47:19.383Z",
-          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
-        },
-        {
-          "date": "2026-02-24T19:47:19.390Z",
-          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
-        },
-        {
-          "date": "2026-02-24T20:47:35.660Z",
-          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
-        },
         {
           "date": "2026-02-24T20:47:35.672Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
         },
         {
           "date": "2026-02-24T20:47:35.683Z",
+          "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
+        },
+        {
+          "date": "2026-02-24T21:47:48.680Z",
+          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
+        },
+        {
+          "date": "2026-02-24T21:47:48.691Z",
+          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
+        },
+        {
+          "date": "2026-02-24T21:47:48.701Z",
           "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
         }
       ]
@@ -307,19 +315,13 @@
         "2026-02-24T19:47:19.375Z",
         "2026-02-24T19:47:19.384Z",
         "2026-02-24T20:47:35.662Z",
-        "2026-02-24T20:47:35.673Z"
+        "2026-02-24T20:47:35.673Z",
+        "2026-02-24T21:47:48.681Z",
+        "2026-02-24T21:47:48.692Z"
       ],
       "firstMention": "2026-02-21T16:00:34.063Z",
-      "lastMention": "2026-02-24T20:47:35.673Z",
+      "lastMention": "2026-02-24T21:47:48.692Z",
       "contexts": [
-        {
-          "date": "2026-02-24T18:47:11.637Z",
-          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
-        },
-        {
-          "date": "2026-02-24T19:47:19.375Z",
-          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
-        },
         {
           "date": "2026-02-24T19:47:19.384Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
@@ -330,6 +332,14 @@
         },
         {
           "date": "2026-02-24T20:47:35.673Z",
+          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
+        },
+        {
+          "date": "2026-02-24T21:47:48.681Z",
+          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
+        },
+        {
+          "date": "2026-02-24T21:47:48.692Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
         }
       ]
@@ -424,19 +434,13 @@
         "2026-02-24T19:47:19.376Z",
         "2026-02-24T19:47:19.385Z",
         "2026-02-24T20:47:35.663Z",
-        "2026-02-24T20:47:35.674Z"
+        "2026-02-24T20:47:35.674Z",
+        "2026-02-24T21:47:48.682Z",
+        "2026-02-24T21:47:48.693Z"
       ],
       "firstMention": "2026-02-21T16:00:34.064Z",
-      "lastMention": "2026-02-24T20:47:35.674Z",
+      "lastMention": "2026-02-24T21:47:48.693Z",
       "contexts": [
-        {
-          "date": "2026-02-24T18:47:11.655Z",
-          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
-        },
-        {
-          "date": "2026-02-24T19:47:19.376Z",
-          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
-        },
         {
           "date": "2026-02-24T19:47:19.385Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
@@ -447,6 +451,14 @@
         },
         {
           "date": "2026-02-24T20:47:35.674Z",
+          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
+        },
+        {
+          "date": "2026-02-24T21:47:48.682Z",
+          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
+        },
+        {
+          "date": "2026-02-24T21:47:48.693Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
         }
       ]
@@ -578,15 +590,12 @@
         "2026-02-24T17:47:15.983Z",
         "2026-02-24T18:47:11.656Z",
         "2026-02-24T19:47:19.386Z",
-        "2026-02-24T20:47:35.676Z"
+        "2026-02-24T20:47:35.676Z",
+        "2026-02-24T21:47:48.694Z"
       ],
       "firstMention": "2026-02-21T16:00:34.065Z",
-      "lastMention": "2026-02-24T20:47:35.676Z",
+      "lastMention": "2026-02-24T21:47:48.694Z",
       "contexts": [
-        {
-          "date": "2026-02-24T16:47:14.754Z",
-          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
-        },
         {
           "date": "2026-02-24T17:47:15.983Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
@@ -601,6 +610,10 @@
         },
         {
           "date": "2026-02-24T20:47:35.676Z",
+          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
+        },
+        {
+          "date": "2026-02-24T21:47:48.694Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
         }
       ]
@@ -775,29 +788,37 @@
         "2026-02-24T20:47:35.680Z",
         "2026-02-24T20:47:35.683Z",
         "2026-02-24T20:47:35.684Z",
-        "2026-02-24T20:47:35.685Z"
+        "2026-02-24T20:47:35.685Z",
+        "2026-02-24T21:47:48.681Z",
+        "2026-02-24T21:47:48.695Z",
+        "2026-02-24T21:47:48.696Z",
+        "2026-02-24T21:47:48.697Z",
+        "2026-02-24T21:47:48.698Z",
+        "2026-02-24T21:47:48.702Z",
+        "2026-02-24T21:47:48.703Z",
+        "2026-02-24T21:47:48.704Z"
       ],
       "firstMention": "2026-02-21T16:00:34.067Z",
-      "lastMention": "2026-02-24T20:47:35.685Z",
+      "lastMention": "2026-02-24T21:47:48.704Z",
       "contexts": [
         {
-          "date": "2026-02-24T20:47:35.678Z",
-          "snippet": "user: [cron:868a2d86-0198-45a5-afbc-182588fdf50a knowledge-sync-topics] cd /root/.openclaw/workspace"
+          "date": "2026-02-24T21:47:48.697Z",
+          "snippet": "user: [cron:af80633c-8d14-4844-a6dd-faa8c3d49884 knowledge-recovery-stuck] cd /root/.openclaw/worksp"
         },
         {
-          "date": "2026-02-24T20:47:35.680Z",
+          "date": "2026-02-24T21:47:48.698Z",
           "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
         },
         {
-          "date": "2026-02-24T20:47:35.683Z",
+          "date": "2026-02-24T21:47:48.702Z",
           "snippet": "user: [cron:2d2c7a81-f0e9-4791-8f57-e69ab4b3787e daily-services-health-check] Ежедневная проверка до"
         },
         {
-          "date": "2026-02-24T20:47:35.684Z",
+          "date": "2026-02-24T21:47:48.703Z",
           "snippet": "user: [cron:7261cd29-ac10-4988-8ef7-630ad58b4b39 log-analysis] Анализ логов (только при ошибках):  1"
         },
         {
-          "date": "2026-02-24T20:47:35.685Z",
+          "date": "2026-02-24T21:47:48.704Z",
           "snippet": "user: [cron:003eaadb-e905-4171-b14e-569cdd11359d openclaw-releases-daily] Проверь https://github.com"
         }
       ]
@@ -834,19 +855,13 @@
         "2026-02-24T19:47:19.377Z",
         "2026-02-24T19:47:19.389Z",
         "2026-02-24T20:47:35.665Z",
-        "2026-02-24T20:47:35.681Z"
+        "2026-02-24T20:47:35.681Z",
+        "2026-02-24T21:47:48.684Z",
+        "2026-02-24T21:47:48.699Z"
       ],
       "firstMention": "2026-02-21T22:00:50.039Z",
-      "lastMention": "2026-02-24T20:47:35.681Z",
+      "lastMention": "2026-02-24T21:47:48.699Z",
       "contexts": [
-        {
-          "date": "2026-02-24T18:47:11.658Z",
-          "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
-        },
-        {
-          "date": "2026-02-24T19:47:19.377Z",
-          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
-        },
         {
           "date": "2026-02-24T19:47:19.389Z",
           "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
@@ -857,6 +872,14 @@
         },
         {
           "date": "2026-02-24T20:47:35.681Z",
+          "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
+        },
+        {
+          "date": "2026-02-24T21:47:48.684Z",
+          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
+        },
+        {
+          "date": "2026-02-24T21:47:48.699Z",
           "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
         }
       ]
@@ -882,19 +905,13 @@
         "2026-02-24T19:47:19.377Z",
         "2026-02-24T19:47:19.388Z",
         "2026-02-24T20:47:35.664Z",
-        "2026-02-24T20:47:35.680Z"
+        "2026-02-24T20:47:35.680Z",
+        "2026-02-24T21:47:48.683Z",
+        "2026-02-24T21:47:48.699Z"
       ],
       "firstMention": "2026-02-21T22:00:50.039Z",
-      "lastMention": "2026-02-24T20:47:35.680Z",
+      "lastMention": "2026-02-24T21:47:48.699Z",
       "contexts": [
-        {
-          "date": "2026-02-24T18:47:11.658Z",
-          "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
-        },
-        {
-          "date": "2026-02-24T19:47:19.377Z",
-          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
-        },
         {
           "date": "2026-02-24T19:47:19.388Z",
           "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
@@ -905,6 +922,14 @@
         },
         {
           "date": "2026-02-24T20:47:35.680Z",
+          "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
+        },
+        {
+          "date": "2026-02-24T21:47:48.683Z",
+          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
+        },
+        {
+          "date": "2026-02-24T21:47:48.699Z",
           "snippet": "user: [cron:1a2978a4-061a-4e7c-9edd-ce1da6df0377 knowledge-system-monitor] cd /root/.openclaw/worksp"
         }
       ]
@@ -1005,19 +1030,13 @@
         "2026-02-24T19:47:19.378Z",
         "2026-02-24T19:47:19.385Z",
         "2026-02-24T20:47:35.665Z",
-        "2026-02-24T20:47:35.675Z"
+        "2026-02-24T20:47:35.675Z",
+        "2026-02-24T21:47:48.684Z",
+        "2026-02-24T21:47:48.694Z"
       ],
       "firstMention": "2026-02-21T23:00:40.040Z",
-      "lastMention": "2026-02-24T20:47:35.675Z",
+      "lastMention": "2026-02-24T21:47:48.694Z",
       "contexts": [
-        {
-          "date": "2026-02-24T18:47:11.656Z",
-          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
-        },
-        {
-          "date": "2026-02-24T19:47:19.378Z",
-          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
-        },
         {
           "date": "2026-02-24T19:47:19.385Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
@@ -1028,6 +1047,14 @@
         },
         {
           "date": "2026-02-24T20:47:35.675Z",
+          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
+        },
+        {
+          "date": "2026-02-24T21:47:48.684Z",
+          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
+        },
+        {
+          "date": "2026-02-24T21:47:48.694Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
         }
       ]
@@ -1074,19 +1101,13 @@
         "2026-02-24T19:47:19.376Z",
         "2026-02-24T19:47:19.384Z",
         "2026-02-24T20:47:35.662Z",
-        "2026-02-24T20:47:35.674Z"
+        "2026-02-24T20:47:35.674Z",
+        "2026-02-24T21:47:48.682Z",
+        "2026-02-24T21:47:48.692Z"
       ],
       "firstMention": "2026-02-24T12:46:57.492Z",
-      "lastMention": "2026-02-24T20:47:35.674Z",
+      "lastMention": "2026-02-24T21:47:48.692Z",
       "contexts": [
-        {
-          "date": "2026-02-24T18:47:11.638Z",
-          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
-        },
-        {
-          "date": "2026-02-24T19:47:19.376Z",
-          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
-        },
         {
           "date": "2026-02-24T19:47:19.384Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
@@ -1097,6 +1118,14 @@
         },
         {
           "date": "2026-02-24T20:47:35.674Z",
+          "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
+        },
+        {
+          "date": "2026-02-24T21:47:48.682Z",
+          "snippet": "user: [cron:5aa1010f-b137-4e09-95c2-ca3f849f2ac4 knowledge-auto-extract-hourly] cd /root/.openclaw/w"
+        },
+        {
+          "date": "2026-02-24T21:47:48.692Z",
           "snippet": "assistant: ✅ New session started · model: kimi-coding/k2p5  user: System: [2026-02-23 13:14:16 UTC] "
         }
       ]
@@ -1117,10 +1146,11 @@
     "typescript": {
       "mentions": [
         "2026-02-24T19:47:19.387Z",
-        "2026-02-24T20:47:35.678Z"
+        "2026-02-24T20:47:35.678Z",
+        "2026-02-24T21:47:48.697Z"
       ],
       "firstMention": "2026-02-24T19:47:19.387Z",
-      "lastMention": "2026-02-24T20:47:35.678Z",
+      "lastMention": "2026-02-24T21:47:48.697Z",
       "contexts": [
         {
           "date": "2026-02-24T19:47:19.387Z",
@@ -1128,6 +1158,10 @@
         },
         {
           "date": "2026-02-24T20:47:35.678Z",
+          "snippet": "user: [cron:868a2d86-0198-45a5-afbc-182588fdf50a knowledge-sync-topics] cd /root/.openclaw/workspace"
+        },
+        {
+          "date": "2026-02-24T21:47:48.697Z",
           "snippet": "user: [cron:868a2d86-0198-45a5-afbc-182588fdf50a knowledge-sync-topics] cd /root/.openclaw/workspace"
         }
       ]
