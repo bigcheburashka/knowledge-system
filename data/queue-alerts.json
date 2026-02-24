@@ -1,0 +1,8 @@
+{
+  "alerts": [
+    "High priority queue high: 428",
+    "High rejection ratio: 100.0% - check skill generator",
+    "Total pending too high: 1762"
+  ],
+  "timestamp": "2026-02-24T20:52:07.565Z"
+}

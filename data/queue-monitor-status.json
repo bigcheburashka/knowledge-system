@@ -1,12 +1,23 @@
 {
-  "timestamp": "2026-02-24T17:54:49.144Z",
-  "pending": 597,
+  "timestamp": "2026-02-24T20:52:07.565Z",
+  "pending": 1762,
   "processing": 0,
   "processingOld": 0,
   "pendingByPriority": {
-    "high": 183,
-    "medium": 414
+    "high": 428,
+    "medium": 1334
   },
-  "alerts": [],
-  "healthy": true
+  "proposals": {
+    "pending": 0,
+    "approved": 0,
+    "rejected": 23,
+    "total": 23
+  },
+  "rejectedRatio": 1,
+  "alerts": [
+    "High priority queue high: 428",
+    "High rejection ratio: 100.0% - check skill generator",
+    "Total pending too high: 1762"
+  ],
+  "healthy": false
 }

@@ -14,31 +14,29 @@ class WebResearch {
   }
 
   /**
-   * Search with Brave API + DuckDuckGo fallback
+   * Search with DuckDuckGo as primary, Brave as fallback
    * Возвращает топ-20 результатов
    */
   async search(query, options = {}) {
     const limit = options.limit || 20;
     let results = [];
 
-    // Try Brave first
-    if (this.braveApiKey) {
-      try {
-        results = await this.searchBrave(query, limit);
-        console.log(`[WebResearch] Brave: ${results.length} results for "${query}"`);
-      } catch (e) {
-        console.warn('[WebResearch] Brave failed:', e.message);
-      }
+    // Try DuckDuckGo first (primary)
+    try {
+      results = await this.searchDuckDuckGo(query, limit);
+      console.log(`[WebResearch] DDG: ${results.length} results for "${query}"`);
+    } catch (e) {
+      console.warn('[WebResearch] DDG failed:', e.message);
     }
 
-    // Fallback to DuckDuckGo
-    if (results.length < limit && this.ddgFallback) {
+    // Fallback to Brave if DDG failed and Brave key available
+    if (results.length < limit / 2 && this.braveApiKey) {
       try {
-        const ddgResults = await this.searchDuckDuckGo(query, limit - results.length);
-        results = results.concat(ddgResults);
-        console.log(`[WebResearch] DDG: ${ddgResults.length} additional results`);
+        const braveResults = await this.searchBrave(query, limit - results.length);
+        results = results.concat(braveResults);
+        console.log(`[WebResearch] Brave: ${braveResults.length} additional results`);
       } catch (e) {
-        console.warn('[WebResearch] DDG failed:', e.message);
+        console.warn('[WebResearch] Brave failed:', e.message);
       }
     }
 
@@ -287,50 +285,113 @@ class WebResearch {
   }
 
   /**
-   * Research topic comprehensively
+   * Collect research data only (no generation)
+   * Сбор данных без генерации контента
    */
-  async researchTopic(topicName, options = {}) {
-    console.log(`[WebResearch] Researching: ${topicName}`);
+  async collectResearchData(topicName, options = {}) {
+    console.log(`[WebResearch] Collecting data for: ${topicName}`);
     
     const results = {
+      topic: topicName,
       searchResults: [],
       githubRepos: [],
       documentation: null,
-      analyzedContent: []
+      fetchedPages: [],
+      collectedAt: new Date().toISOString()
     };
 
     // 1. Web search (top 20)
-    results.searchResults = await this.search(topicName, { limit: 20 });
+    if (options.webSearch !== false) {
+      results.searchResults = await this.search(topicName, { limit: 20 });
+      console.log(`[WebResearch]  - Web: ${results.searchResults.length} results`);
+    }
 
     // 2. GitHub repos (top 20)
-    results.githubRepos = await this.searchGitHub(topicName, 20);
+    if (options.githubSearch !== false) {
+      results.githubRepos = await this.searchGitHub(topicName, 20);
+      console.log(`[WebResearch]  - GitHub: ${results.githubRepos.length} repos`);
+    }
 
     // 3. Find documentation
-    results.documentation = await this.findDocumentation(topicName);
+    if (options.findDocs !== false) {
+      results.documentation = await this.findDocumentation(topicName);
+      console.log(`[WebResearch]  - Docs: ${results.documentation || 'not found'}`);
+    }
 
-    // 4. Fetch top 5 pages for analysis
+    // 4. Fetch top pages for raw content
     if (options.fetchContent !== false) {
       const pagesToFetch = results.searchResults.slice(0, 5);
-      
       for (const page of pagesToFetch) {
         const content = await this.fetchPage(page.url);
         if (content) {
-          results.analyzedContent.push(content);
+          results.fetchedPages.push({
+            url: content.url,
+            title: content.title,
+            content: content.content.substring(0, 5000), // Limit to 5k chars
+            fetchedAt: new Date().toISOString()
+          });
         }
       }
-
-      // Also fetch docs if found
-      if (results.documentation) {
-        const docs = await this.fetchPage(results.documentation);
-        if (docs) {
-          results.analyzedContent.push(docs);
-        }
-      }
+      console.log(`[WebResearch]  - Fetched pages: ${results.fetchedPages.length}`);
     }
 
-    console.log(`[WebResearch] Complete: ${results.searchResults.length} web, ${results.githubRepos.length} repos, ${results.analyzedContent.length} pages fetched`);
-    
+    console.log(`[WebResearch] Collection complete for: ${topicName}`);
     return results;
+  }
+
+  /**
+   * Generate content using collected research data
+   * Генерация контента на основе собранных данных (для 2-hop)
+   */
+  async generateFromResearch(researchData, options = {}) {
+    console.log(`[WebResearch] Generating content from research for: ${researchData.topic}`);
+    
+    // Only generate if we have research data
+    if (!researchData || researchData.fetchedPages.length === 0) {
+      console.log(`[WebResearch] No research data, skipping generation`);
+      return null;
+    }
+
+    // Prepare context from research
+    const webContext = researchData.fetchedPages
+      .map(p => `Source: ${p.url}\nTitle: ${p.title}\nContent: ${p.content.substring(0, 2000)}`)
+      .join('\n\n---\n\n');
+    
+    const githubContext = researchData.githubRepos
+      .slice(0, 5)
+      .map(r => `Repo: ${r.fullName} (${r.stars}⭐)\nDescription: ${r.description}`)
+      .join('\n');
+
+    // Build generation prompt
+    const prompt = `Based on the following research data about "${researchData.topic}", generate comprehensive knowledge:
+
+WEB SOURCES:
+${webContext.substring(0, 10000)}
+
+GITHUB REPOSITORIES:
+${githubContext}
+
+OFFICIAL DOCUMENTATION: ${researchData.documentation || 'N/A'}
+
+Generate structured content with:
+1. Detailed description
+2. Best practices (8-10 items)
+3. Common mistakes (6-8 items)
+4. Tools and ecosystem (8-10 items)
+5. Deployment considerations
+6. Current trends
+
+Use only factual information from sources.`;
+
+    // This would be called from deep-learning.js with LLM
+    return {
+      prompt,
+      sources: {
+        web: researchData.searchResults.length,
+        github: researchData.githubRepos.length,
+        pages: researchData.fetchedPages.length
+      }
+    };
   }
 }
 
