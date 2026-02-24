@@ -7441,6 +7441,5006 @@
       "source": "quality-gap",
       "parentTopic": "Latency Optimization Techniques - common-mistakes",
       "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.190Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Latency Optimization Techniques - tools",
+      "reason": "Expansion: best-practices for Latency Optimization Techniques - tools"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.200Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Latency Optimization Techniques - tools",
+      "reason": "Expansion: common-mistakes for Latency Optimization Techniques - tools"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.208Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Latency Optimization Techniques - tools",
+      "reason": "Expansion: tools for Latency Optimization Techniques - tools"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.214Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Latency Optimization Techniques - tools",
+      "reason": "Expansion: deployment for Latency Optimization Techniques - tools"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:46:34.220Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Latency Optimization Techniques - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.239Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Latency Optimization Techniques - deployment",
+      "reason": "Expansion: best-practices for Latency Optimization Techniques - deployment"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.245Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Latency Optimization Techniques - deployment",
+      "reason": "Expansion: common-mistakes for Latency Optimization Techniques - deployment"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.251Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Latency Optimization Techniques - deployment",
+      "reason": "Expansion: tools for Latency Optimization Techniques - deployment"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.256Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Latency Optimization Techniques - deployment",
+      "reason": "Expansion: deployment for Latency Optimization Techniques - deployment"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:46:34.265Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Latency Optimization Techniques - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.299Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - best-practices",
+      "reason": "Expansion: best-practices for Multi-Agent Orchestration - best-practices"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.304Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - best-practices",
+      "reason": "Expansion: common-mistakes for Multi-Agent Orchestration - best-practices"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.310Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - best-practices",
+      "reason": "Expansion: tools for Multi-Agent Orchestration - best-practices"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.314Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - best-practices",
+      "reason": "Expansion: deployment for Multi-Agent Orchestration - best-practices"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:46:34.319Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Multi-Agent Orchestration - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.334Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - common-mistakes",
+      "reason": "Expansion: best-practices for Multi-Agent Orchestration - common-mistakes"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.338Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - common-mistakes",
+      "reason": "Expansion: common-mistakes for Multi-Agent Orchestration - common-mistakes"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.344Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - common-mistakes",
+      "reason": "Expansion: tools for Multi-Agent Orchestration - common-mistakes"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.349Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - common-mistakes",
+      "reason": "Expansion: deployment for Multi-Agent Orchestration - common-mistakes"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:46:34.354Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Multi-Agent Orchestration - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.370Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - tools",
+      "reason": "Expansion: best-practices for Multi-Agent Orchestration - tools"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.376Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - tools",
+      "reason": "Expansion: common-mistakes for Multi-Agent Orchestration - tools"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.380Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - tools",
+      "reason": "Expansion: tools for Multi-Agent Orchestration - tools"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:46:34.384Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - tools",
+      "reason": "Expansion: deployment for Multi-Agent Orchestration - tools"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:46:34.389Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Multi-Agent Orchestration - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.050Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - deployment",
+      "reason": "Expansion: best-practices for Multi-Agent Orchestration - deployment"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.056Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - deployment",
+      "reason": "Expansion: common-mistakes for Multi-Agent Orchestration - deployment"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.062Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - deployment",
+      "reason": "Expansion: tools for Multi-Agent Orchestration - deployment"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.067Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Multi-Agent Orchestration - deployment",
+      "reason": "Expansion: deployment for Multi-Agent Orchestration - deployment"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:47:51.074Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Multi-Agent Orchestration - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "RAG Optimization - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.103Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - best-practices",
+      "reason": "Expansion: best-practices for RAG Optimization - best-practices"
+    },
+    {
+      "name": "RAG Optimization - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.110Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - best-practices",
+      "reason": "Expansion: common-mistakes for RAG Optimization - best-practices"
+    },
+    {
+      "name": "RAG Optimization - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.117Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - best-practices",
+      "reason": "Expansion: tools for RAG Optimization - best-practices"
+    },
+    {
+      "name": "RAG Optimization - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.122Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - best-practices",
+      "reason": "Expansion: deployment for RAG Optimization - best-practices"
+    },
+    {
+      "name": "RAG Optimization - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:47:51.128Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "RAG Optimization - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.164Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - common-mistakes",
+      "reason": "Expansion: best-practices for RAG Optimization - common-mistakes"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.170Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - common-mistakes",
+      "reason": "Expansion: common-mistakes for RAG Optimization - common-mistakes"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.178Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - common-mistakes",
+      "reason": "Expansion: tools for RAG Optimization - common-mistakes"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.184Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - common-mistakes",
+      "reason": "Expansion: deployment for RAG Optimization - common-mistakes"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:47:51.189Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "RAG Optimization - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "RAG Optimization - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.207Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - tools",
+      "reason": "Expansion: best-practices for RAG Optimization - tools"
+    },
+    {
+      "name": "RAG Optimization - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.213Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - tools",
+      "reason": "Expansion: common-mistakes for RAG Optimization - tools"
+    },
+    {
+      "name": "RAG Optimization - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.217Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - tools",
+      "reason": "Expansion: tools for RAG Optimization - tools"
+    },
+    {
+      "name": "RAG Optimization - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.224Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - tools",
+      "reason": "Expansion: deployment for RAG Optimization - tools"
+    },
+    {
+      "name": "RAG Optimization - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:47:51.230Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "RAG Optimization - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "RAG Optimization - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.251Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - deployment",
+      "reason": "Expansion: best-practices for RAG Optimization - deployment"
+    },
+    {
+      "name": "RAG Optimization - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.259Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - deployment",
+      "reason": "Expansion: common-mistakes for RAG Optimization - deployment"
+    },
+    {
+      "name": "RAG Optimization - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.265Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - deployment",
+      "reason": "Expansion: tools for RAG Optimization - deployment"
+    },
+    {
+      "name": "RAG Optimization - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:47:51.271Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "RAG Optimization - deployment",
+      "reason": "Expansion: deployment for RAG Optimization - deployment"
+    },
+    {
+      "name": "RAG Optimization - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:47:51.278Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "RAG Optimization - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "docker - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.789Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - best-practices",
+      "reason": "Expansion: best-practices for docker - best-practices"
+    },
+    {
+      "name": "docker - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.795Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - best-practices",
+      "reason": "Expansion: common-mistakes for docker - best-practices"
+    },
+    {
+      "name": "docker - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.800Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - best-practices",
+      "reason": "Expansion: tools for docker - best-practices"
+    },
+    {
+      "name": "docker - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.806Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - best-practices",
+      "reason": "Expansion: deployment for docker - best-practices"
+    },
+    {
+      "name": "docker - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:48:47.811Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "docker - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "docker - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.836Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - common-mistakes",
+      "reason": "Expansion: best-practices for docker - common-mistakes"
+    },
+    {
+      "name": "docker - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.841Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - common-mistakes",
+      "reason": "Expansion: common-mistakes for docker - common-mistakes"
+    },
+    {
+      "name": "docker - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.847Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - common-mistakes",
+      "reason": "Expansion: tools for docker - common-mistakes"
+    },
+    {
+      "name": "docker - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.853Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - common-mistakes",
+      "reason": "Expansion: deployment for docker - common-mistakes"
+    },
+    {
+      "name": "docker - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:48:47.859Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "docker - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "docker - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.882Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - tools",
+      "reason": "Expansion: best-practices for docker - tools"
+    },
+    {
+      "name": "docker - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.888Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - tools",
+      "reason": "Expansion: common-mistakes for docker - tools"
+    },
+    {
+      "name": "docker - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.892Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - tools",
+      "reason": "Expansion: tools for docker - tools"
+    },
+    {
+      "name": "docker - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.898Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - tools",
+      "reason": "Expansion: deployment for docker - tools"
+    },
+    {
+      "name": "docker - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:48:47.905Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "docker - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "docker - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.949Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - deployment",
+      "reason": "Expansion: best-practices for docker - deployment"
+    },
+    {
+      "name": "docker - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.955Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - deployment",
+      "reason": "Expansion: common-mistakes for docker - deployment"
+    },
+    {
+      "name": "docker - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.961Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - deployment",
+      "reason": "Expansion: tools for docker - deployment"
+    },
+    {
+      "name": "docker - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.967Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "docker - deployment",
+      "reason": "Expansion: deployment for docker - deployment"
+    },
+    {
+      "name": "docker - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:48:47.972Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "docker - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "nginx - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.989Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - best-practices",
+      "reason": "Expansion: best-practices for nginx - best-practices"
+    },
+    {
+      "name": "nginx - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:47.995Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - best-practices",
+      "reason": "Expansion: common-mistakes for nginx - best-practices"
+    },
+    {
+      "name": "nginx - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:48.002Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - best-practices",
+      "reason": "Expansion: tools for nginx - best-practices"
+    },
+    {
+      "name": "nginx - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:48:48.008Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - best-practices",
+      "reason": "Expansion: deployment for nginx - best-practices"
+    },
+    {
+      "name": "nginx - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:48:48.014Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "nginx - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "nginx - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.277Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - common-mistakes",
+      "reason": "Expansion: best-practices for nginx - common-mistakes"
+    },
+    {
+      "name": "nginx - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.283Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - common-mistakes",
+      "reason": "Expansion: common-mistakes for nginx - common-mistakes"
+    },
+    {
+      "name": "nginx - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.290Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - common-mistakes",
+      "reason": "Expansion: tools for nginx - common-mistakes"
+    },
+    {
+      "name": "nginx - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.295Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - common-mistakes",
+      "reason": "Expansion: deployment for nginx - common-mistakes"
+    },
+    {
+      "name": "nginx - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:49:49.300Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "nginx - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "nginx - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.329Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - tools",
+      "reason": "Expansion: best-practices for nginx - tools"
+    },
+    {
+      "name": "nginx - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.335Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - tools",
+      "reason": "Expansion: common-mistakes for nginx - tools"
+    },
+    {
+      "name": "nginx - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.340Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - tools",
+      "reason": "Expansion: tools for nginx - tools"
+    },
+    {
+      "name": "nginx - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.345Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - tools",
+      "reason": "Expansion: deployment for nginx - tools"
+    },
+    {
+      "name": "nginx - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:49:49.350Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "nginx - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "nginx - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.386Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - deployment",
+      "reason": "Expansion: best-practices for nginx - deployment"
+    },
+    {
+      "name": "nginx - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.392Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - deployment",
+      "reason": "Expansion: common-mistakes for nginx - deployment"
+    },
+    {
+      "name": "nginx - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.399Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - deployment",
+      "reason": "Expansion: tools for nginx - deployment"
+    },
+    {
+      "name": "nginx - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.404Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "nginx - deployment",
+      "reason": "Expansion: deployment for nginx - deployment"
+    },
+    {
+      "name": "nginx - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:49:49.410Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "nginx - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Meta-Learning and Transfer - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.432Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - best-practices",
+      "reason": "Expansion: best-practices for Meta-Learning and Transfer - best-practices"
+    },
+    {
+      "name": "Meta-Learning and Transfer - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.439Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - best-practices",
+      "reason": "Expansion: common-mistakes for Meta-Learning and Transfer - best-practices"
+    },
+    {
+      "name": "Meta-Learning and Transfer - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.444Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - best-practices",
+      "reason": "Expansion: tools for Meta-Learning and Transfer - best-practices"
+    },
+    {
+      "name": "Meta-Learning and Transfer - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.451Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - best-practices",
+      "reason": "Expansion: deployment for Meta-Learning and Transfer - best-practices"
+    },
+    {
+      "name": "Meta-Learning and Transfer - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:49:49.456Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Meta-Learning and Transfer - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Meta-Learning and Transfer - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.482Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - common-mistakes",
+      "reason": "Expansion: best-practices for Meta-Learning and Transfer - common-mistakes"
+    },
+    {
+      "name": "Meta-Learning and Transfer - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.490Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - common-mistakes",
+      "reason": "Expansion: common-mistakes for Meta-Learning and Transfer - common-mistakes"
+    },
+    {
+      "name": "Meta-Learning and Transfer - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.498Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - common-mistakes",
+      "reason": "Expansion: tools for Meta-Learning and Transfer - common-mistakes"
+    },
+    {
+      "name": "Meta-Learning and Transfer - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:49:49.505Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - common-mistakes",
+      "reason": "Expansion: deployment for Meta-Learning and Transfer - common-mistakes"
+    },
+    {
+      "name": "Meta-Learning and Transfer - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:49:49.514Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Meta-Learning and Transfer - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Meta-Learning and Transfer - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.501Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - tools",
+      "reason": "Expansion: best-practices for Meta-Learning and Transfer - tools"
+    },
+    {
+      "name": "Meta-Learning and Transfer - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.508Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - tools",
+      "reason": "Expansion: common-mistakes for Meta-Learning and Transfer - tools"
+    },
+    {
+      "name": "Meta-Learning and Transfer - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.515Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - tools",
+      "reason": "Expansion: tools for Meta-Learning and Transfer - tools"
+    },
+    {
+      "name": "Meta-Learning and Transfer - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.522Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - tools",
+      "reason": "Expansion: deployment for Meta-Learning and Transfer - tools"
+    },
+    {
+      "name": "Meta-Learning and Transfer - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:50:53.528Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Meta-Learning and Transfer - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Meta-Learning and Transfer - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.561Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - deployment",
+      "reason": "Expansion: best-practices for Meta-Learning and Transfer - deployment"
+    },
+    {
+      "name": "Meta-Learning and Transfer - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.568Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - deployment",
+      "reason": "Expansion: common-mistakes for Meta-Learning and Transfer - deployment"
+    },
+    {
+      "name": "Meta-Learning and Transfer - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.574Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - deployment",
+      "reason": "Expansion: tools for Meta-Learning and Transfer - deployment"
+    },
+    {
+      "name": "Meta-Learning and Transfer - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.580Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Meta-Learning and Transfer - deployment",
+      "reason": "Expansion: deployment for Meta-Learning and Transfer - deployment"
+    },
+    {
+      "name": "Meta-Learning and Transfer - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:50:53.585Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Meta-Learning and Transfer - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.604Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - best-practices",
+      "reason": "Expansion: best-practices for Site Reliability Engineering - Google - best-practices"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.611Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - best-practices",
+      "reason": "Expansion: common-mistakes for Site Reliability Engineering - Google - best-practices"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.617Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - best-practices",
+      "reason": "Expansion: tools for Site Reliability Engineering - Google - best-practices"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.623Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - best-practices",
+      "reason": "Expansion: deployment for Site Reliability Engineering - Google - best-practices"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:50:53.630Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Site Reliability Engineering - Google - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.649Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - common-mistakes",
+      "reason": "Expansion: best-practices for Site Reliability Engineering - Google - common-mistakes"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.654Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - common-mistakes",
+      "reason": "Expansion: common-mistakes for Site Reliability Engineering - Google - common-mistakes"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.660Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - common-mistakes",
+      "reason": "Expansion: tools for Site Reliability Engineering - Google - common-mistakes"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.665Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - common-mistakes",
+      "reason": "Expansion: deployment for Site Reliability Engineering - Google - common-mistakes"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:50:53.670Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Site Reliability Engineering - Google - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.688Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - tools",
+      "reason": "Expansion: best-practices for Site Reliability Engineering - Google - tools"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.694Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - tools",
+      "reason": "Expansion: common-mistakes for Site Reliability Engineering - Google - tools"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.700Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - tools",
+      "reason": "Expansion: tools for Site Reliability Engineering - Google - tools"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:50:53.706Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - tools",
+      "reason": "Expansion: deployment for Site Reliability Engineering - Google - tools"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:50:53.713Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Site Reliability Engineering - Google - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.186Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - deployment",
+      "reason": "Expansion: best-practices for Site Reliability Engineering - Google - deployment"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.193Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - deployment",
+      "reason": "Expansion: common-mistakes for Site Reliability Engineering - Google - deployment"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.200Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - deployment",
+      "reason": "Expansion: tools for Site Reliability Engineering - Google - deployment"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.208Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Site Reliability Engineering - Google - deployment",
+      "reason": "Expansion: deployment for Site Reliability Engineering - Google - deployment"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:52:09.213Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Site Reliability Engineering - Google - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Code Complete - Software Construction - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.249Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - best-practices",
+      "reason": "Expansion: best-practices for Code Complete - Software Construction - best-practices"
+    },
+    {
+      "name": "Code Complete - Software Construction - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.255Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - best-practices",
+      "reason": "Expansion: common-mistakes for Code Complete - Software Construction - best-practices"
+    },
+    {
+      "name": "Code Complete - Software Construction - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.262Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - best-practices",
+      "reason": "Expansion: tools for Code Complete - Software Construction - best-practices"
+    },
+    {
+      "name": "Code Complete - Software Construction - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.268Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - best-practices",
+      "reason": "Expansion: deployment for Code Complete - Software Construction - best-practices"
+    },
+    {
+      "name": "Code Complete - Software Construction - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:52:09.274Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Code Complete - Software Construction - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Code Complete - Software Construction - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.295Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - common-mistakes",
+      "reason": "Expansion: best-practices for Code Complete - Software Construction - common-mistakes"
+    },
+    {
+      "name": "Code Complete - Software Construction - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.302Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - common-mistakes",
+      "reason": "Expansion: common-mistakes for Code Complete - Software Construction - common-mistakes"
+    },
+    {
+      "name": "Code Complete - Software Construction - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.308Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - common-mistakes",
+      "reason": "Expansion: tools for Code Complete - Software Construction - common-mistakes"
+    },
+    {
+      "name": "Code Complete - Software Construction - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.314Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - common-mistakes",
+      "reason": "Expansion: deployment for Code Complete - Software Construction - common-mistakes"
+    },
+    {
+      "name": "Code Complete - Software Construction - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:52:09.327Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Code Complete - Software Construction - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Code Complete - Software Construction - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.349Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - tools",
+      "reason": "Expansion: best-practices for Code Complete - Software Construction - tools"
+    },
+    {
+      "name": "Code Complete - Software Construction - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.356Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - tools",
+      "reason": "Expansion: common-mistakes for Code Complete - Software Construction - tools"
+    },
+    {
+      "name": "Code Complete - Software Construction - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.363Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - tools",
+      "reason": "Expansion: tools for Code Complete - Software Construction - tools"
+    },
+    {
+      "name": "Code Complete - Software Construction - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.369Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - tools",
+      "reason": "Expansion: deployment for Code Complete - Software Construction - tools"
+    },
+    {
+      "name": "Code Complete - Software Construction - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:52:09.374Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Code Complete - Software Construction - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Code Complete - Software Construction - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.395Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - deployment",
+      "reason": "Expansion: best-practices for Code Complete - Software Construction - deployment"
+    },
+    {
+      "name": "Code Complete - Software Construction - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.402Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - deployment",
+      "reason": "Expansion: common-mistakes for Code Complete - Software Construction - deployment"
+    },
+    {
+      "name": "Code Complete - Software Construction - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.409Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - deployment",
+      "reason": "Expansion: tools for Code Complete - Software Construction - deployment"
+    },
+    {
+      "name": "Code Complete - Software Construction - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:52:09.416Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Code Complete - Software Construction - deployment",
+      "reason": "Expansion: deployment for Code Complete - Software Construction - deployment"
+    },
+    {
+      "name": "Code Complete - Software Construction - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:52:09.423Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Code Complete - Software Construction - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.006Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - best-practices",
+      "reason": "Expansion: best-practices for Working Effectively with Legacy Code - best-practices"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.014Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - best-practices",
+      "reason": "Expansion: common-mistakes for Working Effectively with Legacy Code - best-practices"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.020Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - best-practices",
+      "reason": "Expansion: tools for Working Effectively with Legacy Code - best-practices"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.026Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - best-practices",
+      "reason": "Expansion: deployment for Working Effectively with Legacy Code - best-practices"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:53:35.046Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Working Effectively with Legacy Code - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.065Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - common-mistakes",
+      "reason": "Expansion: best-practices for Working Effectively with Legacy Code - common-mistakes"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.071Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - common-mistakes",
+      "reason": "Expansion: common-mistakes for Working Effectively with Legacy Code - common-mistakes"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.076Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - common-mistakes",
+      "reason": "Expansion: tools for Working Effectively with Legacy Code - common-mistakes"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.083Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - common-mistakes",
+      "reason": "Expansion: deployment for Working Effectively with Legacy Code - common-mistakes"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:53:35.090Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Working Effectively with Legacy Code - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.110Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - tools",
+      "reason": "Expansion: best-practices for Working Effectively with Legacy Code - tools"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.116Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - tools",
+      "reason": "Expansion: common-mistakes for Working Effectively with Legacy Code - tools"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.122Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - tools",
+      "reason": "Expansion: tools for Working Effectively with Legacy Code - tools"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.129Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - tools",
+      "reason": "Expansion: deployment for Working Effectively with Legacy Code - tools"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:53:35.134Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Working Effectively with Legacy Code - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.154Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - deployment",
+      "reason": "Expansion: best-practices for Working Effectively with Legacy Code - deployment"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.161Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - deployment",
+      "reason": "Expansion: common-mistakes for Working Effectively with Legacy Code - deployment"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.166Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - deployment",
+      "reason": "Expansion: tools for Working Effectively with Legacy Code - deployment"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.171Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Working Effectively with Legacy Code - deployment",
+      "reason": "Expansion: deployment for Working Effectively with Legacy Code - deployment"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:53:35.178Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Working Effectively with Legacy Code - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.205Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - best-practices",
+      "reason": "Expansion: best-practices for Designing Data-Intensive Applications - best-practices"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.213Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - best-practices",
+      "reason": "Expansion: common-mistakes for Designing Data-Intensive Applications - best-practices"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.220Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - best-practices",
+      "reason": "Expansion: tools for Designing Data-Intensive Applications - best-practices"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:53:35.229Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - best-practices",
+      "reason": "Expansion: deployment for Designing Data-Intensive Applications - best-practices"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:53:35.237Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Designing Data-Intensive Applications - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.157Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - common-mistakes",
+      "reason": "Expansion: best-practices for Designing Data-Intensive Applications - common-mistakes"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.165Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - common-mistakes",
+      "reason": "Expansion: common-mistakes for Designing Data-Intensive Applications - common-mistakes"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.171Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - common-mistakes",
+      "reason": "Expansion: tools for Designing Data-Intensive Applications - common-mistakes"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.177Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - common-mistakes",
+      "reason": "Expansion: deployment for Designing Data-Intensive Applications - common-mistakes"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:54:38.183Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Designing Data-Intensive Applications - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.201Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - tools",
+      "reason": "Expansion: best-practices for Designing Data-Intensive Applications - tools"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.207Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - tools",
+      "reason": "Expansion: common-mistakes for Designing Data-Intensive Applications - tools"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.212Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - tools",
+      "reason": "Expansion: tools for Designing Data-Intensive Applications - tools"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.218Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - tools",
+      "reason": "Expansion: deployment for Designing Data-Intensive Applications - tools"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:54:38.225Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Designing Data-Intensive Applications - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.258Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - deployment",
+      "reason": "Expansion: best-practices for Designing Data-Intensive Applications - deployment"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.266Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - deployment",
+      "reason": "Expansion: common-mistakes for Designing Data-Intensive Applications - deployment"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.272Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - deployment",
+      "reason": "Expansion: tools for Designing Data-Intensive Applications - deployment"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.279Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Designing Data-Intensive Applications - deployment",
+      "reason": "Expansion: deployment for Designing Data-Intensive Applications - deployment"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:54:38.287Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Designing Data-Intensive Applications - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Clean Code - Robert Martin - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.310Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - best-practices",
+      "reason": "Expansion: best-practices for Clean Code - Robert Martin - best-practices"
+    },
+    {
+      "name": "Clean Code - Robert Martin - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.318Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - best-practices",
+      "reason": "Expansion: common-mistakes for Clean Code - Robert Martin - best-practices"
+    },
+    {
+      "name": "Clean Code - Robert Martin - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.326Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - best-practices",
+      "reason": "Expansion: tools for Clean Code - Robert Martin - best-practices"
+    },
+    {
+      "name": "Clean Code - Robert Martin - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.332Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - best-practices",
+      "reason": "Expansion: deployment for Clean Code - Robert Martin - best-practices"
+    },
+    {
+      "name": "Clean Code - Robert Martin - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:54:38.337Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Clean Code - Robert Martin - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Clean Code - Robert Martin - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.381Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - common-mistakes",
+      "reason": "Expansion: best-practices for Clean Code - Robert Martin - common-mistakes"
+    },
+    {
+      "name": "Clean Code - Robert Martin - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.387Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - common-mistakes",
+      "reason": "Expansion: common-mistakes for Clean Code - Robert Martin - common-mistakes"
+    },
+    {
+      "name": "Clean Code - Robert Martin - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.393Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - common-mistakes",
+      "reason": "Expansion: tools for Clean Code - Robert Martin - common-mistakes"
+    },
+    {
+      "name": "Clean Code - Robert Martin - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:54:38.398Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - common-mistakes",
+      "reason": "Expansion: deployment for Clean Code - Robert Martin - common-mistakes"
+    },
+    {
+      "name": "Clean Code - Robert Martin - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:54:38.404Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Clean Code - Robert Martin - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Clean Code - Robert Martin - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.157Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - tools",
+      "reason": "Expansion: best-practices for Clean Code - Robert Martin - tools"
+    },
+    {
+      "name": "Clean Code - Robert Martin - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.170Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - tools",
+      "reason": "Expansion: common-mistakes for Clean Code - Robert Martin - tools"
+    },
+    {
+      "name": "Clean Code - Robert Martin - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.189Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - tools",
+      "reason": "Expansion: tools for Clean Code - Robert Martin - tools"
+    },
+    {
+      "name": "Clean Code - Robert Martin - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.196Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - tools",
+      "reason": "Expansion: deployment for Clean Code - Robert Martin - tools"
+    },
+    {
+      "name": "Clean Code - Robert Martin - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:55:30.203Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Clean Code - Robert Martin - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Clean Code - Robert Martin - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.230Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - deployment",
+      "reason": "Expansion: best-practices for Clean Code - Robert Martin - deployment"
+    },
+    {
+      "name": "Clean Code - Robert Martin - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.238Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - deployment",
+      "reason": "Expansion: common-mistakes for Clean Code - Robert Martin - deployment"
+    },
+    {
+      "name": "Clean Code - Robert Martin - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.245Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - deployment",
+      "reason": "Expansion: tools for Clean Code - Robert Martin - deployment"
+    },
+    {
+      "name": "Clean Code - Robert Martin - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.252Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Clean Code - Robert Martin - deployment",
+      "reason": "Expansion: deployment for Clean Code - Robert Martin - deployment"
+    },
+    {
+      "name": "Clean Code - Robert Martin - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:55:30.259Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Clean Code - Robert Martin - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.292Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - best-practices",
+      "reason": "Expansion: best-practices for Building Microservices - Sam Newman - best-practices"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.299Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - best-practices",
+      "reason": "Expansion: common-mistakes for Building Microservices - Sam Newman - best-practices"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.305Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - best-practices",
+      "reason": "Expansion: tools for Building Microservices - Sam Newman - best-practices"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.311Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - best-practices",
+      "reason": "Expansion: deployment for Building Microservices - Sam Newman - best-practices"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:55:30.319Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Building Microservices - Sam Newman - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.358Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - common-mistakes",
+      "reason": "Expansion: best-practices for Building Microservices - Sam Newman - common-mistakes"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.365Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - common-mistakes",
+      "reason": "Expansion: common-mistakes for Building Microservices - Sam Newman - common-mistakes"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.373Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - common-mistakes",
+      "reason": "Expansion: tools for Building Microservices - Sam Newman - common-mistakes"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.379Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - common-mistakes",
+      "reason": "Expansion: deployment for Building Microservices - Sam Newman - common-mistakes"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:55:30.386Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Building Microservices - Sam Newman - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.419Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - tools",
+      "reason": "Expansion: best-practices for Building Microservices - Sam Newman - tools"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.425Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - tools",
+      "reason": "Expansion: common-mistakes for Building Microservices - Sam Newman - tools"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.433Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - tools",
+      "reason": "Expansion: tools for Building Microservices - Sam Newman - tools"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:55:30.439Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - tools",
+      "reason": "Expansion: deployment for Building Microservices - Sam Newman - tools"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:55:30.445Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Building Microservices - Sam Newman - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.466Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - deployment",
+      "reason": "Expansion: best-practices for Building Microservices - Sam Newman - deployment"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.473Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - deployment",
+      "reason": "Expansion: common-mistakes for Building Microservices - Sam Newman - deployment"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.480Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - deployment",
+      "reason": "Expansion: tools for Building Microservices - Sam Newman - deployment"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.495Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Building Microservices - Sam Newman - deployment",
+      "reason": "Expansion: deployment for Building Microservices - Sam Newman - deployment"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:56:17.501Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Building Microservices - Sam Newman - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "изучить - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.523Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - best-practices",
+      "reason": "Expansion: best-practices for изучить - best-practices"
+    },
+    {
+      "name": "изучить - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.530Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - best-practices",
+      "reason": "Expansion: common-mistakes for изучить - best-practices"
+    },
+    {
+      "name": "изучить - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.536Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - best-practices",
+      "reason": "Expansion: tools for изучить - best-practices"
+    },
+    {
+      "name": "изучить - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.561Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - best-practices",
+      "reason": "Expansion: deployment for изучить - best-practices"
+    },
+    {
+      "name": "изучить - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:56:17.567Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "изучить - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "изучить - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.589Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - common-mistakes",
+      "reason": "Expansion: best-practices for изучить - common-mistakes"
+    },
+    {
+      "name": "изучить - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.597Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - common-mistakes",
+      "reason": "Expansion: common-mistakes for изучить - common-mistakes"
+    },
+    {
+      "name": "изучить - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.604Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - common-mistakes",
+      "reason": "Expansion: tools for изучить - common-mistakes"
+    },
+    {
+      "name": "изучить - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.611Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - common-mistakes",
+      "reason": "Expansion: deployment for изучить - common-mistakes"
+    },
+    {
+      "name": "изучить - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:56:17.617Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "изучить - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "изучить - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.639Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - tools",
+      "reason": "Expansion: best-practices for изучить - tools"
+    },
+    {
+      "name": "изучить - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.647Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - tools",
+      "reason": "Expansion: common-mistakes for изучить - tools"
+    },
+    {
+      "name": "изучить - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.654Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - tools",
+      "reason": "Expansion: tools for изучить - tools"
+    },
+    {
+      "name": "изучить - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.664Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - tools",
+      "reason": "Expansion: deployment for изучить - tools"
+    },
+    {
+      "name": "изучить - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:56:17.680Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "изучить - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "изучить - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.701Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - deployment",
+      "reason": "Expansion: best-practices for изучить - deployment"
+    },
+    {
+      "name": "изучить - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.708Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - deployment",
+      "reason": "Expansion: common-mistakes for изучить - deployment"
+    },
+    {
+      "name": "изучить - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.717Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - deployment",
+      "reason": "Expansion: tools for изучить - deployment"
+    },
+    {
+      "name": "изучить - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:56:17.723Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "изучить - deployment",
+      "reason": "Expansion: deployment for изучить - deployment"
+    },
+    {
+      "name": "изучить - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:56:17.730Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "изучить - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "разобраться - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.502Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - best-practices",
+      "reason": "Expansion: best-practices for разобраться - best-practices"
+    },
+    {
+      "name": "разобраться - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.511Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - best-practices",
+      "reason": "Expansion: common-mistakes for разобраться - best-practices"
+    },
+    {
+      "name": "разобраться - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.535Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - best-practices",
+      "reason": "Expansion: tools for разобраться - best-practices"
+    },
+    {
+      "name": "разобраться - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.548Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - best-practices",
+      "reason": "Expansion: deployment for разобраться - best-practices"
+    },
+    {
+      "name": "разобраться - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:57:06.558Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "разобраться - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "разобраться - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.582Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - common-mistakes",
+      "reason": "Expansion: best-practices for разобраться - common-mistakes"
+    },
+    {
+      "name": "разобраться - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.591Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - common-mistakes",
+      "reason": "Expansion: common-mistakes for разобраться - common-mistakes"
+    },
+    {
+      "name": "разобраться - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.599Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - common-mistakes",
+      "reason": "Expansion: tools for разобраться - common-mistakes"
+    },
+    {
+      "name": "разобраться - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.607Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - common-mistakes",
+      "reason": "Expansion: deployment for разобраться - common-mistakes"
+    },
+    {
+      "name": "разобраться - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:57:06.613Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "разобраться - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "разобраться - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.638Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - tools",
+      "reason": "Expansion: best-practices for разобраться - tools"
+    },
+    {
+      "name": "разобраться - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.645Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - tools",
+      "reason": "Expansion: common-mistakes for разобраться - tools"
+    },
+    {
+      "name": "разобраться - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.652Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - tools",
+      "reason": "Expansion: tools for разобраться - tools"
+    },
+    {
+      "name": "разобраться - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.660Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - tools",
+      "reason": "Expansion: deployment for разобраться - tools"
+    },
+    {
+      "name": "разобраться - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:57:06.666Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "разобраться - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "разобраться - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.688Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - deployment",
+      "reason": "Expansion: best-practices for разобраться - deployment"
+    },
+    {
+      "name": "разобраться - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.695Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - deployment",
+      "reason": "Expansion: common-mistakes for разобраться - deployment"
+    },
+    {
+      "name": "разобраться - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.702Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - deployment",
+      "reason": "Expansion: tools for разобраться - deployment"
+    },
+    {
+      "name": "разобраться - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.712Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "разобраться - deployment",
+      "reason": "Expansion: deployment for разобраться - deployment"
+    },
+    {
+      "name": "разобраться - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:57:06.737Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "разобраться - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "graphql - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.773Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - best-practices",
+      "reason": "Expansion: best-practices for graphql - best-practices"
+    },
+    {
+      "name": "graphql - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.784Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - best-practices",
+      "reason": "Expansion: common-mistakes for graphql - best-practices"
+    },
+    {
+      "name": "graphql - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.791Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - best-practices",
+      "reason": "Expansion: tools for graphql - best-practices"
+    },
+    {
+      "name": "graphql - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:57:06.798Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - best-practices",
+      "reason": "Expansion: deployment for graphql - best-practices"
+    },
+    {
+      "name": "graphql - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:57:06.806Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "graphql - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "graphql - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.251Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - common-mistakes",
+      "reason": "Expansion: best-practices for graphql - common-mistakes"
+    },
+    {
+      "name": "graphql - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.259Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - common-mistakes",
+      "reason": "Expansion: common-mistakes for graphql - common-mistakes"
+    },
+    {
+      "name": "graphql - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.266Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - common-mistakes",
+      "reason": "Expansion: tools for graphql - common-mistakes"
+    },
+    {
+      "name": "graphql - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.272Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - common-mistakes",
+      "reason": "Expansion: deployment for graphql - common-mistakes"
+    },
+    {
+      "name": "graphql - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:58:15.279Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "graphql - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "graphql - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.309Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - tools",
+      "reason": "Expansion: best-practices for graphql - tools"
+    },
+    {
+      "name": "graphql - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.319Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - tools",
+      "reason": "Expansion: common-mistakes for graphql - tools"
+    },
+    {
+      "name": "graphql - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.326Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - tools",
+      "reason": "Expansion: tools for graphql - tools"
+    },
+    {
+      "name": "graphql - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.332Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - tools",
+      "reason": "Expansion: deployment for graphql - tools"
+    },
+    {
+      "name": "graphql - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:58:15.338Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "graphql - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "graphql - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.366Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - deployment",
+      "reason": "Expansion: best-practices for graphql - deployment"
+    },
+    {
+      "name": "graphql - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.374Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - deployment",
+      "reason": "Expansion: common-mistakes for graphql - deployment"
+    },
+    {
+      "name": "graphql - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.380Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - deployment",
+      "reason": "Expansion: tools for graphql - deployment"
+    },
+    {
+      "name": "graphql - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.387Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "graphql - deployment",
+      "reason": "Expansion: deployment for graphql - deployment"
+    },
+    {
+      "name": "graphql - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:58:15.393Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "graphql - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "deep dive - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.413Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - best-practices",
+      "reason": "Expansion: best-practices for deep dive - best-practices"
+    },
+    {
+      "name": "deep dive - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.420Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - best-practices",
+      "reason": "Expansion: common-mistakes for deep dive - best-practices"
+    },
+    {
+      "name": "deep dive - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.426Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - best-practices",
+      "reason": "Expansion: tools for deep dive - best-practices"
+    },
+    {
+      "name": "deep dive - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.447Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - best-practices",
+      "reason": "Expansion: deployment for deep dive - best-practices"
+    },
+    {
+      "name": "deep dive - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:58:15.452Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "deep dive - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "deep dive - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.475Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - common-mistakes",
+      "reason": "Expansion: best-practices for deep dive - common-mistakes"
+    },
+    {
+      "name": "deep dive - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.483Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - common-mistakes",
+      "reason": "Expansion: common-mistakes for deep dive - common-mistakes"
+    },
+    {
+      "name": "deep dive - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.489Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - common-mistakes",
+      "reason": "Expansion: tools for deep dive - common-mistakes"
+    },
+    {
+      "name": "deep dive - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:58:15.496Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - common-mistakes",
+      "reason": "Expansion: deployment for deep dive - common-mistakes"
+    },
+    {
+      "name": "deep dive - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:58:15.502Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "deep dive - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "deep dive - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.854Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - tools",
+      "reason": "Expansion: best-practices for deep dive - tools"
+    },
+    {
+      "name": "deep dive - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.877Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - tools",
+      "reason": "Expansion: common-mistakes for deep dive - tools"
+    },
+    {
+      "name": "deep dive - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.884Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - tools",
+      "reason": "Expansion: tools for deep dive - tools"
+    },
+    {
+      "name": "deep dive - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.891Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - tools",
+      "reason": "Expansion: deployment for deep dive - tools"
+    },
+    {
+      "name": "deep dive - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:59:26.898Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "deep dive - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "deep dive - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.921Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - deployment",
+      "reason": "Expansion: best-practices for deep dive - deployment"
+    },
+    {
+      "name": "deep dive - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.930Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - deployment",
+      "reason": "Expansion: common-mistakes for deep dive - deployment"
+    },
+    {
+      "name": "deep dive - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.938Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - deployment",
+      "reason": "Expansion: tools for deep dive - deployment"
+    },
+    {
+      "name": "deep dive - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.945Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "deep dive - deployment",
+      "reason": "Expansion: deployment for deep dive - deployment"
+    },
+    {
+      "name": "deep dive - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:59:26.961Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "deep dive - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "кэширование redis - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.989Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - best-practices",
+      "reason": "Expansion: best-practices for кэширование redis - best-practices"
+    },
+    {
+      "name": "кэширование redis - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:26.996Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - best-practices",
+      "reason": "Expansion: common-mistakes for кэширование redis - best-practices"
+    },
+    {
+      "name": "кэширование redis - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.004Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - best-practices",
+      "reason": "Expansion: tools for кэширование redis - best-practices"
+    },
+    {
+      "name": "кэширование redis - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.011Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - best-practices",
+      "reason": "Expansion: deployment for кэширование redis - best-practices"
+    },
+    {
+      "name": "кэширование redis - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:59:27.018Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "кэширование redis - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "кэширование redis - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.038Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - common-mistakes",
+      "reason": "Expansion: best-practices for кэширование redis - common-mistakes"
+    },
+    {
+      "name": "кэширование redis - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.044Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - common-mistakes",
+      "reason": "Expansion: common-mistakes for кэширование redis - common-mistakes"
+    },
+    {
+      "name": "кэширование redis - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.052Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - common-mistakes",
+      "reason": "Expansion: tools for кэширование redis - common-mistakes"
+    },
+    {
+      "name": "кэширование redis - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.059Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - common-mistakes",
+      "reason": "Expansion: deployment for кэширование redis - common-mistakes"
+    },
+    {
+      "name": "кэширование redis - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:59:27.066Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "кэширование redis - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "кэширование redis - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.087Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - tools",
+      "reason": "Expansion: best-practices for кэширование redis - tools"
+    },
+    {
+      "name": "кэширование redis - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.093Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - tools",
+      "reason": "Expansion: common-mistakes for кэширование redis - tools"
+    },
+    {
+      "name": "кэширование redis - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.101Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - tools",
+      "reason": "Expansion: tools for кэширование redis - tools"
+    },
+    {
+      "name": "кэширование redis - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T18:59:27.108Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - tools",
+      "reason": "Expansion: deployment for кэширование redis - tools"
+    },
+    {
+      "name": "кэширование redis - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T18:59:27.117Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "кэширование redis - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "кэширование redis - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.104Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - deployment",
+      "reason": "Expansion: best-practices for кэширование redis - deployment"
+    },
+    {
+      "name": "кэширование redis - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.129Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - deployment",
+      "reason": "Expansion: common-mistakes for кэширование redis - deployment"
+    },
+    {
+      "name": "кэширование redis - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.137Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - deployment",
+      "reason": "Expansion: tools for кэширование redis - deployment"
+    },
+    {
+      "name": "кэширование redis - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.145Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "кэширование redis - deployment",
+      "reason": "Expansion: deployment for кэширование redis - deployment"
+    },
+    {
+      "name": "кэширование redis - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:00:16.152Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "кэширование redis - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "want to learn - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.179Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - best-practices",
+      "reason": "Expansion: best-practices for want to learn - best-practices"
+    },
+    {
+      "name": "want to learn - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.188Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - best-practices",
+      "reason": "Expansion: common-mistakes for want to learn - best-practices"
+    },
+    {
+      "name": "want to learn - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.197Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - best-practices",
+      "reason": "Expansion: tools for want to learn - best-practices"
+    },
+    {
+      "name": "want to learn - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.205Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - best-practices",
+      "reason": "Expansion: deployment for want to learn - best-practices"
+    },
+    {
+      "name": "want to learn - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:00:16.213Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "want to learn - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "want to learn - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.238Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - common-mistakes",
+      "reason": "Expansion: best-practices for want to learn - common-mistakes"
+    },
+    {
+      "name": "want to learn - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.246Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - common-mistakes",
+      "reason": "Expansion: common-mistakes for want to learn - common-mistakes"
+    },
+    {
+      "name": "want to learn - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.255Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - common-mistakes",
+      "reason": "Expansion: tools for want to learn - common-mistakes"
+    },
+    {
+      "name": "want to learn - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.262Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - common-mistakes",
+      "reason": "Expansion: deployment for want to learn - common-mistakes"
+    },
+    {
+      "name": "want to learn - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:00:16.271Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "want to learn - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "want to learn - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.295Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - tools",
+      "reason": "Expansion: best-practices for want to learn - tools"
+    },
+    {
+      "name": "want to learn - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.302Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - tools",
+      "reason": "Expansion: common-mistakes for want to learn - tools"
+    },
+    {
+      "name": "want to learn - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.312Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - tools",
+      "reason": "Expansion: tools for want to learn - tools"
+    },
+    {
+      "name": "want to learn - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.320Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - tools",
+      "reason": "Expansion: deployment for want to learn - tools"
+    },
+    {
+      "name": "want to learn - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:00:16.328Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "want to learn - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "want to learn - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.353Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - deployment",
+      "reason": "Expansion: best-practices for want to learn - deployment"
+    },
+    {
+      "name": "want to learn - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.361Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - deployment",
+      "reason": "Expansion: common-mistakes for want to learn - deployment"
+    },
+    {
+      "name": "want to learn - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.370Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - deployment",
+      "reason": "Expansion: tools for want to learn - deployment"
+    },
+    {
+      "name": "want to learn - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:00:16.379Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "want to learn - deployment",
+      "reason": "Expansion: deployment for want to learn - deployment"
+    },
+    {
+      "name": "want to learn - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:00:16.389Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "want to learn - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "rust programming - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.562Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - best-practices",
+      "reason": "Expansion: best-practices for rust programming - best-practices"
+    },
+    {
+      "name": "rust programming - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.573Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - best-practices",
+      "reason": "Expansion: common-mistakes for rust programming - best-practices"
+    },
+    {
+      "name": "rust programming - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.598Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - best-practices",
+      "reason": "Expansion: tools for rust programming - best-practices"
+    },
+    {
+      "name": "rust programming - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.607Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - best-practices",
+      "reason": "Expansion: deployment for rust programming - best-practices"
+    },
+    {
+      "name": "rust programming - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:01:50.617Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "rust programming - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "rust programming - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.648Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - common-mistakes",
+      "reason": "Expansion: best-practices for rust programming - common-mistakes"
+    },
+    {
+      "name": "rust programming - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.658Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - common-mistakes",
+      "reason": "Expansion: common-mistakes for rust programming - common-mistakes"
+    },
+    {
+      "name": "rust programming - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.669Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - common-mistakes",
+      "reason": "Expansion: tools for rust programming - common-mistakes"
+    },
+    {
+      "name": "rust programming - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.681Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - common-mistakes",
+      "reason": "Expansion: deployment for rust programming - common-mistakes"
+    },
+    {
+      "name": "rust programming - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:01:50.692Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "rust programming - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "rust programming - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.732Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - tools",
+      "reason": "Expansion: best-practices for rust programming - tools"
+    },
+    {
+      "name": "rust programming - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.740Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - tools",
+      "reason": "Expansion: common-mistakes for rust programming - tools"
+    },
+    {
+      "name": "rust programming - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.747Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - tools",
+      "reason": "Expansion: tools for rust programming - tools"
+    },
+    {
+      "name": "rust programming - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.755Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - tools",
+      "reason": "Expansion: deployment for rust programming - tools"
+    },
+    {
+      "name": "rust programming - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:01:50.761Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "rust programming - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "rust programming - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.788Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - deployment",
+      "reason": "Expansion: best-practices for rust programming - deployment"
+    },
+    {
+      "name": "rust programming - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.796Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - deployment",
+      "reason": "Expansion: common-mistakes for rust programming - deployment"
+    },
+    {
+      "name": "rust programming - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.802Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - deployment",
+      "reason": "Expansion: tools for rust programming - deployment"
+    },
+    {
+      "name": "rust programming - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.810Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "rust programming - deployment",
+      "reason": "Expansion: deployment for rust programming - deployment"
+    },
+    {
+      "name": "rust programming - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:01:50.817Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "rust programming - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Postgresql - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.884Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - best-practices",
+      "reason": "Expansion: best-practices for Postgresql - best-practices"
+    },
+    {
+      "name": "Postgresql - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.894Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - best-practices",
+      "reason": "Expansion: common-mistakes for Postgresql - best-practices"
+    },
+    {
+      "name": "Postgresql - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.901Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - best-practices",
+      "reason": "Expansion: tools for Postgresql - best-practices"
+    },
+    {
+      "name": "Postgresql - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:01:50.908Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - best-practices",
+      "reason": "Expansion: deployment for Postgresql - best-practices"
+    },
+    {
+      "name": "Postgresql - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:01:50.916Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Postgresql - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Postgresql - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:42.952Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - common-mistakes",
+      "reason": "Expansion: best-practices for Postgresql - common-mistakes"
+    },
+    {
+      "name": "Postgresql - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:42.960Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - common-mistakes",
+      "reason": "Expansion: common-mistakes for Postgresql - common-mistakes"
+    },
+    {
+      "name": "Postgresql - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:42.969Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - common-mistakes",
+      "reason": "Expansion: tools for Postgresql - common-mistakes"
+    },
+    {
+      "name": "Postgresql - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:42.977Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - common-mistakes",
+      "reason": "Expansion: deployment for Postgresql - common-mistakes"
+    },
+    {
+      "name": "Postgresql - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:02:42.984Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Postgresql - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Postgresql - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.020Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - tools",
+      "reason": "Expansion: best-practices for Postgresql - tools"
+    },
+    {
+      "name": "Postgresql - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.028Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - tools",
+      "reason": "Expansion: common-mistakes for Postgresql - tools"
+    },
+    {
+      "name": "Postgresql - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.035Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - tools",
+      "reason": "Expansion: tools for Postgresql - tools"
+    },
+    {
+      "name": "Postgresql - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.042Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - tools",
+      "reason": "Expansion: deployment for Postgresql - tools"
+    },
+    {
+      "name": "Postgresql - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:02:43.048Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Postgresql - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Postgresql - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.082Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - deployment",
+      "reason": "Expansion: best-practices for Postgresql - deployment"
+    },
+    {
+      "name": "Postgresql - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.089Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - deployment",
+      "reason": "Expansion: common-mistakes for Postgresql - deployment"
+    },
+    {
+      "name": "Postgresql - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.096Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - deployment",
+      "reason": "Expansion: tools for Postgresql - deployment"
+    },
+    {
+      "name": "Postgresql - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.103Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Postgresql - deployment",
+      "reason": "Expansion: deployment for Postgresql - deployment"
+    },
+    {
+      "name": "Postgresql - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:02:43.111Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Postgresql - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Api - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.133Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - best-practices",
+      "reason": "Expansion: best-practices for Api - best-practices"
+    },
+    {
+      "name": "Api - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.141Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - best-practices",
+      "reason": "Expansion: common-mistakes for Api - best-practices"
+    },
+    {
+      "name": "Api - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.149Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - best-practices",
+      "reason": "Expansion: tools for Api - best-practices"
+    },
+    {
+      "name": "Api - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.159Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - best-practices",
+      "reason": "Expansion: deployment for Api - best-practices"
+    },
+    {
+      "name": "Api - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:02:43.166Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Api - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Api - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.193Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - common-mistakes",
+      "reason": "Expansion: best-practices for Api - common-mistakes"
+    },
+    {
+      "name": "Api - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.202Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - common-mistakes",
+      "reason": "Expansion: common-mistakes for Api - common-mistakes"
+    },
+    {
+      "name": "Api - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.208Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - common-mistakes",
+      "reason": "Expansion: tools for Api - common-mistakes"
+    },
+    {
+      "name": "Api - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:02:43.216Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - common-mistakes",
+      "reason": "Expansion: deployment for Api - common-mistakes"
+    },
+    {
+      "name": "Api - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:02:43.224Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Api - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Api - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.788Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - tools",
+      "reason": "Expansion: best-practices for Api - tools"
+    },
+    {
+      "name": "Api - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.798Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - tools",
+      "reason": "Expansion: common-mistakes for Api - tools"
+    },
+    {
+      "name": "Api - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.806Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - tools",
+      "reason": "Expansion: tools for Api - tools"
+    },
+    {
+      "name": "Api - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.815Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - tools",
+      "reason": "Expansion: deployment for Api - tools"
+    },
+    {
+      "name": "Api - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:03:22.823Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Api - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Api - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.848Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - deployment",
+      "reason": "Expansion: best-practices for Api - deployment"
+    },
+    {
+      "name": "Api - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.856Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - deployment",
+      "reason": "Expansion: common-mistakes for Api - deployment"
+    },
+    {
+      "name": "Api - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.864Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - deployment",
+      "reason": "Expansion: tools for Api - deployment"
+    },
+    {
+      "name": "Api - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.887Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Api - deployment",
+      "reason": "Expansion: deployment for Api - deployment"
+    },
+    {
+      "name": "Api - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:03:22.894Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Api - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "React - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.931Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - best-practices",
+      "reason": "Expansion: best-practices for React - best-practices"
+    },
+    {
+      "name": "React - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.939Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - best-practices",
+      "reason": "Expansion: common-mistakes for React - best-practices"
+    },
+    {
+      "name": "React - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.950Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - best-practices",
+      "reason": "Expansion: tools for React - best-practices"
+    },
+    {
+      "name": "React - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:22.958Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - best-practices",
+      "reason": "Expansion: deployment for React - best-practices"
+    },
+    {
+      "name": "React - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:03:22.965Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "React - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "React - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:23.016Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - common-mistakes",
+      "reason": "Expansion: best-practices for React - common-mistakes"
+    },
+    {
+      "name": "React - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:23.024Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - common-mistakes",
+      "reason": "Expansion: common-mistakes for React - common-mistakes"
+    },
+    {
+      "name": "React - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:23.032Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - common-mistakes",
+      "reason": "Expansion: tools for React - common-mistakes"
+    },
+    {
+      "name": "React - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:23.039Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - common-mistakes",
+      "reason": "Expansion: deployment for React - common-mistakes"
+    },
+    {
+      "name": "React - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:03:23.045Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "React - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "React - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:23.080Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - tools",
+      "reason": "Expansion: best-practices for React - tools"
+    },
+    {
+      "name": "React - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:23.090Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - tools",
+      "reason": "Expansion: common-mistakes for React - tools"
+    },
+    {
+      "name": "React - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:23.100Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - tools",
+      "reason": "Expansion: tools for React - tools"
+    },
+    {
+      "name": "React - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:03:23.108Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - tools",
+      "reason": "Expansion: deployment for React - tools"
+    },
+    {
+      "name": "React - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:03:23.124Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "React - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "React - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.537Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - deployment",
+      "reason": "Expansion: best-practices for React - deployment"
+    },
+    {
+      "name": "React - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.546Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - deployment",
+      "reason": "Expansion: common-mistakes for React - deployment"
+    },
+    {
+      "name": "React - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.554Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - deployment",
+      "reason": "Expansion: tools for React - deployment"
+    },
+    {
+      "name": "React - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.562Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "React - deployment",
+      "reason": "Expansion: deployment for React - deployment"
+    },
+    {
+      "name": "React - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:04:20.570Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "React - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Jest - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.599Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - best-practices",
+      "reason": "Expansion: best-practices for Jest - best-practices"
+    },
+    {
+      "name": "Jest - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.607Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - best-practices",
+      "reason": "Expansion: common-mistakes for Jest - best-practices"
+    },
+    {
+      "name": "Jest - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.619Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - best-practices",
+      "reason": "Expansion: tools for Jest - best-practices"
+    },
+    {
+      "name": "Jest - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.628Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - best-practices",
+      "reason": "Expansion: deployment for Jest - best-practices"
+    },
+    {
+      "name": "Jest - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:04:20.637Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Jest - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Jest - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.662Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - common-mistakes",
+      "reason": "Expansion: best-practices for Jest - common-mistakes"
+    },
+    {
+      "name": "Jest - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.669Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - common-mistakes",
+      "reason": "Expansion: common-mistakes for Jest - common-mistakes"
+    },
+    {
+      "name": "Jest - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.676Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - common-mistakes",
+      "reason": "Expansion: tools for Jest - common-mistakes"
+    },
+    {
+      "name": "Jest - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.683Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - common-mistakes",
+      "reason": "Expansion: deployment for Jest - common-mistakes"
+    },
+    {
+      "name": "Jest - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:04:20.690Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Jest - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Jest - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.716Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - tools",
+      "reason": "Expansion: best-practices for Jest - tools"
+    },
+    {
+      "name": "Jest - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.724Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - tools",
+      "reason": "Expansion: common-mistakes for Jest - tools"
+    },
+    {
+      "name": "Jest - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.732Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - tools",
+      "reason": "Expansion: tools for Jest - tools"
+    },
+    {
+      "name": "Jest - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.755Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - tools",
+      "reason": "Expansion: deployment for Jest - tools"
+    },
+    {
+      "name": "Jest - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:04:20.763Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Jest - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Jest - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.798Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - deployment",
+      "reason": "Expansion: best-practices for Jest - deployment"
+    },
+    {
+      "name": "Jest - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.804Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - deployment",
+      "reason": "Expansion: common-mistakes for Jest - deployment"
+    },
+    {
+      "name": "Jest - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.810Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - deployment",
+      "reason": "Expansion: tools for Jest - deployment"
+    },
+    {
+      "name": "Jest - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:04:20.817Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Jest - deployment",
+      "reason": "Expansion: deployment for Jest - deployment"
+    },
+    {
+      "name": "Jest - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:04:20.824Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Jest - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Javascript - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.460Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - best-practices",
+      "reason": "Expansion: best-practices for Javascript - best-practices"
+    },
+    {
+      "name": "Javascript - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.468Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - best-practices",
+      "reason": "Expansion: common-mistakes for Javascript - best-practices"
+    },
+    {
+      "name": "Javascript - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.477Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - best-practices",
+      "reason": "Expansion: tools for Javascript - best-practices"
+    },
+    {
+      "name": "Javascript - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.486Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - best-practices",
+      "reason": "Expansion: deployment for Javascript - best-practices"
+    },
+    {
+      "name": "Javascript - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:05:16.494Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Javascript - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Javascript - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.523Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - common-mistakes",
+      "reason": "Expansion: best-practices for Javascript - common-mistakes"
+    },
+    {
+      "name": "Javascript - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.531Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - common-mistakes",
+      "reason": "Expansion: common-mistakes for Javascript - common-mistakes"
+    },
+    {
+      "name": "Javascript - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.538Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - common-mistakes",
+      "reason": "Expansion: tools for Javascript - common-mistakes"
+    },
+    {
+      "name": "Javascript - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.546Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - common-mistakes",
+      "reason": "Expansion: deployment for Javascript - common-mistakes"
+    },
+    {
+      "name": "Javascript - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:05:16.552Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Javascript - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Javascript - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.576Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - tools",
+      "reason": "Expansion: best-practices for Javascript - tools"
+    },
+    {
+      "name": "Javascript - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.583Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - tools",
+      "reason": "Expansion: common-mistakes for Javascript - tools"
+    },
+    {
+      "name": "Javascript - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.592Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - tools",
+      "reason": "Expansion: tools for Javascript - tools"
+    },
+    {
+      "name": "Javascript - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.599Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - tools",
+      "reason": "Expansion: deployment for Javascript - tools"
+    },
+    {
+      "name": "Javascript - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:05:16.624Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Javascript - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Javascript - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.650Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - deployment",
+      "reason": "Expansion: best-practices for Javascript - deployment"
+    },
+    {
+      "name": "Javascript - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.659Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - deployment",
+      "reason": "Expansion: common-mistakes for Javascript - deployment"
+    },
+    {
+      "name": "Javascript - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.665Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - deployment",
+      "reason": "Expansion: tools for Javascript - deployment"
+    },
+    {
+      "name": "Javascript - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.673Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Javascript - deployment",
+      "reason": "Expansion: deployment for Javascript - deployment"
+    },
+    {
+      "name": "Javascript - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:05:16.679Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Javascript - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Openai - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.702Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - best-practices",
+      "reason": "Expansion: best-practices for Openai - best-practices"
+    },
+    {
+      "name": "Openai - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.709Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - best-practices",
+      "reason": "Expansion: common-mistakes for Openai - best-practices"
+    },
+    {
+      "name": "Openai - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.715Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - best-practices",
+      "reason": "Expansion: tools for Openai - best-practices"
+    },
+    {
+      "name": "Openai - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:05:16.726Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - best-practices",
+      "reason": "Expansion: deployment for Openai - best-practices"
+    },
+    {
+      "name": "Openai - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:05:16.735Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Openai - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Openai - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.098Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - common-mistakes",
+      "reason": "Expansion: best-practices for Openai - common-mistakes"
+    },
+    {
+      "name": "Openai - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.128Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - common-mistakes",
+      "reason": "Expansion: common-mistakes for Openai - common-mistakes"
+    },
+    {
+      "name": "Openai - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.138Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - common-mistakes",
+      "reason": "Expansion: tools for Openai - common-mistakes"
+    },
+    {
+      "name": "Openai - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.147Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - common-mistakes",
+      "reason": "Expansion: deployment for Openai - common-mistakes"
+    },
+    {
+      "name": "Openai - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:06:21.155Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Openai - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Openai - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.184Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - tools",
+      "reason": "Expansion: best-practices for Openai - tools"
+    },
+    {
+      "name": "Openai - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.193Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - tools",
+      "reason": "Expansion: common-mistakes for Openai - tools"
+    },
+    {
+      "name": "Openai - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.207Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - tools",
+      "reason": "Expansion: tools for Openai - tools"
+    },
+    {
+      "name": "Openai - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.216Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - tools",
+      "reason": "Expansion: deployment for Openai - tools"
+    },
+    {
+      "name": "Openai - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:06:21.230Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Openai - tools",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Openai - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.260Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - deployment",
+      "reason": "Expansion: best-practices for Openai - deployment"
+    },
+    {
+      "name": "Openai - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.268Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - deployment",
+      "reason": "Expansion: common-mistakes for Openai - deployment"
+    },
+    {
+      "name": "Openai - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.276Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - deployment",
+      "reason": "Expansion: tools for Openai - deployment"
+    },
+    {
+      "name": "Openai - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.283Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Openai - deployment",
+      "reason": "Expansion: deployment for Openai - deployment"
+    },
+    {
+      "name": "Openai - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:06:21.292Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Openai - deployment",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Anthropic - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.318Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Anthropic - best-practices",
+      "reason": "Expansion: best-practices for Anthropic - best-practices"
+    },
+    {
+      "name": "Anthropic - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.328Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Anthropic - best-practices",
+      "reason": "Expansion: common-mistakes for Anthropic - best-practices"
+    },
+    {
+      "name": "Anthropic - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.337Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Anthropic - best-practices",
+      "reason": "Expansion: tools for Anthropic - best-practices"
+    },
+    {
+      "name": "Anthropic - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.365Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Anthropic - best-practices",
+      "reason": "Expansion: deployment for Anthropic - best-practices"
+    },
+    {
+      "name": "Anthropic - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:06:21.373Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Anthropic - best-practices",
+      "reason": "Quality 70%: need more best practices"
+    },
+    {
+      "name": "Anthropic - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.405Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Anthropic - common-mistakes",
+      "reason": "Expansion: best-practices for Anthropic - common-mistakes"
+    },
+    {
+      "name": "Anthropic - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.413Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Anthropic - common-mistakes",
+      "reason": "Expansion: common-mistakes for Anthropic - common-mistakes"
+    },
+    {
+      "name": "Anthropic - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.424Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Anthropic - common-mistakes",
+      "reason": "Expansion: tools for Anthropic - common-mistakes"
+    },
+    {
+      "name": "Anthropic - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "addedAt": "2026-02-24T19:06:21.431Z",
+      "addedBy": "post-learning-expander",
+      "source": "type-based",
+      "parentTopic": "Anthropic - common-mistakes",
+      "reason": "Expansion: deployment for Anthropic - common-mistakes"
+    },
+    {
+      "name": "Anthropic - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "addedAt": "2026-02-24T19:06:21.439Z",
+      "addedBy": "post-learning-expander",
+      "source": "quality-gap",
+      "parentTopic": "Anthropic - common-mistakes",
+      "reason": "Quality 70%: need more best practices"
     }
   ]
 }

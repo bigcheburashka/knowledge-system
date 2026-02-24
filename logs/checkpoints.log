@@ -387,3 +387,163 @@
 [2026-02-24T18:06:55.810Z] [WARNING] ID 2: missing/short description
 [2026-02-24T18:06:55.810Z] [WARNING] ID 2: no related topics
 [2026-02-24T18:06:55.810Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:45:06.116Z] [INFO] Qdrant: green, 207 vectors
+[2026-02-24T18:45:06.304Z] [INFO] Memgraph: Connected
+[2026-02-24T18:45:07.271Z] [INFO] LLM API: Responsive
+[2026-02-24T18:46:33.646Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:46:33.646Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:46:33.646Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:46:33.646Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:46:33.646Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:46:34.639Z] [INFO] Qdrant: green, 212 vectors
+[2026-02-24T18:46:34.817Z] [INFO] Memgraph: Connected
+[2026-02-24T18:46:35.685Z] [INFO] LLM API: Responsive
+[2026-02-24T18:47:50.503Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:47:50.503Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:47:50.503Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:47:50.503Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:47:50.503Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:47:51.511Z] [INFO] Qdrant: green, 217 vectors
+[2026-02-24T18:47:51.703Z] [INFO] Memgraph: Connected
+[2026-02-24T18:47:52.586Z] [INFO] LLM API: Responsive
+[2026-02-24T18:48:47.233Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:48:47.233Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:48:47.233Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:48:47.233Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:48:47.234Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:48:48.232Z] [INFO] Qdrant: green, 222 vectors
+[2026-02-24T18:48:48.418Z] [INFO] Memgraph: Connected
+[2026-02-24T18:48:49.354Z] [INFO] LLM API: Responsive
+[2026-02-24T18:49:48.724Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:49:48.725Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:49:48.725Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:49:48.725Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:49:48.725Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:49:49.729Z] [INFO] Qdrant: green, 227 vectors
+[2026-02-24T18:49:49.896Z] [INFO] Memgraph: Connected
+[2026-02-24T18:49:50.819Z] [INFO] LLM API: Responsive
+[2026-02-24T18:50:52.954Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:50:52.954Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:50:52.954Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:50:52.954Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:50:52.954Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:50:53.924Z] [INFO] Qdrant: green, 232 vectors
+[2026-02-24T18:50:54.110Z] [INFO] Memgraph: Connected
+[2026-02-24T18:50:55.038Z] [INFO] LLM API: Responsive
+[2026-02-24T18:52:08.630Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:52:08.631Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:52:08.631Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:52:08.631Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:52:08.631Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:52:09.675Z] [INFO] Qdrant: green, 237 vectors
+[2026-02-24T18:52:09.871Z] [INFO] Memgraph: Connected
+[2026-02-24T18:52:10.883Z] [INFO] LLM API: Responsive
+[2026-02-24T18:53:34.457Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:53:34.458Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:53:34.458Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:53:34.458Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:53:34.458Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:53:35.473Z] [INFO] Qdrant: green, 242 vectors
+[2026-02-24T18:53:35.713Z] [INFO] Memgraph: Connected
+[2026-02-24T18:53:36.702Z] [INFO] LLM API: Responsive
+[2026-02-24T18:54:37.608Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:54:37.609Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:54:37.609Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:54:37.609Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:54:37.609Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:54:38.634Z] [INFO] Qdrant: green, 247 vectors
+[2026-02-24T18:54:38.809Z] [INFO] Memgraph: Connected
+[2026-02-24T18:54:39.609Z] [INFO] LLM API: Responsive
+[2026-02-24T18:55:29.591Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:55:29.591Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:55:29.591Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:55:29.591Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:55:29.591Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:55:30.675Z] [INFO] Qdrant: green, 252 vectors
+[2026-02-24T18:55:30.867Z] [INFO] Memgraph: Connected
+[2026-02-24T18:55:32.045Z] [INFO] LLM API: Responsive
+[2026-02-24T18:56:16.903Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:56:16.903Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:56:16.903Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:56:16.903Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:56:16.903Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:56:17.950Z] [INFO] Qdrant: green, 257 vectors
+[2026-02-24T18:56:18.130Z] [INFO] Memgraph: Connected
+[2026-02-24T18:56:19.032Z] [INFO] LLM API: Responsive
+[2026-02-24T18:57:05.944Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:57:05.944Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:57:05.944Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:57:05.944Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:57:05.944Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:57:07.054Z] [INFO] Qdrant: green, 262 vectors
+[2026-02-24T18:57:07.262Z] [INFO] Memgraph: Connected
+[2026-02-24T18:57:08.152Z] [INFO] LLM API: Responsive
+[2026-02-24T18:58:14.694Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:58:14.695Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:58:14.695Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:58:14.695Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:58:14.695Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:58:15.698Z] [INFO] Qdrant: green, 267 vectors
+[2026-02-24T18:58:15.878Z] [INFO] Memgraph: Connected
+[2026-02-24T18:58:16.805Z] [INFO] LLM API: Responsive
+[2026-02-24T18:59:26.304Z] [WARNING] ID 1: missing/short description
+[2026-02-24T18:59:26.304Z] [WARNING] ID 1: no related topics
+[2026-02-24T18:59:26.304Z] [WARNING] ID 2: missing/short description
+[2026-02-24T18:59:26.304Z] [WARNING] ID 2: no related topics
+[2026-02-24T18:59:26.304Z] [WARNING] ID 3: missing/short description
+[2026-02-24T18:59:27.348Z] [INFO] Qdrant: green, 272 vectors
+[2026-02-24T18:59:27.516Z] [INFO] Memgraph: Connected
+[2026-02-24T18:59:28.421Z] [INFO] LLM API: Responsive
+[2026-02-24T19:00:15.544Z] [WARNING] ID 1: missing/short description
+[2026-02-24T19:00:15.544Z] [WARNING] ID 1: no related topics
+[2026-02-24T19:00:15.544Z] [WARNING] ID 2: missing/short description
+[2026-02-24T19:00:15.544Z] [WARNING] ID 2: no related topics
+[2026-02-24T19:00:15.544Z] [WARNING] ID 3: missing/short description
+[2026-02-24T19:00:16.645Z] [INFO] Qdrant: green, 277 vectors
+[2026-02-24T19:00:16.848Z] [INFO] Memgraph: Connected
+[2026-02-24T19:00:18.238Z] [INFO] LLM API: Responsive
+[2026-02-24T19:01:49.991Z] [WARNING] ID 1: missing/short description
+[2026-02-24T19:01:49.991Z] [WARNING] ID 1: no related topics
+[2026-02-24T19:01:49.991Z] [WARNING] ID 2: missing/short description
+[2026-02-24T19:01:49.991Z] [WARNING] ID 2: no related topics
+[2026-02-24T19:01:49.991Z] [WARNING] ID 3: missing/short description
+[2026-02-24T19:01:51.220Z] [INFO] Qdrant: green, 282 vectors
+[2026-02-24T19:01:51.451Z] [INFO] Memgraph: Connected
+[2026-02-24T19:01:52.325Z] [INFO] LLM API: Responsive
+[2026-02-24T19:02:42.368Z] [WARNING] ID 1: missing/short description
+[2026-02-24T19:02:42.368Z] [WARNING] ID 1: no related topics
+[2026-02-24T19:02:42.368Z] [WARNING] ID 2: missing/short description
+[2026-02-24T19:02:42.368Z] [WARNING] ID 2: no related topics
+[2026-02-24T19:02:42.368Z] [WARNING] ID 3: missing/short description
+[2026-02-24T19:02:43.459Z] [INFO] Qdrant: green, 287 vectors
+[2026-02-24T19:02:43.677Z] [INFO] Memgraph: Connected
+[2026-02-24T19:02:44.581Z] [INFO] LLM API: Responsive
+[2026-02-24T19:03:22.226Z] [WARNING] ID 1: missing/short description
+[2026-02-24T19:03:22.227Z] [WARNING] ID 1: no related topics
+[2026-02-24T19:03:22.227Z] [WARNING] ID 2: missing/short description
+[2026-02-24T19:03:22.227Z] [WARNING] ID 2: no related topics
+[2026-02-24T19:03:22.227Z] [WARNING] ID 3: missing/short description
+[2026-02-24T19:03:23.353Z] [INFO] Qdrant: green, 292 vectors
+[2026-02-24T19:03:23.541Z] [INFO] Memgraph: Connected
+[2026-02-24T19:03:24.483Z] [INFO] LLM API: Responsive
+[2026-02-24T19:04:19.951Z] [WARNING] ID 1: missing/short description
+[2026-02-24T19:04:19.951Z] [WARNING] ID 1: no related topics
+[2026-02-24T19:04:19.951Z] [WARNING] ID 2: missing/short description
+[2026-02-24T19:04:19.951Z] [WARNING] ID 2: no related topics
+[2026-02-24T19:04:19.951Z] [WARNING] ID 3: missing/short description
+[2026-02-24T19:04:21.038Z] [INFO] Qdrant: green, 297 vectors
+[2026-02-24T19:04:21.211Z] [INFO] Memgraph: Connected
+[2026-02-24T19:04:22.119Z] [INFO] LLM API: Responsive
+[2026-02-24T19:05:15.889Z] [WARNING] ID 1: missing/short description
+[2026-02-24T19:05:15.889Z] [WARNING] ID 1: no related topics
+[2026-02-24T19:05:15.889Z] [WARNING] ID 2: missing/short description
+[2026-02-24T19:05:15.889Z] [WARNING] ID 2: no related topics
+[2026-02-24T19:05:15.890Z] [WARNING] ID 3: missing/short description
+[2026-02-24T19:05:16.950Z] [INFO] Qdrant: green, 302 vectors
+[2026-02-24T19:05:17.122Z] [INFO] Memgraph: Connected
+[2026-02-24T19:05:18.058Z] [INFO] LLM API: Responsive
+[2026-02-24T19:06:20.541Z] [WARNING] ID 1: missing/short description
+[2026-02-24T19:06:20.541Z] [WARNING] ID 1: no related topics
+[2026-02-24T19:06:20.541Z] [WARNING] ID 2: missing/short description
+[2026-02-24T19:06:20.541Z] [WARNING] ID 2: no related topics
+[2026-02-24T19:06:20.541Z] [WARNING] ID 3: missing/short description

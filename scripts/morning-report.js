@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Morning Report
- * Утренняя сводка о состоянии Knowledge System с детализацией очереди
+ * Morning Report v2 with Quality Metrics
+ * Утренняя сводка с метриками качества proposals
  */
 
 const fs = require('fs');
@@ -10,7 +10,7 @@ const path = require('path');
 async function main() {
   console.log('[Morning Report] Generating...');
   
-  // Проверяем Qdrant
+  // Qdrant stats
   let vectorCount = 0;
   try {
     const response = await fetch('http://localhost:6333/collections/knowledge');
@@ -18,19 +18,9 @@ async function main() {
       const data = await response.json();
       vectorCount = data.result?.points_count || 0;
     }
-  } catch (e) {
-    console.log('[Morning Report] Qdrant check failed:', e.message);
-  }
+  } catch (e) {}
   
-  // Считаем топики из файлов
-  let topicCount = 0;
-  const dataDir = path.join(__dirname, '../data');
-  if (fs.existsSync(dataDir)) {
-    const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
-    topicCount = files.length;
-  }
-  
-  // Очередь
+  // Queue stats
   const queueFile = path.join(__dirname, '../data/learning-queue.json');
   let queueStats = { pending: 0, processing: 0, pendingHigh: 0, pendingMedium: 0 };
   
@@ -38,24 +28,32 @@ async function main() {
     try {
       const queue = JSON.parse(fs.readFileSync(queueFile, 'utf8'));
       const pending = queue.pending || [];
-      const processing = queue.processing || [];
-      
       queueStats = {
         pending: pending.length,
-        processing: processing.length,
+        processing: (queue.processing || []).length,
         pendingHigh: pending.filter(t => t.priority === 'high').length,
         pendingMedium: pending.filter(t => t.priority === 'medium').length
       };
     } catch (e) {}
   }
   
-  // Статус мониторинга
-  const monitorFile = path.join(__dirname, '../data/queue-monitor-status.json');
-  let monitorStatus = null;
-  if (fs.existsSync(monitorFile)) {
+  // Proposals quality stats
+  const queueLogFile = '/var/lib/knowledge/logs/approval-queue.jsonl';
+  let proposalStats = { pending: 0, approved: 0, rejected: 0, total: 0 };
+  
+  if (fs.existsSync(queueLogFile)) {
     try {
-      monitorStatus = JSON.parse(fs.readFileSync(monitorFile, 'utf8'));
-    } catch (e) {}
+      const lines = fs.readFileSync(queueLogFile, 'utf8').trim().split('\n').filter(l => l);
+      for (const line of lines) {
+        try {
+          const item = JSON.parse(line);
+          proposalStats.total++;
+          if (item.status === 'pending') proposalStats.pending++;
+          else if (item.status === 'approved') proposalStats.approved++;
+          else if (item.status === 'rejected') proposalStats.rejected++;
+        } catch {}
+      }
+    } catch {}
   }
   
   // Recovery log
@@ -67,7 +65,19 @@ async function main() {
       if (lines.length > 0) {
         lastRecovery = JSON.parse(lines[lines.length - 1]);
       }
-    } catch (e) {}
+    } catch {}
+  }
+  
+  // Sync log
+  const syncLogFile = path.join(__dirname, '../data/sync-log.jsonl');
+  let lastSync = null;
+  if (fs.existsSync(syncLogFile)) {
+    try {
+      const lines = fs.readFileSync(syncLogFile, 'utf8').trim().split('\n').filter(l => l);
+      if (lines.length > 0) {
+        lastSync = JSON.parse(lines[lines.length - 1]);
+      }
+    } catch {}
   }
   
   const report = `
@@ -75,31 +85,29 @@ async function main() {
 
 📚 **Данные:**
 • Векторов в Qdrant: ${vectorCount}
-• JSON файлов: ${topicCount}
 
 📋 **Очередь обучения:**
-• Всего в очереди: ${queueStats.pending + queueStats.processing}
-• Ожидают (pending): ${queueStats.pending}
-  - High priority: ${queueStats.pendingHigh}
-  - Medium priority: ${queueStats.pendingMedium}
-• В обработке (processing): ${queueStats.processing}
+• Ожидают: ${queueStats.pending} (High: ${queueStats.pendingHigh}, Medium: ${queueStats.pendingMedium})
+• В обработке: ${queueStats.processing}
+
+🎯 **Proposals (Self-Evolution):**
+• Всего создано: ${proposalStats.total}
+• Ожидают approval: ${proposalStats.pending}
+• Одобрено: ${proposalStats.approved}
+• Отклонено (качество): ${proposalStats.rejected}
 
 🔧 **Система:**
-• Статус: ${monitorStatus?.healthy ? '✅ Здорова' : (monitorStatus ? '⚠️ Есть алерты' : '❓ Нет данных')}
-• Последний recovery: ${lastRecovery ? `${lastRecovery.recovered} тем (возвращено из processing)` : 'нет данных'}
+• Последний sync: ${lastSync ? lastSync.timestamp.split('T')[1].split('.')[0] : 'нет данных'}
+• Последний recovery: ${lastRecovery ? `${lastRecovery.recovered} тем` : 'нет данных'}
 
-💡 **Рекомендации:**
-${queueStats.pending > 500 ? '• ⚠️ Большая очередь - рассмотреть ускорение обработки' : '• Очередь в норме'}
-${queueStats.pendingHigh > 50 ? '• 🔴 Много high-priority тем - приоритет на них' : ''}
+💡 **Качество:**
+${proposalStats.rejected > proposalStats.approved ? '⚠️ Много отклонённых proposals - проверить генератор' : '✅ Качество proposals в норме'}
 
 ✅ Система работает
 `;
   
   console.log(report);
-  
-  // Write to file
   fs.writeFileSync('/tmp/knowledge-morning-report.txt', report);
-  console.log('[Morning Report] Complete');
 }
 
 main().catch(console.error);

@@ -4986,6 +4986,1646 @@
       "description": "",
       "source": "quality-gap",
       "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "Effective TypeScript - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.860Z"
+    },
+    {
+      "name": "Effective TypeScript - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.860Z"
+    },
+    {
+      "name": "Effective TypeScript - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.860Z"
+    },
+    {
+      "name": "Effective TypeScript - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.861Z"
+    },
+    {
+      "name": "Effective TypeScript - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.861Z"
+    },
+    {
+      "name": "Database System Concepts - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.861Z"
+    },
+    {
+      "name": "Database System Concepts - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.861Z"
+    },
+    {
+      "name": "Database System Concepts - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.861Z"
+    },
+    {
+      "name": "Database System Concepts - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Database System Concepts - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Fix - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Fix - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Fix - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Fix - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Fix - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "npm",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "yarn",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "pnpm",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "express",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "fastify",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Node.js - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Node.js - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Node.js - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Node.js - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Node.js - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Kubernetes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Kubernetes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Kubernetes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Kubernetes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Kubernetes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Redis - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Redis - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Redis - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Redis - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Redis - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Race condition - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Race condition - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Race condition - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Race condition - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Race condition - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: crash - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: crash - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: crash - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: crash - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: crash - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Memory leak - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Memory leak - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Memory leak - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Memory leak - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: Memory leak - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: deadlock - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: deadlock - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: deadlock - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: deadlock - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: deadlock - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: infinite loop - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: infinite loop - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: infinite loop - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: infinite loop - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: infinite loop - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: BUG - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: BUG - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: BUG - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: BUG - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: BUG - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "CRDT Data Structures - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: problem - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: problem - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: problem - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: problem - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Problem: problem - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: solution - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: solution - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: solution - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: solution - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: solution - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: improve - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: improve - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: improve - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: improve - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: improve - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Update - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Update - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Update - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Update - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Solution: Update - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - tools - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - tools - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - tools - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - tools - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - tools - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - deployment - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - deployment - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - deployment - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - deployment - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T18:48:38.862Z"
+    },
+    {
+      "name": "RAG Optimization - deployment - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T18:48:38.862Z"
     }
   ],
   "processing": []
