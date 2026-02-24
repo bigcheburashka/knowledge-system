@@ -70,9 +70,73 @@ class PendingProposalsIndex {
   async load() {
     try {
       const content = await fs.readFile(this.indexPath, 'utf8');
-      return JSON.parse(content);
+      const index = JSON.parse(content);
+      
+      // If index is empty, try to restore from approval queue
+      const indexSize = Object.keys(index).length;
+      if (indexSize === 0) {
+        const restored = await this.restoreFromQueue();
+        if (restored > 0) {
+          return this.load(); // Reload after restore
+        }
+      }
+      
+      return index;
     } catch {
+      // Try to restore from queue on error
+      const restored = await this.restoreFromQueue();
+      if (restored > 0) {
+        return this.load();
+      }
       return {};
+    }
+  }
+  
+  async restoreFromQueue() {
+    try {
+      const queuePath = path.join(this.basePath, 'approval-queue.jsonl');
+      if (!await fs.access(queuePath).then(() => true).catch(() => false)) {
+        return 0;
+      }
+      
+      const content = await fs.readFile(queuePath, 'utf8');
+      const lines = content.split('\n').filter(line => line.trim());
+      
+      const pendingFromQueue = [];
+      for (const line of lines) {
+        try {
+          const item = JSON.parse(line);
+          if (item.status === 'pending' && item.id) {
+            pendingFromQueue.push(item);
+          }
+        } catch {}
+      }
+      
+      if (pendingFromQueue.length === 0) {
+        return 0;
+      }
+      
+      console.log(`[PendingIndex] Restoring ${pendingFromQueue.length} proposals from queue...`);
+      
+      const restored = {};
+      for (const item of pendingFromQueue) {
+        restored[item.id] = {
+          id: item.id,
+          type: item.type,
+          level: item.level,
+          change: item.change,
+          proposedAt: item.proposedAt,
+          status: 'pending',
+          _restoredFromQueue: new Date().toISOString()
+        };
+      }
+      
+      await this.save(restored);
+      console.log(`[PendingIndex] ✅ Restored ${Object.keys(restored).length} proposals`);
+      return Object.keys(restored).length;
+    } catch (err) {
+      console.error('[PendingIndex] Restore failed:', err.message);
+      return 0;
     }
   }
 

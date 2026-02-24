@@ -1,0 +1,15 @@
+[Unit]
+Description=Sync Knowledge Pending Index
+After=network.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/.openclaw/workspace/knowledge-system
+Environment="KNOWLEDGE_LOG_PATH=/var/lib/knowledge/logs"
+ExecStart=/usr/bin/node scripts/sync-pending-index.js
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

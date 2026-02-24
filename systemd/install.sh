@@ -20,6 +20,7 @@ cp evolution.service /etc/systemd/system/
 cp evolution.timer /etc/systemd/system/
 cp session-monitor.service /etc/systemd/system/
 cp telegram-bot.service /etc/systemd/system/
+cp sync-pending-index.service /etc/systemd/system/
 cp staleness-check.service /etc/systemd/system/
 cp staleness-check.timer /etc/systemd/system/
 cp system-monitor.service /etc/systemd/system/
@@ -60,6 +61,11 @@ systemctl start weekly-strategic.timer
 
 # Start services immediately
 echo "Starting services..."
+
+# Sync pending index first (in case it needs restoration)
+echo "Syncing pending proposals index..."
+systemctl start sync-pending-index.service || true
+
 systemctl start session-monitor.service
 systemctl start telegram-bot.service
 
