@@ -20,26 +20,48 @@ class TopicsManager {
     await fs.writeFile(TOPICS_FILE, JSON.stringify(data, null, 2));
   }
 
-  async addTopic(name, type = 'technology', priority = 'medium', description = '') {
+  normalizeTopicName(name) {
+    // Remove duplicate suffixes
+    let normalized = name
+      .replace(/ - best-practices - best-practices/gi, ' - best-practices')
+      .replace(/ - common-mistakes - common-mistakes/gi, ' - common-mistakes')
+      .replace(/ - advanced best practices - advanced best practices/gi, ' - advanced best practices')
+      .replace(/ - tools - tools/gi, ' - tools')
+      .replace(/ - deployment - deployment/gi, ' - deployment')
+      .replace(/\s+/g, ' ') // Remove extra spaces
+      .trim();
+    
+    return normalized;
+  }
+
+  async addTopic(name, type = 'technology', priority = 'medium', description = '', source = 'manual') {
     const data = await this.loadTopics();
     
-    // Check for duplicates
-    const exists = data.topics.find(t => t.name.toLowerCase() === name.toLowerCase());
+    // Normalize name to prevent duplicate suffixes
+    const normalizedName = this.normalizeTopicName(name);
+    
+    // Check for duplicates (including normalized)
+    const exists = data.topics.find(t => 
+      t.name.toLowerCase() === normalizedName.toLowerCase() ||
+      this.normalizeTopicName(t.name).toLowerCase() === normalizedName.toLowerCase()
+    );
+    
     if (exists) {
-      console.log(`⚠️  Topic "${name}" already exists`);
+      console.log(`⚠️  Topic "${normalizedName}" already exists (original: "${exists.name}")`);
       return false;
     }
 
     data.topics.push({
-      name,
+      name: normalizedName,
       type,
       priority,
       description,
+      source,
       addedAt: new Date().toISOString()
     });
 
     await this.saveTopics(data);
-    console.log(`✅ Added: ${name} (${type})`);
+    console.log(`✅ Added: ${normalizedName} (${type}, ${priority})`);
     return true;
   }
 

@@ -1,0 +1,12 @@
+{
+  "name": "knowledge-system",
+  "version": "1.0.0",
+  "description": "Knowledge System with Self-Evolution",
+  "scripts": {
+    "test": "node scripts/full-system-test.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.10.0",
+    "prisma": "^5.10.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-24T17:54:49.144Z",
+  "pending": 597,
+  "processing": 0,
+  "processingOld": 0,
+  "pendingByPriority": {
+    "high": 183,
+    "medium": 414
+  },
+  "alerts": [],
+  "healthy": true
+}

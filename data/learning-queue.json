@@ -1,0 +1,4992 @@
+{
+  "pending": [
+    {
+      "name": "RAG Optimization - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "docker-compose",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "dockerfile-best-practices",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "container-security",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "docker - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "nginx - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z"
+    },
+    {
+      "name": "Memory Leaks in Node.js",
+      "type": "problem",
+      "priority": "high",
+      "description": "Common causes and debugging techniques",
+      "source": "sync",
+      "addedAt": "2026-02-24T17:24:57.287Z"
+    },
+    {
+      "name": "Qdrant",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-24T17:24:57.288Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.288Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.288Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.288Z"
+    },
+    {
+      "name": "service-mesh",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "api-gateway",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "event-driven",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "saga-pattern",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "изучить - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "разобраться - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "apollo-client",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "relay",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "schema-stitching",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "graphql - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "deep dive - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "кэширование redis - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "want to learn - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "rust programming - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "pg-admin",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "sql-optimization",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "database-indexing",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Postgresql - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Api - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "react-hooks",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "react-router",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "redux",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "next.js",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "React - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Jest - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Javascript - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Openai - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Anthropic - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "oauth",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "jwt",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "encryption",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "vulnerability-scanning",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Security - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Authentication - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "docker-compose - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "dockerfile-best-practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "container-security - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "docker - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "nginx - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Qdrant - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "service-mesh - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "api-gateway - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "event-driven - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "saga-pattern - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "изучить - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "разобраться - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "apollo-client - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "relay - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "schema-stitching - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "graphql - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "deep dive - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "кэширование redis - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "want to learn - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "rust programming - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "pg-admin - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "sql-optimization - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "database-indexing - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Postgresql - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Api - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "react-hooks - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "react-router - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "redux - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "next.js - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "React - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Jest - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Javascript - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Openai - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Anthropic - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "oauth - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "jwt - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "encryption - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "vulnerability-scanning - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Security - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Authentication - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "docker-compose - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "dockerfile-best-practices - advanced best practices - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Memgraph",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 4 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Kimi",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Serverless",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-24T17:24:57.289Z"
+    },
+    {
+      "name": "Event-Driven Architecture",
+      "type": "pattern",
+      "priority": "medium",
+      "description": "Async messaging, event sourcing, CQRS patterns",
+      "source": "sync",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "GraphQL vs REST",
+      "type": "solution",
+      "priority": "medium",
+      "description": "When to use which API style",
+      "source": "sync",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "The DevOps Handbook",
+      "type": "book",
+      "priority": "medium",
+      "description": "Gene Kim guide to DevOps practices and CI/CD automation",
+      "source": "sync",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Kubernetes Up and Running",
+      "type": "book",
+      "priority": "medium",
+      "description": "Brendan Burns practical Kubernetes guide",
+      "source": "sync",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Programming TypeScript",
+      "type": "book",
+      "priority": "medium",
+      "description": "Boris Cherny comprehensive TypeScript guide",
+      "source": "sync",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Effective TypeScript",
+      "type": "book",
+      "priority": "medium",
+      "description": "Dan Vanderkam 62 ways to improve TypeScript",
+      "source": "sync",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Database System Concepts",
+      "type": "book",
+      "priority": "medium",
+      "description": "Abraham Silberschatz fundamental database theory",
+      "source": "sync",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: error",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Solution: Fix",
+      "type": "solution",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Prisma",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Node.js",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Kubernetes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Redis",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: timeout",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: Race condition",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: crash",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: Memory leak",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: deadlock",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: infinite loop",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: FAIL",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: BUG",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: problem",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Solution: solution",
+      "type": "solution",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Solution: improve",
+      "type": "solution",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Problem: issue",
+      "type": "problem",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Solution: Update",
+      "type": "solution",
+      "priority": "medium",
+      "description": "",
+      "source": "from_graph",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "nginx - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "nginx - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "nginx - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "nginx - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "изучить - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "изучить - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "изучить - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "изучить - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "разобраться - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "разобраться - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "разобраться - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "разобраться - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "graphql - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "graphql - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "graphql - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "graphql - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "deep dive - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "deep dive - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "deep dive - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "deep dive - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "кэширование redis - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "кэширование redis - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "кэширование redis - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "кэширование redis - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "want to learn - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "want to learn - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "want to learn - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "want to learn - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "rust programming - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "rust programming - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "rust programming - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "rust programming - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Postgresql - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Postgresql - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Postgresql - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Postgresql - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Api - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Api - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Api - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Api - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "React - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "React - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "React - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "React - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Jest - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Jest - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Jest - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Jest - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Javascript - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Javascript - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Javascript - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Javascript - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Openai - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Openai - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Openai - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Openai - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Anthropic - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Anthropic - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Anthropic - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Anthropic - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Security - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Security - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Security - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Security - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Authentication - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Authentication - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Authentication - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Authentication - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker-compose - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker-compose - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker-compose - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker-compose - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "dockerfile-best-practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "dockerfile-best-practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "dockerfile-best-practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "dockerfile-best-practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "container-security - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "container-security - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "container-security - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "container-security - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "nginx - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "nginx - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "nginx - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "nginx - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Code Complete - Software Construction - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Qdrant - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Qdrant - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Qdrant - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Qdrant - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "service-mesh - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "service-mesh - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "service-mesh - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "service-mesh - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "api-gateway - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "api-gateway - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "api-gateway - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "api-gateway - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "event-driven - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "event-driven - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "event-driven - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "event-driven - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "saga-pattern - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "saga-pattern - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "saga-pattern - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "saga-pattern - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "изучить - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "изучить - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "изучить - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "изучить - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "разобраться - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "разобраться - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "разобраться - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "разобраться - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "apollo-client - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "apollo-client - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "apollo-client - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "apollo-client - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "relay - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "relay - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "relay - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "relay - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "schema-stitching - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "schema-stitching - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "schema-stitching - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "schema-stitching - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "graphql - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "graphql - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "graphql - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "graphql - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "deep dive - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "deep dive - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "deep dive - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "deep dive - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "кэширование redis - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "кэширование redis - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "кэширование redis - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "кэширование redis - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "want to learn - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "want to learn - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "want to learn - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "want to learn - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "rust programming - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "rust programming - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "rust programming - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "rust programming - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "pg-admin - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "pg-admin - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "pg-admin - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "pg-admin - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "sql-optimization - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "sql-optimization - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "sql-optimization - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "sql-optimization - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "database-indexing - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "database-indexing - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "database-indexing - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "database-indexing - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Postgresql - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Postgresql - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Postgresql - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Postgresql - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Api - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Api - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Api - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Api - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "react-hooks - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "react-hooks - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "react-hooks - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "react-hooks - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "react-router - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "react-router - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "react-router - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "react-router - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "redux - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "redux - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "redux - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "redux - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "next.js - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "next.js - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "next.js - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "next.js - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "React - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "React - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "React - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "React - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Jest - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Jest - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Jest - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Jest - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Javascript - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Javascript - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Javascript - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Javascript - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Openai - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Openai - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Openai - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Openai - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Anthropic - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Anthropic - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Anthropic - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Anthropic - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "oauth - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "oauth - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "oauth - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "oauth - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "jwt - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "jwt - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "jwt - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "jwt - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "encryption - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "encryption - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "encryption - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "encryption - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "vulnerability-scanning - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "vulnerability-scanning - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "vulnerability-scanning - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "vulnerability-scanning - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Security - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Security - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Security - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Security - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Authentication - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Authentication - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Authentication - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Authentication - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "RAG Optimization - advanced best practices - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker-compose - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker-compose - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker-compose - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "docker-compose - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "dockerfile-best-practices - advanced best practices - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "dockerfile-best-practices - advanced best practices - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "dockerfile-best-practices - advanced best practices - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "dockerfile-best-practices - advanced best practices - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Event-Driven Architecture - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Event-Driven Architecture - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Event-Driven Architecture - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Event-Driven Architecture - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "GraphQL vs REST - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "GraphQL vs REST - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "GraphQL vs REST - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "GraphQL vs REST - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "The DevOps Handbook - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "The DevOps Handbook - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "The DevOps Handbook - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "The DevOps Handbook - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Kubernetes Up and Running - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Kubernetes Up and Running - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Kubernetes Up and Running - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Kubernetes Up and Running - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Programming TypeScript - best-practices",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Programming TypeScript - common-mistakes",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Programming TypeScript - tools",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Programming TypeScript - deployment",
+      "type": "technology",
+      "priority": "medium",
+      "description": "",
+      "source": "type-based",
+      "addedAt": "2026-02-24T17:40:00Z"
+    },
+    {
+      "name": "Microservices Architecture",
+      "type": "technology",
+      "priority": "high",
+      "description": "Service decomposition patterns and inter-service communication",
+      "addedAt": "2026-02-24T12:34:23.215Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.081Z"
+    },
+    {
+      "name": "Kubernetes Best Practices",
+      "type": "technology",
+      "priority": "high",
+      "description": "Container orchestration patterns and pitfalls",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Rust Ownership Model",
+      "type": "technology",
+      "priority": "high",
+      "description": "Memory safety without garbage collector",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "PostgreSQL Replication",
+      "type": "technology",
+      "priority": "high",
+      "description": "User requested: глубоко погрузиться",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Maestro Android UI Testing",
+      "type": "technology",
+      "priority": "high",
+      "description": "Cross-platform UI testing framework, Android automation",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Ultron Android UI Testing",
+      "type": "technology",
+      "priority": "high",
+      "description": "Android UI testing framework with Kotlin DSL",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Espresso Android Testing",
+      "type": "technology",
+      "priority": "high",
+      "description": "Google's Android UI testing framework",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Android Development",
+      "type": "technology",
+      "priority": "high",
+      "description": "Mobile app development for Android platform",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "UI Test Generation",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Automated generation of UI tests from code or recordings",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "LLM-Powered Test Generation",
+      "type": "solution",
+      "priority": "high",
+      "description": "Using AI/LLM to generate and maintain test suites",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "CI/CD Pipeline Acceleration",
+      "type": "solution",
+      "priority": "high",
+      "description": "Speeding up test execution in CI/CD with parallelization, caching",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "GraphRAG",
+      "type": "technology",
+      "priority": "high",
+      "description": "Graph Retrieval-Augmented Generation for knowledge systems",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Knowledge Graph Construction",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Building semantic graphs from unstructured data",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Context Awareness Systems",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Maintaining and utilizing conversation context",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Proactive Help Systems",
+      "type": "solution",
+      "priority": "high",
+      "description": "AI systems that anticipate user needs",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Explainable AI",
+      "type": "technology",
+      "priority": "high",
+      "description": "Systems that explain their reasoning and decisions",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Long-term Learning Systems",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Systems that accumulate knowledge over time",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Hybrid Search Reranking",
+      "type": "solution",
+      "priority": "high",
+      "description": "Combining vector, BM25, and graph search with cross-encoders",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "UI Lifecycle Management",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Managing UI state and component lifecycle",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Telegraf Bot Framework",
+      "type": "technology",
+      "priority": "high",
+      "description": "Node.js framework for Telegram bots",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Stoicism in AI Ethics",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Decision-making principles for autonomous agents",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "TinyML Local Inference",
+      "type": "technology",
+      "priority": "high",
+      "description": "On-device ML with Ollama/llama.cpp",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "EU AI Act Compliance",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Regulatory requirements for AI systems",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Web Performance Optimization",
+      "type": "technology",
+      "priority": "high",
+      "description": "INP, LCP, CLS optimization strategies",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Agentic Workflows 2.0",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Self-planning and self-reflection patterns",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Temporal Knowledge Decay",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Forgetting algorithms for outdated knowledge",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Audio-First Content",
+      "type": "technology",
+      "priority": "high",
+      "description": "Voice interfaces and intonation markup",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Distributed Knowledge Consensus",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Synchronizing knowledge bases across nodes",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Knowledge Synthesis",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Creating articles from facts automatically",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Code AST Parsing",
+      "type": "technology",
+      "priority": "high",
+      "description": "Parsing source code for indexing",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Visual Knowledge Graph",
+      "type": "technology",
+      "priority": "high",
+      "description": "Visualizing entity relationships",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Expert Profiles",
+      "type": "pattern",
+      "priority": "high",
+      "description": "Expertise tracking and personalization",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Proactive Alerts System",
+      "type": "solution",
+      "priority": "high",
+      "description": "Middleware for contextual notifications",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Emotional Intelligence in AI Communication",
+      "type": "concept",
+      "priority": "high",
+      "description": "Self-improvement: understanding and adapting to user emotions",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Advanced Prompt Engineering",
+      "type": "technology",
+      "priority": "high",
+      "description": "Self-improvement: optimize prompts for better responses",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Latency Optimization Techniques",
+      "type": "technology",
+      "priority": "high",
+      "description": "Self-improvement: faster response times and efficiency",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration",
+      "type": "technology",
+      "priority": "high",
+      "description": "Self-improvement: coordinator patterns for complex tasks",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "RAG Optimization",
+      "type": "technology",
+      "priority": "high",
+      "description": "Self-improvement: improve knowledge retrieval quality",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Meta-Learning and Transfer",
+      "type": "concept",
+      "priority": "high",
+      "description": "Self-improvement: learn faster across domains",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Release It! - Production-Ready Software",
+      "type": "book",
+      "priority": "high",
+      "description": "Michael Nygard book on stability patterns for production systems",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Site Reliability Engineering - Google",
+      "type": "book",
+      "priority": "high",
+      "description": "Google SRE book on SLI/SLO, monitoring, and reliability practices",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Code Complete - Software Construction",
+      "type": "book",
+      "priority": "high",
+      "description": "Steve McConnell comprehensive guide to writing maintainable code",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Working Effectively with Legacy Code",
+      "type": "book",
+      "priority": "high",
+      "description": "Michael Feathers strategies for refactoring and testing legacy code",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Designing Data-Intensive Applications",
+      "type": "book",
+      "priority": "high",
+      "description": "Martin Kleppmann - Reliable scalable maintainable systems",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Clean Code - Robert Martin",
+      "type": "book",
+      "priority": "high",
+      "description": "Agile software craftsmanship principles",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Building Microservices - Sam Newman",
+      "type": "book",
+      "priority": "high",
+      "description": "Designing fine-grained systems",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "Go",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "изучить",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added from intent: \"Хочу изучить\"",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "разобраться",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added from intent: \"Нужно разобраться\"",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "graphql",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added from intent: \"разобраться с GraphQL\"",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_5.2h",
+      "previousStartedAt": "2026-02-24T12:45:12.082Z"
+    },
+    {
+      "name": "deep dive",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added from intent: \"сделаем deep dive\"",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.985Z"
+    },
+    {
+      "name": "кэширование redis",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added from intent: \"Прикрутим кэширование Redis\"",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "want to learn",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added from intent: \"want to learn\"",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "rust programming",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added from intent: \"learn Rust programming\"",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Docker",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 4 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Postgresql",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 4 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Api",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 4 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "React",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Jest",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Javascript",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Openai",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Anthropic",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Security",
+      "type": "concept",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Authentication",
+      "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 3 times",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "OpenClaw",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "WebAssembly System Interface (WASI) - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "eBPF Kernel Programming - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "CRDT Data Structures - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Latency Optimization Techniques - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Multi-Agent Orchestration - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "addedAt": "2026-02-24T12:34:23.216Z",
+      "recoveredAt": "2026-02-24T17:54:19.562Z",
+      "reason": "stuck_4.9h",
+      "previousStartedAt": "2026-02-24T13:02:59.986Z"
+    },
+    {
+      "name": "Event-Driven Architecture - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:55:01.267Z"
+    },
+    {
+      "name": "GraphQL vs REST - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "The DevOps Handbook - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "helm",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "kubectl",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "k9s",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "istio",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "argo-cd",
+      "type": "technology",
+      "priority": "high",
+      "description": "",
+      "source": "rule-based",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "Kubernetes Up and Running - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    },
+    {
+      "name": "Programming TypeScript - advanced best practices",
+      "type": "pattern",
+      "priority": "high",
+      "description": "",
+      "source": "quality-gap",
+      "addedAt": "2026-02-24T17:55:01.268Z"
+    }
+  ],
+  "processing": []
+}

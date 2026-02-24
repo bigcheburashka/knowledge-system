@@ -786,12 +786,12 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
     let topicsToProcess = [];
     
     if (customOnly) {
-      // Process only custom topics
+      // Process custom topics (high and medium priority)
       const customTopics = await this.loadCustomTopics();
       topicsToProcess = customTopics
-        .filter(t => t.priority === 'high')
+        .filter(t => t.priority === 'high' || t.priority === 'medium')
         .map(t => ({ name: t.name, type: t.type || 'technology' }));
-      await this.log(`📚 Processing ${topicsToProcess.length} custom topics (high priority)`);
+      await this.log(`📚 Processing ${topicsToProcess.length} custom topics (high + medium priority)`);
     } else {
       // Process mixed topics
       const topics = await this.extractTopicsFromSessions();
@@ -859,7 +859,7 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
       await this.log('🔗 Running 2-hop topic expansion...');
       const { TwoHopExpansion } = require('../src/two-hop-expansion');
       const hopExpansion = new TwoHopExpansion();
-      const hopResult = await hopExpansion.run({ limit: 3 });
+      const hopResult = await hopExpansion.run({ limit: 5 });
       await this.log(`   Discovered ${hopResult.discovered} topics via 2-hop`);
     }
     
@@ -938,7 +938,7 @@ if (require.main === module) {
   const limit = process.argv.find(arg => arg.startsWith('--limit='))?.split('=')[1];
   const customOnly = process.argv.includes('--custom');
   const service = new DeepLearningService();
-  service.run({ limit: limit ? parseInt(limit) : 3, customOnly })
+  service.run({ limit: limit ? parseInt(limit) : 5, customOnly })
     .then(report => {
       console.log('\n📋 Report:', JSON.stringify(report, null, 2));
       process.exit(0);
