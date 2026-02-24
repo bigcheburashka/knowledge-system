@@ -6,11 +6,19 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const { execSync } = require('child_process');
+const { ContentFetcher } = require('../content-fetcher');
 
 class WebResearch {
   constructor() {
     this.braveApiKey = process.env.BRAVE_API_KEY;
     this.ddgFallback = true;
+    this.contentFetcher = new ContentFetcher({
+      maxSites: 20,
+      timeout: 15000,
+      maxContentLength: 10000,
+      maxSummaryLength: 2000,
+      concurrency: 5
+    });
   }
 
   /**
@@ -528,7 +536,7 @@ class WebResearch {
 
   /**
    * Collect research data only (no generation)
-   * Сбор данных без генерации контента
+   * Сбор данных без генерации контента - УЛУЧШЕННАЯ ВЕРСИЯ с топ-20 сайтами
    */
   async collectResearchData(topicName, options = {}) {
     console.log(`[WebResearch] Collecting data for: ${topicName}`);
@@ -538,14 +546,16 @@ class WebResearch {
       searchResults: [],
       githubRepos: [],
       documentation: null,
-      fetchedPages: [],
+      fetchedSites: [],
+      aggregatedContent: null,
+      llmContext: '',
       collectedAt: new Date().toISOString()
     };
 
     // 1. Web search (top 20)
     if (options.webSearch !== false) {
       results.searchResults = await this.search(topicName, { limit: 20 });
-      console.log(`[WebResearch]  - Web: ${results.searchResults.length} results`);
+      console.log(`[WebResearch]  - Web search: ${results.searchResults.length} results`);
     }
 
     // 2. GitHub repos (top 20)
@@ -560,21 +570,42 @@ class WebResearch {
       console.log(`[WebResearch]  - Docs: ${results.documentation || 'not found'}`);
     }
 
-    // 4. Fetch top pages for raw content
-    if (options.fetchContent !== false) {
-      const pagesToFetch = results.searchResults.slice(0, 5);
-      for (const page of pagesToFetch) {
-        const content = await this.fetchPage(page.url);
-        if (content) {
-          results.fetchedPages.push({
-            url: content.url,
-            title: content.title,
-            content: content.content.substring(0, 5000), // Limit to 5k chars
-            fetchedAt: new Date().toISOString()
-          });
-        }
+    // 4. ENHANCED: Fetch top 20 sites with content extraction
+    if (options.fetchContent !== false && results.searchResults.length > 0) {
+      console.log(`[WebResearch]  - Fetching top 20 sites...`);
+      
+      const fetchResult = await this.contentFetcher.fetchTopSites(
+        results.searchResults,
+        { limit: 20 }
+      );
+      
+      results.fetchedSites = fetchResult.fetched;
+      results.fetchErrors = fetchResult.errors;
+      
+      console.log(`[WebResearch]    ✓ Successfully fetched: ${fetchResult.fetched.length}`);
+      console.log(`[WebResearch]    ✗ Failed: ${fetchResult.errors.length}`);
+      
+      // 5. Aggregate content from all fetched sites
+      if (results.fetchedSites.length > 0) {
+        console.log(`[WebResearch]  - Aggregating content...`);
+        
+        results.aggregatedContent = this.contentFetcher.aggregateContent(
+          results.fetchedSites,
+          { maxTotalLength: 50000, minRelevance: 0.3 }
+        );
+        
+        console.log(`[WebResearch]    Sources: ${results.aggregatedContent.sources.length}`);
+        console.log(`[WebResearch]    Total words: ${results.aggregatedContent.totalWordCount}`);
+        console.log(`[WebResearch]    Key points: ${results.aggregatedContent.allKeyPoints.length}`);
+        
+        // 6. Generate LLM-ready context
+        results.llmContext = this.contentFetcher.generateLLMContext(
+          results.aggregatedContent,
+          topicName
+        );
+        
+        console.log(`[WebResearch]    LLM context size: ${results.llmContext.length} chars`);
       }
-      console.log(`[WebResearch]  - Fetched pages: ${results.fetchedPages.length}`);
     }
 
     console.log(`[WebResearch] Collection complete for: ${topicName}`);
@@ -588,23 +619,60 @@ class WebResearch {
   async generateFromResearch(researchData, options = {}) {
     console.log(`[WebResearch] Generating content from research for: ${researchData.topic}`);
     
-    // Only generate if we have research data
-    if (!researchData || researchData.fetchedPages.length === 0) {
+    // Используем новый LLM контекст если доступен
+    if (researchData.llmContext && researchData.llmContext.length > 0) {
+      const githubContext = researchData.githubRepos
+        .slice(0, 5)
+        .map(r => `Repo: ${r.fullName} (${r.stars}⭐)\nDescription: ${r.description}`)
+        .join('\n');
+
+      const prompt = `Based on the following comprehensive research data about "${researchData.topic}", generate detailed knowledge:
+
+${researchData.llmContext.substring(0, 15000)}
+
+GITHUB REPOSITORIES:
+${githubContext}
+
+OFFICIAL DOCUMENTATION: ${researchData.documentation || 'N/A'}
+
+Generate structured content with:
+1. Detailed description (2-3 paragraphs)
+2. Best practices (8-10 specific items)
+3. Common mistakes (6-8 items with explanations)
+4. Tools and ecosystem (8-10 items)
+5. Deployment considerations
+6. Current trends and recommendations
+
+Use factual information from sources. Be specific and actionable. Avoid generic advice.`;
+
+      return {
+        prompt,
+        sources: {
+          web: researchData.searchResults?.length || 0,
+          github: researchData.githubRepos?.length || 0,
+          fetchedSites: researchData.fetchedSites?.length || 0,
+          aggregatedSources: researchData.aggregatedContent?.sources?.length || 0
+        },
+        keyPoints: researchData.aggregatedContent?.allKeyPoints || []
+      };
+    }
+    
+    // Fallback на старый формат
+    if (!researchData || (!researchData.fetchedPages?.length && !researchData.fetchedSites?.length)) {
       console.log(`[WebResearch] No research data, skipping generation`);
       return null;
     }
 
-    // Prepare context from research
+    // Prepare context from research (legacy format)
     const webContext = researchData.fetchedPages
-      .map(p => `Source: ${p.url}\nTitle: ${p.title}\nContent: ${p.content.substring(0, 2000)}`)
-      .join('\n\n---\n\n');
+      ?.map(p => `Source: ${p.url}\nTitle: ${p.title}\nContent: ${p.content?.substring(0, 2000) || ''}`)
+      .join('\n\n---\n\n') || '';
     
     const githubContext = researchData.githubRepos
-      .slice(0, 5)
+      ?.slice(0, 5)
       .map(r => `Repo: ${r.fullName} (${r.stars}⭐)\nDescription: ${r.description}`)
-      .join('\n');
+      .join('\n') || '';
 
-    // Build generation prompt
     const prompt = `Based on the following research data about "${researchData.topic}", generate comprehensive knowledge:
 
 WEB SOURCES:
@@ -625,13 +693,12 @@ Generate structured content with:
 
 Use only factual information from sources.`;
 
-    // This would be called from deep-learning.js with LLM
     return {
       prompt,
       sources: {
-        web: researchData.searchResults.length,
-        github: researchData.githubRepos.length,
-        pages: researchData.fetchedPages.length
+        web: researchData.searchResults?.length || 0,
+        github: researchData.githubRepos?.length || 0,
+        pages: researchData.fetchedPages?.length || 0
       }
     };
   }
