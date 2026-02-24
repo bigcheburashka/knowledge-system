@@ -14,33 +14,90 @@ class WebResearch {
   }
 
   /**
-   * Search with DuckDuckGo as primary, Brave as fallback
-   * Возвращает топ-20 результатов
+   * DuckDuckGo search via Python library (most reliable)
+   * Option 1: Python duckduckgo-search
+   */
+  async searchDuckDuckGoPython(query, limit = 20) {
+    const { spawn } = require('child_process');
+    const path = require('path');
+    
+    return new Promise((resolve, reject) => {
+      const scriptPath = path.join(__dirname, '../../scripts/ddg_search.py');
+      const python = spawn('python3', [scriptPath, query, limit.toString()], {
+        timeout: 30000
+      });
+      
+      let output = '';
+      let error = '';
+      
+      python.stdout.on('data', (data) => {
+        output += data.toString();
+      });
+      
+      python.stderr.on('data', (data) => {
+        error += data.toString();
+      });
+      
+      python.on('close', (code) => {
+        if (code !== 0) {
+          console.warn(`[WebResearch] Python DDG failed: ${error}`);
+          reject(new Error('Python script failed'));
+          return;
+        }
+        
+        try {
+          const result = JSON.parse(output);
+          if (result.success) {
+            console.log(`[WebResearch] Python DDG: ${result.count} results`);
+            resolve(result.results);
+          } else {
+            reject(new Error(result.error));
+          }
+        } catch (e) {
+          reject(new Error('Invalid JSON from Python'));
+        }
+      });
+      
+      python.on('error', (err) => {
+        reject(err);
+      });
+    });
+  }
+
+  /**
+   * Main search - tries multiple methods in order
+   * Order: Python DDG -> HTML DDG -> DDG Lite -> Brave
    */
   async search(query, options = {}) {
     const limit = options.limit || 20;
-    let results = [];
-
-    // Try DuckDuckGo first (primary)
-    try {
-      results = await this.searchDuckDuckGo(query, limit);
-      console.log(`[WebResearch] DDG: ${results.length} results for "${query}"`);
-    } catch (e) {
-      console.warn('[WebResearch] DDG failed:', e.message);
+    const methods = [
+      { name: 'Python DDG', fn: () => this.searchDuckDuckGoPython(query, limit) },
+      { name: 'DDG HTML', fn: () => this.searchDuckDuckGo(query, limit) },
+      { name: 'DDG Lite', fn: () => this.searchDuckDuckGoLite(query, limit) },
+    ];
+    
+    // Add Brave if API key available
+    if (this.braveApiKey) {
+      methods.push({
+        name: 'Brave',
+        fn: () => this.searchBrave(query, limit)
+      });
     }
-
-    // Fallback to Brave if DDG failed and Brave key available
-    if (results.length < limit / 2 && this.braveApiKey) {
+    
+    for (const method of methods) {
       try {
-        const braveResults = await this.searchBrave(query, limit - results.length);
-        results = results.concat(braveResults);
-        console.log(`[WebResearch] Brave: ${braveResults.length} additional results`);
+        const results = await method.fn();
+        if (results.length >= limit / 2) {
+          console.log(`[WebResearch] Using ${method.name}: ${results.length} results`);
+          return results.slice(0, limit);
+        }
       } catch (e) {
-        console.warn('[WebResearch] Brave failed:', e.message);
+        console.warn(`[WebResearch] ${method.name} failed: ${e.message}`);
       }
     }
-
-    return results.slice(0, limit);
+    
+    console.warn('[WebResearch] All search methods failed');
+    return [];
   }
 
   /**
