@@ -66,7 +66,7 @@ class WebResearch {
 
   /**
    * Main search - tries multiple methods in order
-   * Order: Python DDG -> HTML DDG -> DDG Lite -> Brave
+   * Order: Python DDG -> HTML DDG -> DDG Lite -> StackExchange -> Reddit -> Wikipedia -> YouTube -> Brave
    */
   async search(query, options = {}) {
     const limit = options.limit || 20;
@@ -74,6 +74,10 @@ class WebResearch {
       { name: 'Python DDG', fn: () => this.searchDuckDuckGoPython(query, limit) },
       { name: 'DDG HTML', fn: () => this.searchDuckDuckGo(query, limit) },
       { name: 'DDG Lite', fn: () => this.searchDuckDuckGoLite(query, limit) },
+      { name: 'StackExchange', fn: () => this.searchStackExchange(query, limit) },
+      { name: 'Reddit', fn: () => this.searchReddit(query, limit) },
+      { name: 'Wikipedia', fn: () => this.searchWikipedia(query, limit) },
+      { name: 'YouTube', fn: () => this.searchYouTube(query, limit) },
     ];
     
     // Add Brave if API key available
@@ -87,7 +91,7 @@ class WebResearch {
     for (const method of methods) {
       try {
         const results = await method.fn();
-        if (results.length >= limit / 2) {
+        if (results.length >= 3) { // Lower threshold for diverse sources
           console.log(`[WebResearch] Using ${method.name}: ${results.length} results`);
           return results.slice(0, limit);
         }
@@ -339,6 +343,187 @@ class WebResearch {
     }
 
     return null;
+  }
+
+  /**
+   * StackExchange API search (StackOverflow, etc.)
+   * Q&A for technical topics
+   */
+  async searchStackExchange(query, limit = 20) {
+    try {
+      // Try StackOverflow first
+      const response = await axios.get('https://api.stackexchange.com/2.3/search', {
+        params: {
+          order: 'desc',
+          sort: 'relevance',
+          intitle: query,
+          site: 'stackoverflow',
+          pagesize: Math.min(limit, 30)
+        },
+        timeout: 15000
+      });
+
+      const results = response.data.items?.map(item => ({
+        title: item.title,
+        url: item.link,
+        description: `Score: ${item.score}, Answers: ${item.answer_count}, Tags: ${item.tags?.join(', ')}`,
+        source: 'stackoverflow',
+        score: item.score,
+        answerCount: item.answer_count
+      })) || [];
+
+      console.log(`[WebResearch] StackExchange: ${results.length} results`);
+      return results;
+    } catch (error) {
+      console.warn('[WebResearch] StackExchange failed:', error.message);
+      return [];
+    }
+  }
+
+  /**
+   * Reddit API search
+   * Discussions and opinions
+   */
+  async searchReddit(query, limit = 20) {
+    try {
+      const response = await axios.get('https://www.reddit.com/search.json', {
+        params: {
+          q: query,
+          limit: Math.min(limit, 25),
+          sort: 'relevance',
+          t: 'year' // Last year
+        },
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; KnowledgeBot/1.0)'
+        },
+        timeout: 15000
+      });
+
+      const results = response.data.data?.children?.map(child => {
+        const post = child.data;
+        return {
+          title: post.title,
+          url: `https://reddit.com${post.permalink}`,
+          description: post.selftext?.substring(0, 200) || `Subreddit: r/${post.subreddit}`,
+          source: 'reddit',
+          subreddit: post.subreddit,
+          score: post.score,
+          comments: post.num_comments
+        };
+      }) || [];
+
+      console.log(`[WebResearch] Reddit: ${results.length} results`);
+      return results;
+    } catch (error) {
+      console.warn('[WebResearch] Reddit failed:', error.message);
+      return [];
+    }
+  }
+
+  /**
+   * Wikipedia API search
+   * Facts and definitions
+   */
+  async searchWikipedia(query, limit = 10) {
+    try {
+      // First, search for pages
+      const searchResponse = await axios.get('https://en.wikipedia.org/w/api.php', {
+        params: {
+          action: 'query',
+          list: 'search',
+          srsearch: query,
+          format: 'json',
+          origin: '*',
+          srlimit: Math.min(limit, 10)
+        },
+        timeout: 15000
+      });
+
+      const searchResults = searchResponse.data.query?.search || [];
+      
+      if (searchResults.length === 0) {
+        return [];
+      }
+
+      // Get extract for the first/best result
+      const titles = searchResults.map(r => r.title).join('|');
+      const extractResponse = await axios.get('https://en.wikipedia.org/w/api.php', {
+        params: {
+          action: 'query',
+          prop: 'extracts',
+          titles: titles,
+          format: 'json',
+          origin: '*',
+          exintro: true,
+          explaintext: true,
+          exlimit: Math.min(limit, 10)
+        },
+        timeout: 15000
+      });
+
+      const pages = extractResponse.data.query?.pages || {};
+      const results = [];
+
+      for (const [pageId, page] of Object.entries(pages)) {
+        if (pageId === '-1') continue; // Missing page
+        
+        results.push({
+          title: page.title,
+          url: `https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replace(/ /g, '_'))}`,
+          description: page.extract?.substring(0, 500) || '',
+          source: 'wikipedia'
+        });
+      }
+
+      console.log(`[WebResearch] Wikipedia: ${results.length} results`);
+      return results;
+    } catch (error) {
+      console.warn('[WebResearch] Wikipedia failed:', error.message);
+      return [];
+    }
+  }
+
+  /**
+   * YouTube Data API search
+   * Video tutorials and talks
+   */
+  async searchYouTube(query, limit = 10) {
+    const apiKey = process.env.YOUTUBE_API_KEY;
+    
+    if (!apiKey) {
+      console.log('[WebResearch] YouTube API key not set, skipping');
+      return [];
+    }
+
+    try {
+      const response = await axios.get('https://www.googleapis.com/youtube/v3/search', {
+        params: {
+          part: 'snippet',
+          q: query,
+          type: 'video',
+          maxResults: Math.min(limit, 10),
+          order: 'relevance',
+          videoEmbeddable: true,
+          key: apiKey
+        },
+        timeout: 15000
+      });
+
+      const results = response.data.items?.map(item => ({
+        title: item.snippet.title,
+        url: `https://youtube.com/watch?v=${item.id.videoId}`,
+        description: item.snippet.description?.substring(0, 300) || '',
+        source: 'youtube',
+        channel: item.snippet.channelTitle,
+        publishedAt: item.snippet.publishedAt
+      })) || [];
+
+      console.log(`[WebResearch] YouTube: ${results.length} results`);
+      return results;
+    } catch (error) {
+      console.warn('[WebResearch] YouTube failed:', error.message);
+      return [];
+    }
   }
 
   /**
