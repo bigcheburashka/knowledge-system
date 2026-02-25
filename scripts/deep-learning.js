@@ -1047,21 +1047,140 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
       await this.log(`⚠️ Could not prioritize gaps: ${error.message}`, 'WARN');
     }
   }
+
+  /**
+   * NEW: Learn a single topic (for Learning Budget integration)
+   * Returns true if topic was learned, false if skipped or failed
+   */
+  async learnSingleTopic(topicName, options = {}) {
+    const startTime = Date.now();
+    
+    await this.log(`📚 Learning Budget: Processing "${topicName}"`);
+    
+    try {
+      // Initialize if not already done
+      if (!this.flags) {
+        await this.init();
+      }
+      
+      // Check if topic already exists
+      const exists = await this.topicExists(topicName);
+      if (exists) {
+        await this.log(`⏩ "${topicName}" already exists, skipping`);
+        return { success: true, skipped: true, reason: 'already_exists', durationMinutes: 0 };
+      }
+      
+      // Check feature flags
+      if (!this.flags.isEnabled('DEEP_LEARNING')) {
+        await this.log('⏸️ Deep Learning is disabled', 'WARN');
+        return { success: false, skipped: true, reason: 'disabled', durationMinutes: 0 };
+      }
+      
+      // Check with Evolution
+      if (this.evolution) {
+        const evolutionCheck = await this.shouldLearnTopic(topicName);
+        if (!evolutionCheck.shouldLearn) {
+          await this.log(`⏩ "${topicName}" skipped: ${evolutionCheck.reason}`);
+          return { success: true, skipped: true, reason: evolutionCheck.reason, durationMinutes: 0 };
+        }
+      }
+      
+      // Generate expert knowledge
+      const type = options.type || 'technology';
+      const expanded = await this.expandTopic(topicName, type);
+      
+      if (!expanded) {
+        return { success: false, skipped: true, reason: 'expansion_failed', durationMinutes: 0 };
+      }
+      
+      // Store in Qdrant and Memgraph
+      const stored = await this.storeKnowledge(expanded);
+      
+      if (!stored) {
+        return { success: false, skipped: false, reason: 'storage_failed', durationMinutes: 0 };
+      }
+      
+      // Mark as learned in custom-topics.json
+      await this.markAsLearned(topicName);
+      
+      // Calculate duration
+      const durationMinutes = Math.round((Date.now() - startTime) / 60000);
+      
+      await this.log(`✅ "${topicName}" learned in ${durationMinutes}min`);
+      
+      return { 
+        success: true, 
+        skipped: false, 
+        topic: topicName,
+        durationMinutes,
+        relatedCount: expanded.related?.length || 0
+      };
+      
+    } catch (error) {
+      await this.log(`❌ Failed to learn "${topicName}": ${error.message}`, 'ERROR');
+      return { success: false, skipped: false, reason: error.message, durationMinutes: 0 };
+    }
+  }
+
+  /**
+   * NEW: Mark topic as learned in custom-topics.json
+   */
+  async markAsLearned(topicName) {
+    try {
+      const fs = require('fs').promises;
+      const path = require('path');
+      const TOPICS_PATH = path.join(__dirname, '..', 'custom-topics.json');
+      
+      const content = await fs.readFile(TOPICS_PATH, 'utf8');
+      const data = JSON.parse(content);
+      
+      const topic = data.topics.find(t => 
+        t.name.toLowerCase() === topicName.toLowerCase()
+      );
+      
+      if (topic) {
+        topic.learned = true;
+        topic.learnedAt = new Date().toISOString();
+        await fs.writeFile(TOPICS_PATH, JSON.stringify(data, null, 2));
+        await this.log(`📚 Marked as learned: ${topicName}`);
+      }
+    } catch (err) {
+      await this.log(`⚠️ Could not mark as learned: ${err.message}`, 'WARN');
+    }
+  }
 }
 
 if (require.main === module) {
   const limit = process.argv.find(arg => arg.startsWith('--limit='))?.split('=')[1];
   const customOnly = process.argv.includes('--custom');
+  const topicArg = process.argv.find(arg => arg.startsWith('--topic='));
+  
   const service = new DeepLearningService();
-  service.run({ limit: limit ? parseInt(limit) : 5, customOnly })
-    .then(report => {
-      console.log('\n📋 Report:', JSON.stringify(report, null, 2));
-      process.exit(0);
-    })
-    .catch(e => {
-      console.error('❌ Fatal:', e);
-      process.exit(1);
-    });
+  
+  // Single topic mode (for Learning Budget)
+  if (topicArg) {
+    const topicName = topicArg.split('=')[1];
+    service.learnSingleTopic(topicName)
+      .then(result => {
+        console.log('\n📋 Result:', JSON.stringify(result, null, 2));
+        process.exit(result.success ? 0 : 1);
+      })
+      .catch(e => {
+        console.error('❌ Fatal:', e);
+        process.exit(1);
+      });
+  } else {
+    // Batch mode (default)
+    service.run({ limit: limit ? parseInt(limit) : 5, customOnly })
+      .then(report => {
+        console.log('\n📋 Report:', JSON.stringify(report, null, 2));
+        process.exit(0);
+      })
+      .catch(e => {
+        console.error('❌ Fatal:', e);
+        process.exit(1);
+      });
+  }
 }
 
 module.exports = DeepLearningService;
