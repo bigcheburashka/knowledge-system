@@ -785,6 +785,10 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
     const stats = await this.getStats();
     await this.log(`📊 Current: ${stats.vectors} vectors`);
     
+    // NEW: Apply Meta-Learning strategy before selecting topics
+    await this.log('🔍 Running meta-learning analysis...');
+    await this.applyMetaLearningStrategy();
+    
     // Get topics to process
     let topicsToProcess = [];
     
@@ -963,6 +967,83 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
     } catch (err) {
       // Don't fail if can't remove from queue
       await this.log(`⚠️  Could not remove from queue: ${err.message}`, 'WARN');
+    }
+  }
+
+  /**
+   * NEW: Apply Meta-Learning strategy to optimize topic selection
+   * Runs before topic processing to adjust priorities based on analysis
+   */
+  async applyMetaLearningStrategy() {
+    try {
+      const { MetaLearning } = require('../src/meta-learning');
+      const meta = new MetaLearning();
+      
+      const strategy = await meta.suggestStrategy();
+      
+      await this.log(`📊 Meta-Learning recommendation: ${strategy.recommendation}`);
+      
+      // Log strategy details
+      strategy.strategies.forEach((s, i) => {
+        const marker = s.name === strategy.recommendation ? '⭐' : '  ';
+        this.log(`${marker} ${i + 1}. ${s.name} (${s.priority}) - ${s.topics.length} topics`);
+      });
+      
+      // If we have high-frequency gaps, boost their priority
+      if (strategy.recommendation === 'Focus on high-frequency gaps') {
+        await this.prioritizeHighFreqGaps(strategy.analysis.highFrequencyLowKnowledge);
+      }
+      
+      // If we have stale topics, log warning
+      if (strategy.recommendation === 'Refresh stale knowledge') {
+        await this.log(`⚠️  ${strategy.analysis.staleTopics.length} topics are stale and need refresh`);
+      }
+      
+      return strategy;
+      
+    } catch (error) {
+      await this.log(`⚠️ Meta-Learning analysis failed: ${error.message}`, 'WARN');
+      // Continue without meta-learning - don't block main flow
+      return null;
+    }
+  }
+
+  /**
+   * NEW: Boost priority of high-frequency gap topics
+   */
+  async prioritizeHighFreqGaps(gaps) {
+    if (!gaps || gaps.length === 0) return;
+    
+    try {
+      const fs = require('fs').promises;
+      const path = require('path');
+      const TOPICS_PATH = path.join(__dirname, '..', 'custom-topics.json');
+      
+      const content = await fs.readFile(TOPICS_PATH, 'utf8');
+      const data = JSON.parse(content);
+      
+      let boostedCount = 0;
+      
+      for (const gap of gaps) {
+        const topic = data.topics.find(t => 
+          t.name.toLowerCase() === gap.topic.toLowerCase()
+        );
+        
+        if (topic && topic.priority !== 'high') {
+          topic.priority = 'high';
+          topic.metaBoosted = true;
+          topic.metaReason = gap.reason;
+          boostedCount++;
+        }
+      }
+      
+      if (boostedCount > 0) {
+        await fs.writeFile(TOPICS_PATH, JSON.stringify(data, null, 2));
+        await this.log(`🚀 Boosted ${boostedCount} topics to high priority (meta-learning)`);
+      }
+      
+    } catch (error) {
+      await this.log(`⚠️ Could not prioritize gaps: ${error.message}`, 'WARN');
     }
   }
 }
