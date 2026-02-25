@@ -4,6 +4,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const glob = require('glob').glob;
+const { GapDetector } = require('./gap-detector');
 
 const OPENCLAW_DIR = '/root/.openclaw';
 const AGENTS_DIR = path.join(OPENCLAW_DIR, 'agents');
@@ -11,6 +12,18 @@ const AGENTS_DIR = path.join(OPENCLAW_DIR, 'agents');
 class OpenClawAdapter {
   constructor(options = {}) {
     this.hoursBack = options.hours || 24;
+    // Singleton GapDetector instance for deduplication
+    this._gapDetector = null;
+  }
+  
+  /**
+   * Lazy-loaded singleton GapDetector
+   */
+  get gapDetector() {
+    if (!this._gapDetector) {
+      this._gapDetector = new GapDetector();
+    }
+    return this._gapDetector;
   }
 
   async findSessionFiles() {
@@ -249,16 +262,14 @@ class OpenClawAdapter {
 
   /**
    * NEW: Analyze session for knowledge gaps after processing
-   * Integrates Gap Detector to identify missing knowledge
+   * FIXED: Uses singleton GapDetector for proper deduplication
    */
   async analyzeSessionForGaps(session) {
     try {
-      const { GapDetector } = require('./gap-detector');
-      const detector = new GapDetector();
-      
       console.log('[OpenClawAdapter] Analyzing session for knowledge gaps...');
       
-      const gaps = await detector.detect(session);
+      // Use singleton instance (preserves pendingTopics/processedTopics)
+      const gaps = await this.gapDetector.detect(session);
       
       if (gaps.length > 0) {
         console.log(`[OpenClawAdapter] Detected ${gaps.length} knowledge gaps:`);
@@ -267,7 +278,7 @@ class OpenClawAdapter {
         });
         
         // Add gaps to learning queue
-        const { added, skipped } = await detector.addGapsToQueue(gaps, 'high');
+        const { added, skipped } = await this.gapDetector.addGapsToQueue(gaps, 'high');
         
         console.log(`[OpenClawAdapter] Added ${added.length} topics to queue, skipped ${skipped.length}`);
         
