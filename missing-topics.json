@@ -1,0 +1,898 @@
+[
+  {
+    "file": ".json",
+    "topic": "System Design Space"
+  },
+  {
+    "file": "chapter-12-factor-app.json",
+    "topic": "The Twelve Factor App"
+  },
+  {
+    "file": "chapter-ab-platform-case.json",
+    "topic": "A/b Testing Платформа"
+  },
+  {
+    "file": "chapter-access-control-models-acl-rbac-abac-rebac.json",
+    "topic": "Подходы К Управлению Правами: Acl, Rbac, Abac, Rebac (google Zanzibar)"
+  },
+  {
+    "file": "chapter-acing-sdi-book.json",
+    "topic": "Acing The System Design Interview (short Summary)"
+  },
+  {
+    "file": "chapter-ad-click-event-aggregator-case.json",
+    "topic": "Ad Click Event Aggregator"
+  },
+  {
+    "file": "chapter-ai-engineering-book.json",
+    "topic": "Ai Engineering (short Summary)"
+  },
+  {
+    "file": "chapter-ai-engineering-interviews-book.json",
+    "topic": "Ai Engineering Interviews (short Summary)"
+  },
+  {
+    "file": "chapter-ai-in-sdlc-assistants-to-agents-film.json",
+    "topic": "Ai В Sdlc: Путь От Ассистентов К Агентам"
+  },
+  {
+    "file": "chapter-ai-ml-overview.json",
+    "topic": "Зачем Знать Ml И Ai Инженеру"
+  },
+  {
+    "file": "chapter-airbnb-case.json",
+    "topic": "Airbnb"
+  },
+  {
+    "file": "chapter-alex-xu-book.json",
+    "topic": "System Design Interview: An Insider's Guide (short Summary)"
+  },
+  {
+    "file": "chapter-alphago-film.json",
+    "topic": "Alphago"
+  },
+  {
+    "file": "chapter-android-overview.json",
+    "topic": "Android: Мобильная Ос"
+  },
+  {
+    "file": "chapter-angular-documentary-film.json",
+    "topic": "Angular: The Documentary"
+  },
+  {
+    "file": "chapter-apache-iceberg-architecture.json",
+    "topic": "Apache Iceberg: Архитектура Таблиц В Data Lake"
+  },
+  {
+    "file": "chapter-api-gateway-case.json",
+    "topic": "Api Gateway"
+  },
+  {
+    "file": "chapter-api-security-patterns.json",
+    "topic": "Api Security Patterns"
+  },
+  {
+    "file": "chapter-archimate.json",
+    "topic": "Archimate: Целостная Модель Enterprise Архитектуры"
+  },
+  {
+    "file": "chapter-architecture-decisions-scale.json",
+    "topic": "Архитектура В Масштабе: Как Мы Принимаем Архитектурные Решения"
+  },
+  {
+    "file": "chapter-art-of-micro-frontends-book.json",
+    "topic": "The Art Of Micro Frontends   Second Edition (short Summary)"
+  },
+  {
+    "file": "chapter-big-data-book.json",
+    "topic": "Big Data (short Summary)"
+  },
+  {
+    "file": "chapter-booch-architecture-documentary-film.json",
+    "topic": "Evolution Of Software Architecture With Grady Booch"
+  },
+  {
+    "file": "chapter-borland-documentary-film.json",
+    "topic": "Borland: Turbo Pascal, Delphi И История Инженерной Империи"
+  },
+  {
+    "file": "chapter-bpmn.json",
+    "topic": "Bpmn: Язык Моделирования Бизнес Процессов"
+  },
+  {
+    "file": "chapter-building-micro-frontends-book.json",
+    "topic": "Building Micro Frontends (short Summary)"
+  },
+  {
+    "file": "chapter-building-microservices-book.json",
+    "topic": "Building Microservices (short Summary)"
+  },
+  {
+    "file": "chapter-busy-developers-book.json",
+    "topic": "Software Architecture For Busy Developers (short Summary)"
+  },
+  {
+    "file": "chapter-c4-model.json",
+    "topic": "C4 Model: Контекст, Контейнеры, Компоненты, Код"
+  },
+  {
+    "file": "chapter-caching-strategies.json",
+    "topic": "Стратегии Кэширования: Cache Aside, Read Through, Write Through, Write Back"
+  },
+  {
+    "file": "chapter-cap-theorem.json",
+    "topic": "Cap Теорема"
+  },
+  {
+    "file": "chapter-case-studies-overview.json",
+    "topic": "Как Устроен Раздел Задач По System Design"
+  },
+  {
+    "file": "chapter-cassandra-overview.json",
+    "topic": "Cassandra: Архитектура И Компромиссы"
+  },
+  {
+    "file": "chapter-cassandra.json",
+    "topic": "Cassandra: The Definitive Guide (short Summary)"
+  },
+  {
+    "file": "chapter-cdn-case.json",
+    "topic": "Content Delivery Network (cdn)"
+  },
+  {
+    "file": "chapter-chat-system-case.json",
+    "topic": "Chat System"
+  },
+  {
+    "file": "chapter-cka-exam-preparation.json",
+    "topic": "Cka: Подготовка К Экзамену По Kubernetes"
+  },
+  {
+    "file": "chapter-clean-architecture-book.json",
+    "topic": "Clean Architecture (short Summary)"
+  },
+  {
+    "file": "chapter-clickhouse-overview.json",
+    "topic": "Clickhouse: Аналитическая Субд И Архитектура"
+  },
+  {
+    "file": "chapter-clock-synchronization.json",
+    "topic": "Clock Synchronization В Распределённых Системах"
+  },
+  {
+    "file": "chapter-cloud-native-book.json",
+    "topic": "Cloud Native (short Summary)"
+  },
+  {
+    "file": "chapter-cloud-native-overview.json",
+    "topic": "Зачем Знать Cloud Native И 12 Факторов"
+  },
+  {
+    "file": "chapter-computer-networks-book.json",
+    "topic": "Computer Networks (short Summary)"
+  },
+  {
+    "file": "chapter-computer-networks-principles-book.json",
+    "topic": "Компьютерные Сети: Принципы, Технологии, Протоколы (short Summary)"
+  },
+  {
+    "file": "chapter-consensus-protocols.json",
+    "topic": "Консенсус: Paxos И Raft"
+  },
+  {
+    "file": "chapter-consistency-idempotency-patterns.json",
+    "topic": "Паттерны Консистентности Данных И Идемпотентность"
+  },
+  {
+    "file": "chapter-containerization-overview.json",
+    "topic": "Контейнеризация"
+  },
+  {
+    "file": "chapter-continuous-api-book.json",
+    "topic": "Continuous Api Management (short Summary)"
+  },
+  {
+    "file": "chapter-continuous-arch-book.json",
+    "topic": "Continuous Architecture In Practice (short Summary)"
+  },
+  {
+    "file": "chapter-cost-optimization-finops.json",
+    "topic": "Cost Optimization & Finops"
+  },
+  {
+    "file": "chapter-cpu-gpu-overview.json",
+    "topic": "Cpu И Gpu: Обзор И Различия"
+  },
+  {
+    "file": "chapter-csharp-typescript-documentary-film.json",
+    "topic": "С# & Typescript   History Of Languages With Anders Hejlsberg"
+  },
+  {
+    "file": "chapter-customer-friendly-api.json",
+    "topic": "Customer Friendly Api: Удобное Api Для Клиентов"
+  },
+  {
+    "file": "chapter-data-governance-compliance.json",
+    "topic": "Data Governance & Compliance"
+  },
+  {
+    "file": "chapter-data-pipeline-etl-elt-architecture.json",
+    "topic": "Data Pipeline / Etl / Elt Architecture"
+  },
+  {
+    "file": "chapter-data-platforms-2025-film.json",
+    "topic": "Data Platforms: Как Их Строить В 2025 Году   Интервью С Николаем Головым"
+  },
+  {
+    "file": "chapter-data-storage-intro.json",
+    "topic": "Введение В Хранение Данных"
+  },
+  {
+    "file": "chapter-data-storage-overview.json",
+    "topic": "Зачем Разбираться В Системах Хранения"
+  },
+  {
+    "file": "chapter-database-internals-book.json",
+    "topic": "Database Internals: A Deep Dive (short Summary)"
+  },
+  {
+    "file": "chapter-database-selection-framework.json",
+    "topic": "Database Selection Framework"
+  },
+  {
+    "file": "chapter-db-guide-book.json",
+    "topic": "Путеводитель По Базам Данных (short Summary)"
+  },
+  {
+    "file": "chapter-ddia-book.json",
+    "topic": "Designing Data Intensive Applications (short Summary)"
+  },
+  {
+    "file": "chapter-decomposition-strategies.json",
+    "topic": "Стратегии Декомпозиции"
+  },
+  {
+    "file": "chapter-design-approaches-overview.json",
+    "topic": "Как Устроена Часть Про Подходы К Проектированию Систем"
+  },
+  {
+    "file": "chapter-designing-distributed-systems-book.json",
+    "topic": "Designing Distributed Systems (short Summary)"
+  },
+  {
+    "file": "chapter-distributed-file-system-case.json",
+    "topic": "Distributed File System (gfs/hdfs)"
+  },
+  {
+    "file": "chapter-distributed-message-queue-case.json",
+    "topic": "Distributed Message Queue"
+  },
+  {
+    "file": "chapter-distributed-systems-overview.json",
+    "topic": "Зачем Нужны Распределённые Системы И Консистентность"
+  },
+  {
+    "file": "chapter-distributed-transactions-2pc-3pc.json",
+    "topic": "Distributed Transactions: 2pc И 3pc"
+  },
+  {
+    "file": "chapter-dns.json",
+    "topic": "Domain Name System (dns)"
+  },
+  {
+    "file": "chapter-documentaries-overview.json",
+    "topic": "Зачем Смотреть Документальные Фильмы О Технологиях"
+  },
+  {
+    "file": "chapter-dropnuto-techshow-episode-1-film.json",
+    "topic": "Техношоу «дропнуто»: Выпуск 1"
+  },
+  {
+    "file": "chapter-dyad-architecture.json",
+    "topic": "Dyad: Архитектура Локального Ai App Builder"
+  },
+  {
+    "file": "chapter-ebpf-documentary-film.json",
+    "topic": "Ebpf: The Documentary"
+  },
+  {
+    "file": "chapter-eip-book.json",
+    "topic": "Enterprise Integration Patterns (short Summary)"
+  },
+  {
+    "file": "chapter-elixir-documentary-film.json",
+    "topic": "Elixir: The Documentary"
+  },
+  {
+    "file": "chapter-ember-documentary-film.json",
+    "topic": "Ember.js: The Documentary"
+  },
+  {
+    "file": "chapter-encryption-keys-tls.json",
+    "topic": "Шифрование, Ключи И Tls: Как Это Работает На Практике"
+  },
+  {
+    "file": "chapter-envoy-documentary-film.json",
+    "topic": "Inside Envoy: The Proxy For The Future"
+  },
+  {
+    "file": "chapter-event-driven-architecture.json",
+    "topic": "Event Driven Architecture: Event Sourcing, Cqrs, Saga"
+  },
+  {
+    "file": "chapter-evolutionary-arch-book.json",
+    "topic": "Building Evolutionary Architectures (short Summary)"
+  },
+  {
+    "file": "chapter-evolutionary-architecture-practice.json",
+    "topic": "Эволюционная Архитектура На Практике"
+  },
+  {
+    "file": "chapter-fastapi-rise-documentary-film.json",
+    "topic": "The Rise And Rise Of Fastapi (short Summary)"
+  },
+  {
+    "file": "chapter-fintech-cloud-technologies-film.json",
+    "topic": "Облачные Технологии"
+  },
+  {
+    "file": "chapter-foundations-overview.json",
+    "topic": "Зачем Нужны Фундаментальные Знания"
+  },
+  {
+    "file": "chapter-frontend-architecture-book.json",
+    "topic": "Frontend Architecture For Design Systems (short Summary)"
+  },
+  {
+    "file": "chapter-frontend-architecture-overview.json",
+    "topic": "Зачем Нужна Архитектура Фронтенда"
+  },
+  {
+    "file": "chapter-frontend-case-google-docs-collab-editor.json",
+    "topic": "Frontend System Design Кейс: Design Google Docs Collaborative Editor"
+  },
+  {
+    "file": "chapter-frontend-case-instagram-feed.json",
+    "topic": "Frontend System Design Кейс: Design Instagram Feed"
+  },
+  {
+    "file": "chapter-fundamentals-arch-book.json",
+    "topic": "Fundamentals Of Software Architecture (short Summary)"
+  },
+  {
+    "file": "chapter-git-two-decades-documentary-film.json",
+    "topic": "Git: Two Decades Of Git   A Conversation With Creator Linus Torvalds"
+  },
+  {
+    "file": "chapter-gitops.json",
+    "topic": "Gitops"
+  },
+  {
+    "file": "chapter-google-global-network.json",
+    "topic": "Google Global Network: Эволюция И Архитектурные Принципы Для Ai Эпохи"
+  },
+  {
+    "file": "chapter-google-maps-proximity-case.json",
+    "topic": "Google Maps / Proximity Service — Геопоиск"
+  },
+  {
+    "file": "chapter-google-tpu-evolution-history.json",
+    "topic": "История Появления Google Tpu И Их Эволюции"
+  },
+  {
+    "file": "chapter-graphql-documentary-film.json",
+    "topic": "Graphql: The Documentary"
+  },
+  {
+    "file": "chapter-grokking-cd-book.json",
+    "topic": "Grokking Continuous Delivery (short Summary)"
+  },
+  {
+    "file": "chapter-hacking-sdi-book.json",
+    "topic": "Hacking The System Design Interview (short Summary)"
+  },
+  {
+    "file": "chapter-hands-on-llm-book.json",
+    "topic": "Hands On Large Language Models (short Summary)"
+  },
+  {
+    "file": "chapter-hard-parts-book.json",
+    "topic": "Software Architecture: The Hard Parts (short Summary)"
+  },
+  {
+    "file": "chapter-head-first-software-architecture-book.json",
+    "topic": "Head First Software Architecture (head First. Архитектура По)"
+  },
+  {
+    "file": "chapter-hiring-goals.json",
+    "topic": "Цель Найма И Подход К Поиску Кандидатов В Разных Компаниях"
+  },
+  {
+    "file": "chapter-hiring-process.json",
+    "topic": "Поэтапный Процесс Найма Для Кандидата (бигтехи)"
+  },
+  {
+    "file": "chapter-hotel-booking-case.json",
+    "topic": "Система Бронирования Отелей"
+  },
+  {
+    "file": "chapter-http-protocol.json",
+    "topic": "Http Протокол"
+  },
+  {
+    "file": "chapter-hunting-electric-sheep-book.json",
+    "topic": "Охота На Электроовец: Большая Книга Искусственного Интеллекта (short Summary)"
+  },
+  {
+    "file": "chapter-identity-authn-authz.json",
+    "topic": "Идентификация, Аутентификация И Авторизация (authn/authz)"
+  },
+  {
+    "file": "chapter-infrastructure-as-code.json",
+    "topic": "Infrastructure As Code"
+  },
+  {
+    "file": "chapter-inside-argo-automating-future-film.json",
+    "topic": "Inside Argo: Automating The Future"
+  },
+  {
+    "file": "chapter-inter-service-communication-patterns.json",
+    "topic": "Паттерны Межсервисной Коммуникации"
+  },
+  {
+    "file": "chapter-interplanetary-distributed-computing-case.json",
+    "topic": "Interplanetary Distributed Computing System"
+  },
+  {
+    "file": "chapter-interview-approaches.json",
+    "topic": "Подходы К Проведению Интервью По Проектированию"
+  },
+  {
+    "file": "chapter-interview-evaluation.json",
+    "topic": "Оценка Интервью И Вариация Сложности"
+  },
+  {
+    "file": "chapter-interview-frameworks.json",
+    "topic": "Обсуждение Фреймворков Для Проведения/прохождения System Design Interview"
+  },
+  {
+    "file": "chapter-ipv4-ipv6.json",
+    "topic": "Ipv4 И Ipv6: Эволюция Ip Адресации"
+  },
+  {
+    "file": "chapter-jepsen-consistency.json",
+    "topic": "Jepsen И Модели Консистентности"
+  },
+  {
+    "file": "chapter-kafka-book.json",
+    "topic": "Kafka: The Definitive Guide (short Summary)"
+  },
+  {
+    "file": "chapter-kappa-architecture.json",
+    "topic": "Kappa Architecture: Stream First Альтернатива Lambda"
+  },
+  {
+    "file": "chapter-kelsey-hightower-platform-engineering-film.json",
+    "topic": "Ai, Devops, And Kubernetes: Kelsey Hightower On What's Next"
+  },
+  {
+    "file": "chapter-key-value-database-case.json",
+    "topic": "Key Value Database"
+  },
+  {
+    "file": "chapter-kubernetes-documentary-film.json",
+    "topic": "Kubernetes: The Documentary"
+  },
+  {
+    "file": "chapter-kubernetes-fundamentals.json",
+    "topic": "Kubernetes Fundamentals (v1.35): Архитектура, Объекты И Базовые Практики"
+  },
+  {
+    "file": "chapter-kubernetes-patterns-book.json",
+    "topic": "Kubernetes Patterns (short Summary)"
+  },
+  {
+    "file": "chapter-languages-platforms-overview.json",
+    "topic": "Почему Языки И Платформы Важны В System Design"
+  },
+  {
+    "file": "chapter-leader-election-patterns.json",
+    "topic": "Leader Election: Паттерны И Реализации"
+  },
+  {
+    "file": "chapter-learning-ddd-book.json",
+    "topic": "Learning Domain Driven Design (short Summary)"
+  },
+  {
+    "file": "chapter-learning-graphql-book.json",
+    "topic": "Learning Graphql (short Summary)"
+  },
+  {
+    "file": "chapter-leetcode-course-review.json",
+    "topic": "System Design For Interviews And Beyond (short Summary)"
+  },
+  {
+    "file": "chapter-leslie-lamport-distributed-systems.json",
+    "topic": "Лэсли Лэмпорт: Причинность, Paxos И Инженерное Мышление"
+  },
+  {
+    "file": "chapter-linux-overview.json",
+    "topic": "Linux: Архитектура И Популярность"
+  },
+  {
+    "file": "chapter-load-balancing-algorithms.json",
+    "topic": "Алгоритмы Балансировки: Round Robin, Least Connections, Consistent Hashing"
+  },
+  {
+    "file": "chapter-local-first-documentary-film.json",
+    "topic": "Local First Software: Возвращаем Контроль Над Данными"
+  },
+  {
+    "file": "chapter-log4shell-documentary-film.json",
+    "topic": "The Untold Story Of Log4j And Log4shell"
+  },
+  {
+    "file": "chapter-long-term-prep.json",
+    "topic": "Рекомендации По Подготовке К Интервью (long Term)"
+  },
+  {
+    "file": "chapter-lovable-startup-architecture.json",
+    "topic": "Lovable: От Gpt Engineer К Full Stack Ai Builder"
+  },
+  {
+    "file": "chapter-media-authorization-case.json",
+    "topic": "Access Control For Media App"
+  },
+  {
+    "file": "chapter-micro-frontends-in-action-book.json",
+    "topic": "Micro Frontends In Action (short Summary)"
+  },
+  {
+    "file": "chapter-microservice-patterns-book.json",
+    "topic": "Microservice Patterns And Best Practices (short Summary)"
+  },
+  {
+    "file": "chapter-microservices-integration-overview.json",
+    "topic": "Зачем Нужны Микросервисы И Интеграция"
+  },
+  {
+    "file": "chapter-ml-system-design-book.json",
+    "topic": "Machine Learning System Design (short Summary)"
+  },
+  {
+    "file": "chapter-mobile-sre-book.json",
+    "topic": "Engineering Reliable Mobile Applications (short Summary)"
+  },
+  {
+    "file": "chapter-modern-operating-systems-book.json",
+    "topic": "Modern Operating Systems (short Summary)"
+  },
+  {
+    "file": "chapter-modular-monoliths-facepalms-film.json",
+    "topic": "Modular Monoliths And Other Facepalms (short Summary)"
+  },
+  {
+    "file": "chapter-mongodb-overview.json",
+    "topic": "Mongodb: История И Консистентность"
+  },
+  {
+    "file": "chapter-monolith-to-microservices-book.json",
+    "topic": "Monolith To Microservices (short Summary)"
+  },
+  {
+    "file": "chapter-multi-region-global-systems.json",
+    "topic": "Multi Region / Global Systems"
+  },
+  {
+    "file": "chapter-mysql-overview.json",
+    "topic": "Mysql: История, Движки И Масштабирование"
+  },
+  {
+    "file": "chapter-nodejs-documentary-film.json",
+    "topic": "Node.js: The Documentary"
+  },
+  {
+    "file": "chapter-notification-system-case.json",
+    "topic": "Notification System"
+  },
+  {
+    "file": "chapter-object-storage-case.json",
+    "topic": "Object Storage (s3)"
+  },
+  {
+    "file": "chapter-observability-monitoring-design.json",
+    "topic": "Observability & Monitoring Design"
+  },
+  {
+    "file": "chapter-operating-system-overview.json",
+    "topic": "Операционная Система: Обзор"
+  },
+  {
+    "file": "chapter-osi-model.json",
+    "topic": "Модель Osi"
+  },
+  {
+    "file": "chapter-owasp-top-10-system-design.json",
+    "topic": "Owasp Top 10 В Контексте System Design"
+  },
+  {
+    "file": "chapter-pacelc-theorem.json",
+    "topic": "Pacelc Теорема"
+  },
+  {
+    "file": "chapter-payment-system-case.json",
+    "topic": "Payment System — Платёжная Система"
+  },
+  {
+    "file": "chapter-performance-engineering.json",
+    "topic": "Performance Engineering"
+  },
+  {
+    "file": "chapter-philosophy-design-book.json",
+    "topic": "A Philosophy Of Software Design (short Summary)"
+  },
+  {
+    "file": "chapter-postgres-internals-book.json",
+    "topic": "Postgresql Изнутри (short Summary)"
+  },
+  {
+    "file": "chapter-postgres-overview.json",
+    "topic": "Postgresql: Архитектура И Отличия"
+  },
+  {
+    "file": "chapter-precision-recall-basics.json",
+    "topic": "Precision И Recall На Пальцах"
+  },
+  {
+    "file": "chapter-programming-meanings-yandex-film.json",
+    "topic": "Программирование Смыслов"
+  },
+  {
+    "file": "chapter-prometheus-documentary-film.json",
+    "topic": "Prometheus: The Documentary"
+  },
+  {
+    "file": "chapter-prompt-engineering-book.json",
+    "topic": "Prompt Engineering For Llms (short Summary)"
+  },
+  {
+    "file": "chapter-python-documentary-film.json",
+    "topic": "Python: The Documentary"
+  },
+  {
+    "file": "chapter-pytorch-documentary-film.json",
+    "topic": "Pytorch: Powering The Ai Revolution"
+  },
+  {
+    "file": "chapter-ram-storage-overview.json",
+    "topic": "Ram И Persistent Storage"
+  },
+  {
+    "file": "chapter-rate-limiter-case.json",
+    "topic": "Rate Limiter"
+  },
+  {
+    "file": "chapter-react-documentary-film.json",
+    "topic": "React.js: The Documentary"
+  },
+  {
+    "file": "chapter-real-time-gaming-case.json",
+    "topic": "Real Time Gaming"
+  },
+  {
+    "file": "chapter-release-it-book.json",
+    "topic": "Release It! (short Summary)"
+  },
+  {
+    "file": "chapter-remote-call-approaches.json",
+    "topic": "Rpc, Rest, Grpc"
+  },
+  {
+    "file": "chapter-replication-sharding.json",
+    "topic": "Репликация И Шардинг"
+  },
+  {
+    "file": "chapter-resilience-patterns.json",
+    "topic": "Паттерны Отказоустойчивости: Circuit Breaker, Bulkhead, Retry"
+  },
+  {
+    "file": "chapter-ruby-on-rails-documentary-film.json",
+    "topic": "Ruby On Rails: The Documentary"
+  },
+  {
+    "file": "chapter-scalable-systems.json",
+    "topic": "Принципы Проектирования Масштабируемых Систем"
+  },
+  {
+    "file": "chapter-search-system-case.json",
+    "topic": "Search System (google/elasticsearch)"
+  },
+  {
+    "file": "chapter-secrets-management-patterns.json",
+    "topic": "Secrets Management Patterns"
+  },
+  {
+    "file": "chapter-secure-reliable-book.json",
+    "topic": "Building Secure And Reliable Systems (short Summary)"
+  },
+  {
+    "file": "chapter-security-engineering-overview.json",
+    "topic": "Зачем Знать Security Engineering"
+  },
+  {
+    "file": "chapter-serverless-patterns.json",
+    "topic": "Serverless Patterns"
+  },
+  {
+    "file": "chapter-service-discovery.json",
+    "topic": "Service Discovery"
+  },
+  {
+    "file": "chapter-service-mesh-architecture.json",
+    "topic": "Service Mesh Architecture"
+  },
+  {
+    "file": "chapter-short-term-prep.json",
+    "topic": "Рекомендации По Подготовке К Интервью (short Term)"
+  },
+  {
+    "file": "chapter-social-media-infrastructure-case.json",
+    "topic": "Social Media Infrastructure View"
+  },
+  {
+    "file": "chapter-software-architecture-overview.json",
+    "topic": "Что Такое Архитектура По И Зачем Она В System Design"
+  },
+  {
+    "file": "chapter-sre-book.json",
+    "topic": "Site Reliability Engineering (short Summary)"
+  },
+  {
+    "file": "chapter-sre-operations-overview.json",
+    "topic": "Зачем Нужны Надёжность И Sre"
+  },
+  {
+    "file": "chapter-sre-workbook.json",
+    "topic": "The Site Reliability Workbook (short Summary)"
+  },
+  {
+    "file": "chapter-streaming-data-book.json",
+    "topic": "Streaming Data (short Summary)"
+  },
+  {
+    "file": "chapter-structured-computer-organization-book.json",
+    "topic": "Structured Computer Organization (short Summary)"
+  },
+  {
+    "file": "chapter-supply-chain-security.json",
+    "topic": "Supply Chain Security"
+  },
+  {
+    "file": "chapter-system-design-books-overview.json",
+    "topic": "Зачем Читать Книги По System Design Interview"
+  },
+  {
+    "file": "chapter-system-design-primer.json",
+    "topic": "System Design Primer (short Summary)"
+  },
+  {
+    "file": "chapter-system-types.json",
+    "topic": "Специфика Проектирования Разных Систем (backend, Frontend, Mobile, Data, Ml/ai)"
+  },
+  {
+    "file": "chapter-tanenbaum-ds-book.json",
+    "topic": "Distributed Systems: Principles And Paradigms (short Summary)"
+  },
+  {
+    "file": "chapter-tbank-architecture-evolution.json",
+    "topic": "Эволюция Архитектуры Т Банка (2006  2025)"
+  },
+  {
+    "file": "chapter-tbank-data-platform-overview.json",
+    "topic": "Краткий Обзор Платформы Данных Т Банка"
+  },
+  {
+    "file": "chapter-tbank-ml-platform-interview.json",
+    "topic": "Ml Платформа В Т Банке: Всеобщее Благо Или Лучше Не Надо"
+  },
+  {
+    "file": "chapter-tbank-sre-ai-assistant-evolution.json",
+    "topic": "Эволюция Sre: Внедрение Ai Ассистента В Т Банке"
+  },
+  {
+    "file": "chapter-tcp-protocol.json",
+    "topic": "Tcp Протокол"
+  },
+  {
+    "file": "chapter-testing-distributed-systems.json",
+    "topic": "Testing Distributed Systems"
+  },
+  {
+    "file": "chapter-thinking-game-film.json",
+    "topic": "The Thinking Game"
+  },
+  {
+    "file": "chapter-ticket-booking-case.json",
+    "topic": "Система Умной Парковки"
+  },
+  {
+    "file": "chapter-top-products-dashboard-case.json",
+    "topic": "Top Products Dashboard"
+  },
+  {
+    "file": "chapter-troubleshooting-example.json",
+    "topic": "Пример Troubleshooting Interview"
+  },
+  {
+    "file": "chapter-troubleshooting-interview.json",
+    "topic": "Troubleshooting Interview"
+  },
+  {
+    "file": "chapter-twitter-case.json",
+    "topic": "Twitter/x"
+  },
+  {
+    "file": "chapter-typescript-origins-documentary-film.json",
+    "topic": "Typescript Origins: The Documentary"
+  },
+  {
+    "file": "chapter-uber-case.json",
+    "topic": "Uber/lyft"
+  },
+  {
+    "file": "chapter-udp-protocol.json",
+    "topic": "Udp Протокол"
+  },
+  {
+    "file": "chapter-uml.json",
+    "topic": "Uml: Диаграммы Как Язык Архитектуры"
+  },
+  {
+    "file": "chapter-unix-linux-evolution-film.json",
+    "topic": "Linux И Unix Или Кто Породил Все Современные Системы!"
+  },
+  {
+    "file": "chapter-url-shortener-case.json",
+    "topic": "Url Shortener (tinyurl)"
+  },
+  {
+    "file": "chapter-video-hosting-case.json",
+    "topic": "Лента Видеохостинга"
+  },
+  {
+    "file": "chapter-virtualization-overview.json",
+    "topic": "Виртуализация И Виртуальные Машины"
+  },
+  {
+    "file": "chapter-vite-documentary-film.json",
+    "topic": "Vite: The Documentary"
+  },
+  {
+    "file": "chapter-web-api-design-book.json",
+    "topic": "Web Api Design: The Missing Link (short Summary)"
+  },
+  {
+    "file": "chapter-web-crawler-case.json",
+    "topic": "Web Crawler"
+  },
+  {
+    "file": "chapter-websocket-protocol.json",
+    "topic": "Websocket Протокол"
+  },
+  {
+    "file": "chapter-why-system-design.json",
+    "topic": "Зачем Нужно System Design Interview В Этом Процессе"
+  },
+  {
+    "file": "chapter-wigers-requirements-book.json",
+    "topic": "Software Requirements (short Summary)"
+  },
+  {
+    "file": "chapter-zero-trust-approach.json",
+    "topic": "Zero Trust: Современный Подход К Безопасности Архитектуры"
+  },
+  {
+    "file": "en.json",
+    "topic": "System Design Space"
+  }
+]
