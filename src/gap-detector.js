@@ -4,7 +4,6 @@
  * Uses adaptive thresholds based on query complexity
  */
 
-const { knowledgeSearch } = require('./knowledge-search');
 const fs = require('fs').promises;
 const path = require('path');
 
@@ -143,7 +142,7 @@ class GapDetector {
 
   /**
    * Search knowledge base with exact match priority
-   * FIXED: Parse relevance string "85.5%" to float
+   * FIXED: Parse relevance string "85.5%" to float, handle number type too
    */
   async searchKnowledge(query) {
     try {
@@ -156,10 +155,22 @@ class GapDetector {
         return { confidence: 0, results: [], resultCount: 0 };
       }
       
-      // Parse relevance string "85.5%" → 0.855
+      // Parse relevance - handle both string "85.5%" and number 0.855
       const topResult = response.results[0];
-      const relevanceStr = topResult.relevance || '0%';
-      const confidence = parseFloat(relevanceStr.replace('%', '')) / 100;
+      const relevance = topResult.relevance ?? '0%';
+      let confidence;
+      
+      if (typeof relevance === 'number') {
+        confidence = relevance;
+      } else {
+        confidence = parseFloat(relevance.replace('%', '')) / 100;
+      }
+      
+      // Check for NaN
+      if (isNaN(confidence)) {
+        console.log('[GapDetector] Invalid confidence value, skipping');
+        return { confidence: 0, results: [], resultCount: 0 };
+      }
       
       return {
         confidence: confidence,
