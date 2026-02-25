@@ -989,7 +989,6 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
         const marker = s.name === strategy.recommendation ? '⭐' : '  ';
         await this.log(`${marker} ${i + 1}. ${s.name} (${s.priority}) - ${s.topics.length} topics`);
       }
-      });
       
       // If we have high-frequency gaps, boost their priority
       if (strategy.recommendation === 'Focus on high-frequency gaps') {
