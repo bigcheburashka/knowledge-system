@@ -17,12 +17,342 @@
       "addedAt": "2026-02-25T11:53:58.494Z"
     },
     {
-      "name": "Architecture",
+      "name": "Event-Driven Architecture",
       "type": "concept",
       "priority": "high",
-      "description": "Auto-added: mentioned 3 times",
-      "source": "frequency-tracker",
-      "addedAt": "2026-02-25T12:48:28.183Z"
+      "source": "system-design-space",
+      "reason": "System Design Mastery - comprehensive topic from system-design.space",
+      "addedAt": "2026-02-25T15:35:46.710Z"
+    },
+    {
+      "name": "API Security Patterns",
+      "type": "concept",
+      "priority": "high",
+      "source": "system-design-deep-learning",
+      "reason": "System Design Mastery - comprehensive topic from system-design.space",
+      "addedAt": "2026-02-25T15:35:46.711Z",
+      "learned": true,
+      "learnedAt": "2026-02-25T15:59:34.635Z"
+    },
+    {
+      "name": "pg-admin",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:07:45.253Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "PostgreSQL Overview",
+      "reason": "Expansion from PostgreSQL Overview: related technology"
+    },
+    {
+      "name": "sql-optimization",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:07:45.255Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "PostgreSQL Overview",
+      "reason": "Expansion from PostgreSQL Overview: related technology"
+    },
+    {
+      "name": "database-indexing",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:07:45.256Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "PostgreSQL Overview",
+      "reason": "Expansion from PostgreSQL Overview: related technology"
+    },
+    {
+      "name": "service-mesh",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:07:45.260Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Microservices Integration Overview",
+      "reason": "Expansion from Microservices Integration Overview: related technology"
+    },
+    {
+      "name": "api-gateway",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:07:45.261Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Microservices Integration Overview",
+      "reason": "Expansion from Microservices Integration Overview: related technology"
+    },
+    {
+      "name": "event-driven",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:07:45.262Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Microservices Integration Overview",
+      "reason": "Expansion from Microservices Integration Overview: related technology"
+    },
+    {
+      "name": "saga-pattern",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:07:45.262Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Microservices Integration Overview",
+      "reason": "Expansion from Microservices Integration Overview: related technology"
+    },
+    {
+      "name": "apollo-client",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:12:25.523Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Learning GraphQL Book",
+      "reason": "Expansion from Learning GraphQL Book: related technology"
+    },
+    {
+      "name": "relay",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:12:25.525Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Learning GraphQL Book",
+      "reason": "Expansion from Learning GraphQL Book: related technology"
+    },
+    {
+      "name": "schema-stitching",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:12:25.526Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Learning GraphQL Book",
+      "reason": "Expansion from Learning GraphQL Book: related technology"
+    },
+    {
+      "name": "helm",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:12:25.530Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Kubernetes Fundamentals",
+      "reason": "Expansion from Kubernetes Fundamentals: related technology"
+    },
+    {
+      "name": "kubectl",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:12:25.531Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Kubernetes Fundamentals",
+      "reason": "Expansion from Kubernetes Fundamentals: related technology"
+    },
+    {
+      "name": "k9s",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:12:25.532Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Kubernetes Fundamentals",
+      "reason": "Expansion from Kubernetes Fundamentals: related technology"
+    },
+    {
+      "name": "istio",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:12:25.533Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Kubernetes Fundamentals",
+      "reason": "Expansion from Kubernetes Fundamentals: related technology"
+    },
+    {
+      "name": "argo-cd",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:12:25.533Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Kubernetes Fundamentals",
+      "reason": "Expansion from Kubernetes Fundamentals: related technology"
+    },
+    {
+      "name": "oauth",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:18:42.535Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Security Engineering Overview",
+      "reason": "Expansion from Security Engineering Overview: related technology"
+    },
+    {
+      "name": "jwt",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:18:42.535Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Security Engineering Overview",
+      "reason": "Expansion from Security Engineering Overview: related technology"
+    },
+    {
+      "name": "encryption",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:18:42.536Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Security Engineering Overview",
+      "reason": "Expansion from Security Engineering Overview: related technology"
+    },
+    {
+      "name": "vulnerability-scanning",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:18:42.537Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Security Engineering Overview",
+      "reason": "Expansion from Security Engineering Overview: related technology"
+    },
+    {
+      "name": "react-hooks",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:28:57.687Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "React Documentary",
+      "reason": "Expansion from React Documentary: related technology"
+    },
+    {
+      "name": "react-router",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:28:57.688Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "React Documentary",
+      "reason": "Expansion from React Documentary: related technology"
+    },
+    {
+      "name": "redux",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:28:57.689Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "React Documentary",
+      "reason": "Expansion from React Documentary: related technology"
+    },
+    {
+      "name": "next.js",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:28:57.689Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "React Documentary",
+      "reason": "Expansion from React Documentary: related technology"
+    },
+    {
+      "name": "npm",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.767Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Node.js Documentary",
+      "reason": "Expansion from Node.js Documentary: related technology"
+    },
+    {
+      "name": "yarn",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.767Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Node.js Documentary",
+      "reason": "Expansion from Node.js Documentary: related technology"
+    },
+    {
+      "name": "pnpm",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.768Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Node.js Documentary",
+      "reason": "Expansion from Node.js Documentary: related technology"
+    },
+    {
+      "name": "express",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.768Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Node.js Documentary",
+      "reason": "Expansion from Node.js Documentary: related technology"
+    },
+    {
+      "name": "fastify",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.769Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "Node.js Documentary",
+      "reason": "Expansion from Node.js Documentary: related technology"
+    },
+    {
+      "name": "unit-testing",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.770Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "unit-testing",
+      "reason": "Expansion from unit-testing: related technology"
+    },
+    {
+      "name": "integration-testing",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.771Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "unit-testing",
+      "reason": "Expansion from unit-testing: related technology"
+    },
+    {
+      "name": "e2e-testing",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.772Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "unit-testing",
+      "reason": "Expansion from unit-testing: related technology"
+    },
+    {
+      "name": "test-coverage",
+      "type": "technology",
+      "priority": "high",
+      "addedAt": "2026-02-25T16:31:15.772Z",
+      "addedBy": "post-learning-expander",
+      "source": "rule-based",
+      "parentTopic": "unit-testing",
+      "reason": "Expansion from unit-testing: related technology"
     }
   ]
 }

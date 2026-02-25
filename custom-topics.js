@@ -112,6 +112,29 @@ class TopicsManager {
     return data.topics;
   }
 
+  async markLearned(topicName, metadata = {}) {
+    const data = await this.loadTopics();
+    
+    // Find the topic
+    const topicIndex = data.topics.findIndex(t => 
+      t.name.toLowerCase() === topicName.toLowerCase()
+    );
+    
+    if (topicIndex === -1) {
+      // Topic not in custom topics, that's ok
+      return false;
+    }
+    
+    // Mark as learned
+    data.topics[topicIndex].learned = true;
+    data.topics[topicIndex].learnedAt = metadata.learnedAt || new Date().toISOString();
+    data.topics[topicIndex].source = metadata.source || 'deep-learning';
+    
+    await this.saveTopics(data);
+    console.log(`📚 Marked as learned: ${topicName}`);
+    return true;
+  }
+
   async suggestTopics() {
     const suggestions = [
       { name: 'TypeScript Advanced Types', type: 'technology', priority: 'medium' },
