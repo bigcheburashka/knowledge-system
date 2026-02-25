@@ -176,7 +176,7 @@ class MemgraphSyncWorker {
         type: entity.type,
         description: entity.description,
         source: entity.source || 'memgraph-sync',
-        qdrantId: entity.qdrantId
+        qdrantId: entity.qdrantId || entity.id || 'unknown'
       });
       
       // Create relationships (also with MERGE for dedup)
