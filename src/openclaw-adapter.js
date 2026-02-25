@@ -246,6 +246,46 @@ class OpenClawAdapter {
     
     return entities;
   }
+
+  /**
+   * NEW: Analyze session for knowledge gaps after processing
+   * Integrates Gap Detector to identify missing knowledge
+   */
+  async analyzeSessionForGaps(session) {
+    try {
+      const { GapDetector } = require('./gap-detector');
+      const detector = new GapDetector();
+      
+      console.log('[OpenClawAdapter] Analyzing session for knowledge gaps...');
+      
+      const gaps = await detector.detect(session);
+      
+      if (gaps.length > 0) {
+        console.log(`[OpenClawAdapter] Detected ${gaps.length} knowledge gaps:`);
+        gaps.forEach((gap, i) => {
+          console.log(`  ${i + 1}. ${gap.topic} (confidence: ${gap.confidence.toFixed(2)})`);
+        });
+        
+        // Add gaps to learning queue
+        const { added, skipped } = await detector.addGapsToQueue(gaps, 'high');
+        
+        console.log(`[OpenClawAdapter] Added ${added.length} topics to queue, skipped ${skipped.length}`);
+        
+        return {
+          detected: gaps.length,
+          added: added.length,
+          skipped: skipped.length,
+          gaps: gaps
+        };
+      }
+      
+      return { detected: 0, added: 0, skipped: 0, gaps: [] };
+      
+    } catch (error) {
+      console.error('[OpenClawAdapter] Gap analysis failed:', error.message);
+      return { detected: 0, added: 0, skipped: 0, error: error.message };
+    }
+  }
 }
 
 // Test with real sessions
