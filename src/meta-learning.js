@@ -20,10 +20,37 @@ class MetaLearning {
   }
 
   /**
+   * Check Qdrant health before analysis
+   */
+  async checkQdrantHealth() {
+    try {
+      await axios.get(`${QDRANT_URL}/health`);
+      return true;
+    } catch (error) {
+      console.error('[MetaLearning] Qdrant unavailable:', error.message);
+      return false;
+    }
+  }
+
+  /**
    * Main analysis: effectiveness of current knowledge
    */
   async analyzeEffectiveness() {
     console.log('🔍 Meta-Learning: Analyzing effectiveness...\n');
+    
+    // FIXED: Check Qdrant health first
+    const qdrantHealthy = await this.checkQdrantHealth();
+    if (!qdrantHealthy) {
+      console.warn('[MetaLearning] Skipping analysis - Qdrant unavailable');
+      return {
+        timestamp: new Date().toISOString(),
+        error: 'Qdrant unavailable',
+        highFrequencyLowKnowledge: [],
+        staleTopics: [],
+        unusedTopics: [],
+        categoryBalance: {}
+      };
+    }
     
     const analysis = {
       timestamp: new Date().toISOString(),
@@ -89,6 +116,12 @@ class MetaLearning {
         
         if (updatedAt) {
           const daysSinceUpdate = (now - new Date(updatedAt).getTime()) / (1000 * 60 * 60 * 24);
+          
+          // FIXED: Check for NaN
+          if (isNaN(daysSinceUpdate)) {
+            console.warn(`[MetaLearning] Invalid date for topic ${payload.name}: ${updatedAt}`);
+            continue;
+          }
           
           if (daysSinceUpdate > this.stalenessThreshold) {
             stale.push({
@@ -240,10 +273,11 @@ class MetaLearning {
 
   /**
    * Select recommended strategy based on analysis
+   * FIXED: Use constructor threshold options
    */
   selectRecommendedStrategy(analysis) {
     // If many high-frequency gaps, recommend focusing on them
-    if (analysis.highFrequencyLowKnowledge.length >= 3) {
+    if (analysis.highFrequencyLowKnowledge.length >= this.frequencyThreshold) {
       return 'Focus on high-frequency gaps';
     }
     
