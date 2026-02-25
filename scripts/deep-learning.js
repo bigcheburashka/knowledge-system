@@ -592,6 +592,9 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
       
       this.stats.stored++;
       
+      // NEW: Remove from custom-topics.json queue
+      await this.removeFromQueue(entry.name);
+      
       // Track for post-learning expansion
       this.newlyStoredTopics.push({
         name: entry.name,
@@ -931,6 +934,36 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
       stats: this.stats,
       postRunChecks: postRun
     };
+  }
+
+  /**
+   * NEW: Remove topic from custom-topics.json queue after learning
+   */
+  async removeFromQueue(topicName) {
+    try {
+      const fs = require('fs').promises;
+      const path = require('path');
+      const TOPICS_PATH = path.join(__dirname, '..', 'custom-topics.json');
+      
+      // Read current topics
+      const content = await fs.readFile(TOPICS_PATH, 'utf8');
+      const data = JSON.parse(content);
+      
+      // Filter out the learned topic
+      const originalCount = data.topics.length;
+      data.topics = data.topics.filter(t => 
+        t.name.toLowerCase() !== topicName.toLowerCase()
+      );
+      
+      // Save if removed
+      if (data.topics.length < originalCount) {
+        await fs.writeFile(TOPICS_PATH, JSON.stringify(data, null, 2));
+        await this.log(`🗑️  Removed from queue: ${topicName}`);
+      }
+    } catch (err) {
+      // Don't fail if can't remove from queue
+      await this.log(`⚠️  Could not remove from queue: ${err.message}`, 'WARN');
+    }
   }
 }
 
