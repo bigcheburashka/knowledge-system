@@ -984,9 +984,11 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
       await this.log(`📊 Meta-Learning recommendation: ${strategy.recommendation}`);
       
       // Log strategy details
-      strategy.strategies.forEach((s, i) => {
+      // FIXED: Use for...of instead of forEach to properly await log calls
+      for (const [i, s] of strategy.strategies.entries()) {
         const marker = s.name === strategy.recommendation ? '⭐' : '  ';
-        this.log(`${marker} ${i + 1}. ${s.name} (${s.priority}) - ${s.topics.length} topics`);
+        await this.log(`${marker} ${i + 1}. ${s.name} (${s.priority}) - ${s.topics.length} topics`);
+      }
       });
       
       // If we have high-frequency gaps, boost their priority
