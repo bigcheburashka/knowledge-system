@@ -1,100 +1,28 @@
 {
   "topics": [
     {
-      "name": "Llm",
+      "name": "Kubernetes",
       "type": "technology",
+      "priority": "high",
+      "description": "Auto-added: mentioned 25 times",
+      "source": "frequency-tracker",
+      "addedAt": "2026-02-25T10:47:38.188Z"
+    },
+    {
+      "name": "Docker",
+      "type": "technology",
+      "priority": "high",
+      "source": "gap-detector",
+      "reason": "Low confidence: 0.36 < 0.45",
+      "addedAt": "2026-02-25T11:53:58.494Z"
+    },
+    {
+      "name": "Architecture",
+      "type": "concept",
       "priority": "high",
       "description": "Auto-added: mentioned 3 times",
       "source": "frequency-tracker",
-      "addedAt": "2026-02-25T00:47:52.613Z"
-    },
-    {
-      "name": "Active Listening",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Techniques for active listening and understanding user needs",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:00.487Z"
-    },
-    {
-      "name": "Empathy in Communication",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Understanding and sharing feelings in human-AI interaction",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:15.887Z"
-    },
-    {
-      "name": "Conflict Resolution",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Techniques for resolving conflicts and finding common ground",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:15.989Z"
-    },
-    {
-      "name": "Nonviolent Communication",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Marshall Rosenberg's framework for compassionate communication",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:16.084Z"
-    },
-    {
-      "name": "Decision Making Frameworks",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Structured approaches to making clear and effective decisions",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:16.175Z"
-    },
-    {
-      "name": "Goal Setting SMART OKR",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Setting clear, measurable, and achievable goals",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:16.260Z"
-    },
-    {
-      "name": "Prioritization Methods",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Techniques for prioritizing tasks and actions effectively",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:16.348Z"
-    },
-    {
-      "name": "Time Management",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Managing time effectively for productivity and focus",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:16.430Z"
-    },
-    {
-      "name": "Feedback Delivery",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Giving and receiving constructive feedback",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:16.521Z"
-    },
-    {
-      "name": "Socratic Questioning",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Asking probing questions to stimulate critical thinking",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:16.616Z"
-    },
-    {
-      "name": "Emotional Regulation",
-      "type": "pattern",
-      "priority": "high",
-      "description": "Managing emotions for better decision-making and interactions",
-      "source": "manual",
-      "addedAt": "2026-02-25T09:50:16.706Z"
+      "addedAt": "2026-02-25T12:48:28.183Z"
     }
   ]
 }
