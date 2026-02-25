@@ -87,11 +87,12 @@ class PostLearningExpander {
 
   /**
    * Find what to expand from a topic
+   * УБРАН type-based expansion (X → X - suffix) чтобы избежать дублей
    */
   async findExpansions(topic) {
     const expansions = [];
     
-    // 1. Rule-based expansion
+    // 1. Rule-based expansion (только специфичные связи)
     for (const rule of this.expansionRules) {
       if (rule.pattern.test(topic.name)) {
         for (const expandTo of rule.expands) {
@@ -111,27 +112,12 @@ class PostLearningExpander {
       }
     }
     
-    // 2. Type-based expansion
-    const typeExpansions = this.typeBasedExpansion[topic.type];
-    if (typeExpansions) {
-      for (const expansion of typeExpansions) {
-        const expandedName = `${topic.name} - ${expansion}`;
-        const exists = await this.topicExists(expandedName);
-        if (!exists) {
-          expansions.push({
-            name: expandedName,
-            type: topic.type,
-            priority: 'medium',
-            reason: `Expansion: ${expansion} for ${topic.name}`,
-            source: 'type-based',
-            parent: topic.name
-          });
-        }
-      }
-    }
+    // 2. REMOVED: Type-based expansion (X → X - suffix)
+    // Это создавало слишком много дублей: deployment, tools, best-practices и т.д.
+    // Теперь Deep Learning должен покрывать эти аспекты в одной теме
     
-    // 3. Check quality gaps
-    if (topic.quality && topic.quality < 0.8) {
+    // 3. Quality gaps — только если реально нужно глубже изучить
+    if (topic.quality && topic.quality < 0.6) {
       const qualityGap = await this.identifyQualityGap(topic);
       if (qualityGap) {
         const exists = await this.topicExists(qualityGap.name);
