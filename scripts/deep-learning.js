@@ -541,14 +541,32 @@ IMPORTANT: Provide REAL specific content, not generic placeholders like "practic
       const text = `${entry.name}. ${entry.description}. Best practices: ${entry.bestPractices?.join(', ') || ''}`;
       const embedding = await getEmbedding(text);
       
-      // Get current max ID
+      // Get current max ID using proper scroll
       let maxId = 0;
+      let offset = 0;
+      const batchSize = 1000;
+      
       try {
-        const scroll = await axios.post(`${QDRANT_URL}/collections/${COLLECTION}/points/scroll`, {
-          limit: 1000, with_payload: false
-        });
-        maxId = scroll.data.result.points?.reduce((max, p) => Math.max(max, p.id), 0) || 0;
+        // Scroll through all points to find true max ID
+        while (true) {
+          const scroll = await axios.post(`${QDRANT_URL}/collections/${COLLECTION}/points/scroll`, {
+            limit: batchSize,
+            offset: offset,
+            with_payload: false
+          });
+          
+          const points = scroll.data.result.points || [];
+          if (points.length === 0) break;
+          
+          const batchMax = points.reduce((max, p) => Math.max(max, p.id), 0);
+          maxId = Math.max(maxId, batchMax);
+          offset += batchSize;
+          
+          // Safety limit
+          if (offset > 50000) break;
+        }
       } catch (e) {
+        console.error('Error scrolling for max ID:', e.message);
         maxId = Date.now();
       }
       
